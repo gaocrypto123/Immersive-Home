@@ -1,0 +1,365 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L01",
+  "room_id": "REF-L01-R01",
+  "title": "舒展横床",
+  "source": {
+    "reference_id": "L01",
+    "file": "/assets/inspiration/L01.png",
+    "sha256": "88F61C116869909FA80FE5F20D1F561B7F33F5A3B8F999385A36953D8E6D45E1",
+    "width_px": 759,
+    "height_px": 785,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      188,
+      349,
+      759,
+      785
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床头位于画面右侧，床尾有编织面长凳。",
+    "可见两个床头柜和两盏台灯。",
+    "背墙上部可见木饰面柜门；下方木饰面性质不明确，不能确认L型通顶衣柜。",
+    "门在后侧左部；此裁剪图未见窗户。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 5,
+  "name": "3D代理模型",
+  "combined_scene_file": "room-proxy.glb",
+  "representation": "procedural_proxy_not_reconstruction",
+  "scale_note": "归一化房间宽度为1。GLB用于拓扑/组团示意；数值不得解释为实测米制尺寸。",
+  "scene_stats": {
+    "mesh_count": 42,
+    "node_count": 42,
+    "byte_length": 123568
+  },
+  "instances": [
+    {
+      "instance_id": "REF-L01-R01-rug",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "浅米色织物地毯",
+      "file": "models/rug.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.18,
+          0.3,
+          0.88,
+          0.92
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.004,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2132
+    },
+    {
+      "instance_id": "REF-L01-R01-wall-cabinet",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "上部木饰面壁柜",
+      "file": "models/wall-cabinet.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.24,
+          0.01,
+          0.94,
+          0.16
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.2,
+        "base_y_units": 0.49,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2168
+    },
+    {
+      "instance_id": "REF-L01-R01-bed",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "双人床与床品",
+      "file": "models/bed.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.3,
+          0.28,
+          0.95,
+          0.78
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.23,
+        "base_y_units": 0,
+        "head_direction": "east",
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 6,
+      "node_count": 6,
+      "byte_length": 10768
+    },
+    {
+      "instance_id": "REF-L01-R01-nightstand-back",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "后侧床头柜",
+      "file": "models/nightstand-back.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.8,
+          0.16,
+          0.96,
+          0.28
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.2,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2180
+    },
+    {
+      "instance_id": "REF-L01-R01-nightstand-front",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "前侧床头柜",
+      "file": "models/nightstand-front.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.8,
+          0.79,
+          0.97,
+          0.96
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.2,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2184
+    },
+    {
+      "instance_id": "REF-L01-R01-bench",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "编织面床尾长凳",
+      "file": "models/bench.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.15,
+          0.32,
+          0.29,
+          0.77
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.16,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 5,
+      "node_count": 5,
+      "byte_length": 9308
+    },
+    {
+      "instance_id": "REF-L01-R01-wall-art",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "植物主题装饰画",
+      "file": "models/wall-art.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.97,
+          0.36,
+          0.99,
+          0.57
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.24,
+        "base_y_units": 0.34,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2152
+    },
+    {
+      "instance_id": "REF-L01-R01-lamp-back",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "后侧台灯",
+      "file": "models/lamp-back.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.84,
+          0.19,
+          0.92,
+          0.25
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.15,
+        "base_y_units": 0.2,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 3,
+      "node_count": 3,
+      "byte_length": 12152
+    },
+    {
+      "instance_id": "REF-L01-R01-lamp-front",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "前侧台灯",
+      "file": "models/lamp-front.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.84,
+          0.83,
+          0.94,
+          0.92
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.15,
+        "base_y_units": 0.2,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 3,
+      "node_count": 3,
+      "byte_length": 12152
+    },
+    {
+      "instance_id": "REF-L01-R01-plant-table",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "床头小型绿植",
+      "file": "models/plant-table.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.8,
+          0.17,
+          0.85,
+          0.22
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.18,
+        "base_y_units": 0.2,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 8,
+      "node_count": 8,
+      "byte_length": 32764
+    },
+    {
+      "instance_id": "REF-L01-R01-plant-front",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "label": "前景绿植（局部）",
+      "file": "models/plant-front.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.01,
+          0.75,
+          0.14,
+          0.98
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.18,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 8,
+      "node_count": 8,
+      "byte_length": 32724
+    }
+  ]
+}

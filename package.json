@@ -1,0 +1,23 @@
+{
+  "name": "jia-you-xin-jie",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm --prefix frontend ci",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "test": "npm --prefix frontend run test",
+    "test:frontend": "npm --prefix frontend run test",
+    "test:home": "node scripts/check-home.cjs",
+    "test:parsing": "node scripts/check-parsing.cjs",
+    "test:reference": "node scripts/check-reference-analysis.mjs",
+    "test:reference-ui": "node scripts/check-reference-analysis-ui.cjs",
+    "package:website": "python scripts/package-website.py"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1",
+    "sharp": "0.35.5"
+  }
+}

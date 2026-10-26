@@ -1,0 +1,255 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L02",
+  "room_id": "REF-L02-R01",
+  "title": "动静分区",
+  "source": {
+    "reference_id": "L02",
+    "file": "/assets/inspiration/L02.png",
+    "sha256": "1A14A9EA190495ACE051AE756FD2E3D9C2C3321F0831EEA0B7563EBC8B13B7D8",
+    "width_px": 652,
+    "height_px": 998,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      340,
+      55,
+      652,
+      998
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床位于上部，床头朝画面右侧。",
+    "半高隔断柜紧贴床左侧短边；长书桌临下侧窗。",
+    "右侧可见长排奶白色柜体、黄铜色五金；不从图像推断真实品牌。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 1,
+  "name": "四级空间图",
+  "hierarchy_definition": [
+    "case",
+    "room",
+    "functional_zone",
+    "instance"
+  ],
+  "definition_note": "本项目为本次解析采用的四级定义，非对截图未说明标准的推定。",
+  "nodes": [
+    {
+      "id": "REF-L02",
+      "level": 0,
+      "type": "case",
+      "label": "L02"
+    },
+    {
+      "id": "REF-L02-R01",
+      "level": 1,
+      "type": "room",
+      "label": "卧室"
+    },
+    {
+      "id": "REF-L02-R01-zone-sleep",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "睡眠区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L02-R01-zone-storage",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "收纳区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L02-R01-zone-work",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "办公区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L02-R01-zone-envelope",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "窗饰区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L02-R01-zone-decor",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "独立陈设",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L02-R01-rug",
+      "level": 3,
+      "type": "instance",
+      "label": "奶白长绒外观地毯"
+    },
+    {
+      "id": "REF-L02-R01-bed",
+      "level": 3,
+      "type": "instance",
+      "label": "弧形软包双人床"
+    },
+    {
+      "id": "REF-L02-R01-divider",
+      "level": 3,
+      "type": "instance",
+      "label": "半高储物隔断柜"
+    },
+    {
+      "id": "REF-L02-R01-wardrobe",
+      "level": 3,
+      "type": "instance",
+      "label": "右墙奶白柜体"
+    },
+    {
+      "id": "REF-L02-R01-desk",
+      "level": 3,
+      "type": "instance",
+      "label": "临窗长书桌"
+    },
+    {
+      "id": "REF-L02-R01-chair",
+      "level": 3,
+      "type": "instance",
+      "label": "编织背靠座椅"
+    },
+    {
+      "id": "REF-L02-R01-curtain",
+      "level": 3,
+      "type": "instance",
+      "label": "双层窗帘系统"
+    },
+    {
+      "id": "REF-L02-R01-wall-art",
+      "level": 3,
+      "type": "instance",
+      "label": "小幅装饰画"
+    },
+    {
+      "id": "REF-L02-R01-wall-lamp",
+      "level": 3,
+      "type": "instance",
+      "label": "床侧壁灯"
+    },
+    {
+      "id": "REF-L02-R01-desk-lamp",
+      "level": 3,
+      "type": "instance",
+      "label": "黄铜色台灯"
+    },
+    {
+      "id": "REF-L02-R01-flowers-divider",
+      "level": 3,
+      "type": "instance",
+      "label": "隔断柜花艺"
+    },
+    {
+      "id": "REF-L02-R01-flowers-desk",
+      "level": 3,
+      "type": "instance",
+      "label": "书桌花艺"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L02",
+      "to": "REF-L02-R01",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-zone-sleep",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-zone-storage",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-zone-work",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-zone-envelope",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-zone-decor",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-sleep",
+      "to": "REF-L02-R01-rug",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-sleep",
+      "to": "REF-L02-R01-bed",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-storage",
+      "to": "REF-L02-R01-divider",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-storage",
+      "to": "REF-L02-R01-wardrobe",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-work",
+      "to": "REF-L02-R01-desk",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-work",
+      "to": "REF-L02-R01-chair",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-envelope",
+      "to": "REF-L02-R01-curtain",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-sleep",
+      "to": "REF-L02-R01-wall-art",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-sleep",
+      "to": "REF-L02-R01-wall-lamp",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-work",
+      "to": "REF-L02-R01-desk-lamp",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-decor",
+      "to": "REF-L02-R01-flowers-divider",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L02-R01-zone-decor",
+      "to": "REF-L02-R01-flowers-desk",
+      "relation": "contains"
+    }
+  ]
+}

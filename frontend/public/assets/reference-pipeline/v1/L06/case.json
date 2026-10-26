@@ -1,0 +1,376 @@
+{
+  "schema": "jyxj.reference-parallel-demo.v1",
+  "id": "L06",
+  "style": "北欧复古",
+  "source": {
+    "url": "/assets/reference-sources/L06.png",
+    "sha256": "9eb8ac808d5f520460cb8545aab43d428e07a84fbb784297ebf19e0eb517357b",
+    "width": 1672,
+    "height": 941
+  },
+  "mode": "saved-results",
+  "plan": {
+    "image": "/assets/reference-pipeline/v1/L06/plan.png",
+    "revision": "1",
+    "note": "已有 imagegen 平面示意，使用统一估算房间底图适配；家具尺寸及遮挡部分为推定。"
+  },
+  "layout": {
+    "width": 1197,
+    "height": 1315,
+    "nodes": [
+      {
+        "id": "F01",
+        "name": "衣柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 195,
+          "y": 470,
+          "width": 111,
+          "height": 533
+        },
+        "x": 250.5,
+        "y": 736.5
+      },
+      {
+        "id": "F02",
+        "name": "床",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 621,
+          "y": 493,
+          "width": 373,
+          "height": 506
+        },
+        "x": 807.5,
+        "y": 746
+      },
+      {
+        "id": "F03",
+        "name": "横向书桌",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 553,
+          "y": 211,
+          "width": 422,
+          "height": 99
+        },
+        "x": 764,
+        "y": 260.5
+      },
+      {
+        "id": "F04",
+        "name": "转角桌段",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 842,
+          "y": 310,
+          "width": 133,
+          "height": 184
+        },
+        "x": 908.5,
+        "y": 402
+      },
+      {
+        "id": "F05",
+        "name": "椅子",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 607,
+          "y": 305,
+          "width": 148,
+          "height": 124
+        },
+        "x": 681,
+        "y": 367
+      },
+      {
+        "id": "F06",
+        "name": "边柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 455,
+          "y": 211,
+          "width": 99,
+          "height": 151
+        },
+        "x": 504.5,
+        "y": 286.5
+      },
+      {
+        "id": "P01",
+        "name": "左落地绿植",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 294,
+          "y": 925,
+          "width": 98,
+          "height": 92
+        },
+        "x": 343,
+        "y": 971
+      },
+      {
+        "id": "P02",
+        "name": "右落地绿植",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 904,
+          "y": 920,
+          "width": 91,
+          "height": 101
+        },
+        "x": 949.5,
+        "y": 970.5
+      },
+      {
+        "id": "D01",
+        "name": "门",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 209,
+          "y": 325,
+          "width": 157,
+          "height": 11
+        },
+        "x": 287.5,
+        "y": 330.5
+      },
+      {
+        "id": "W01",
+        "name": "窗",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 337,
+          "y": 1025,
+          "width": 467,
+          "height": 41
+        },
+        "x": 570.5,
+        "y": 1045.5
+      }
+    ],
+    "edges": [],
+    "method": "最终 Graph SVG 中的人工矩形框标注",
+    "unit": "px"
+  },
+  "segmentation": {
+    "image": "/assets/reference-pipeline/v1/L06/segmentation.jpg",
+    "totalObjects": 27,
+    "note": "家具 mask 逐步显现；标号沿用已有主体标注，与家具列表一致。"
+  },
+  "furniture": [
+    {
+      "id": "L06-bed-001",
+      "label": "床（含床品）",
+      "category": "bed",
+      "bbox": [
+        871,
+        517,
+        1672,
+        941
+      ],
+      "score": 0.9453125,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L06/masks/L06-bed-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L06/cutouts/L06-bed-001.png",
+      "product": "/assets/reference-pipeline/v1/L06/products/L06-bed-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 1
+    },
+    {
+      "id": "L06-wardrobe-001",
+      "label": "衣柜",
+      "category": "wardrobe",
+      "bbox": [
+        47,
+        0,
+        482,
+        937
+      ],
+      "score": 0.921875,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L06/masks/L06-wardrobe-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L06/cutouts/L06-wardrobe-001.png",
+      "product": "/assets/reference-pipeline/v1/L06/products/L06-wardrobe-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 2
+    },
+    {
+      "id": "L06-chair-001",
+      "label": "椅子",
+      "category": "chair",
+      "bbox": [
+        842,
+        464,
+        1028,
+        667
+      ],
+      "score": 0.96484375,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L06/masks/L06-chair-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L06/cutouts/L06-chair-001.png",
+      "product": "/assets/reference-pipeline/v1/L06/products/L06-chair-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 3
+    },
+    {
+      "id": "L06-cabinet-013",
+      "label": "藤编门边柜",
+      "category": "cabinet",
+      "bbox": [
+        661,
+        454,
+        767,
+        608
+      ],
+      "score": 0.7265625,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L06/masks/L06-cabinet-013.png",
+      "cutout": "/assets/reference-pipeline/v1/L06/cutouts/L06-cabinet-013.png",
+      "product": "/assets/reference-pipeline/v1/L06/products/L06-cabinet-013.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 4
+    },
+    {
+      "id": "L06-desk-refined-001",
+      "label": "L形书桌整体",
+      "category": "desk-refined",
+      "bbox": [
+        768,
+        438,
+        1404,
+        617
+      ],
+      "score": 0.97265625,
+      "qualityFlags": [
+        "椅子与床遮挡较大，仅保留可见部分"
+      ],
+      "mask": "/assets/reference-pipeline/v1/L06/masks/L06-desk-refined-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L06/cutouts/L06-desk-refined-001.png",
+      "product": "/assets/reference-pipeline/v1/L06/products/L06-desk-refined-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 18
+    }
+  ],
+  "modelService": "not-connected",
+  "graphArtifact": {
+    "image": "/assets/reference-pipeline/v1/L06/graph.svg",
+    "sourceFile": "6-北欧复古-Graph标注.svg",
+    "sha256": "9f6d6dd99e57662232d5792c9467514dbc1893222882e5e78a2bc63d3c8a3b03",
+    "viewBox": "135 160 940 930",
+    "nodes": [
+      {
+        "id": "A01",
+        "label": "A01 可通行空地"
+      },
+      {
+        "id": "F01",
+        "label": "F01 衣柜"
+      },
+      {
+        "id": "F02",
+        "label": "F02 床"
+      },
+      {
+        "id": "F03",
+        "label": "F03 横向书桌"
+      },
+      {
+        "id": "F04",
+        "label": "F04 转角桌段"
+      },
+      {
+        "id": "F05",
+        "label": "F05 椅子"
+      },
+      {
+        "id": "F06",
+        "label": "F06 边柜"
+      },
+      {
+        "id": "P01",
+        "label": "P01 左落地绿植"
+      },
+      {
+        "id": "P02",
+        "label": "P02 右落地绿植"
+      },
+      {
+        "id": "D01",
+        "label": "D01 门"
+      },
+      {
+        "id": "W01",
+        "label": "W01 窗"
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "A01",
+        "target": "F01"
+      },
+      {
+        "id": "E02",
+        "source": "A01",
+        "target": "F02"
+      },
+      {
+        "id": "E03",
+        "source": "A01",
+        "target": "F03"
+      },
+      {
+        "id": "E04",
+        "source": "A01",
+        "target": "F04"
+      },
+      {
+        "id": "E05",
+        "source": "A01",
+        "target": "F05"
+      },
+      {
+        "id": "E06",
+        "source": "A01",
+        "target": "F06"
+      },
+      {
+        "id": "E07",
+        "source": "A01",
+        "target": "P01"
+      },
+      {
+        "id": "E08",
+        "source": "A01",
+        "target": "P02"
+      },
+      {
+        "id": "E09",
+        "source": "A01",
+        "target": "D01"
+      },
+      {
+        "id": "E10",
+        "source": "A01",
+        "target": "W01"
+      }
+    ],
+    "note": "最终人工 Graph 标注；细直线表示空间关系，不代表行走路线。"
+  }
+}

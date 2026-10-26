@@ -1,0 +1,231 @@
+.home-shell {
+  background: #f7f5ee;
+  color: #283e33;
+}
+.home-shell .home-main {
+  max-width: 1000px;
+  padding: 0 40px 56px;
+}
+.home-shell .home-hero {
+  padding: 50px 0 44px;
+  text-align: center;
+}
+.home-shell .home-eyebrow {
+  font-size: 11px;
+  letter-spacing: 1.6px;
+  color: #667b60;
+  gap: 8px;
+}
+.home-shell .little-spark {
+  width: 24px;
+  height: 24px;
+  color: #68825b;
+  background: #e9eddf;
+}
+.home-shell .home-hero h1 {
+  width: fit-content;
+  margin: 17px auto;
+  color: #283e33;
+  font-family:
+    "Noto Serif SC", "Source Han Serif SC", "STZhongsong", "SimSun", serif;
+  font-size: 76px;
+  font-weight: 400;
+  letter-spacing: 9px;
+  line-height: 1.2;
+  position: relative;
+  padding-left: 9px;
+}
+.home-shell .home-hero h1 span {
+  color: #48684e;
+}
+.home-shell .home-hero h1 i {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #bc8264;
+  border-radius: 1px;
+  right: -9px;
+  bottom: 14px;
+}
+.home-shell .home-hero > p {
+  font-size: 20px;
+  letter-spacing: 2.6px;
+  color: #50684e;
+  line-height: 1.7;
+}
+.home-shell .home-hero .hero-support {
+  margin-top: 10px;
+  color: #84907b;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 1.8px;
+}
+.home-shell .scenarios-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.home-shell .scenario-grid {
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.home-shell .scenario-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+  transition: none;
+}
+.home-shell .scenario-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+.home-shell .scenario-art {
+  width: 190px;
+  max-width: 100%;
+  height: 112px;
+  margin-bottom: 14px;
+  background: transparent;
+  border-radius: 0;
+  overflow: visible;
+}
+.home-shell .scenario-art .entry-room {
+  padding: 0;
+}
+.home-shell .entry-room {
+  padding: 13px 0;
+}
+.home-shell .entry-room > svg {
+  height: 100%;
+  max-height: none;
+}
+.home-shell .room-vignette > svg {
+  transform: scale(1.06);
+  transform-origin: 50% 55%;
+}
+.home-shell .room-caption {
+  display: none;
+}
+.home-shell .scenario-content {
+  padding: 0;
+  align-items: center;
+  width: 100%;
+}
+.home-shell .scenario-content h2 {
+  max-width: 100%;
+  font-family:
+    "Noto Serif SC", "Source Han Serif SC", "STZhongsong", "SimSun", serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  color: #304936;
+  margin: 0 0 9px;
+}
+.home-shell .scenario-title-phrase {
+  display: inline-block;
+  white-space: nowrap;
+}
+.home-shell .scenario-description {
+  color: #7b856f;
+  font-size: 13px;
+  line-height: 1.8;
+  min-height: 0;
+  margin: 0;
+  text-wrap: balance;
+}
+.home-shell .scenario-content > .entry-button {
+  width: fit-content;
+  max-width: 100%;
+  min-height: 48px;
+  margin-top: 23px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 13px;
+  letter-spacing: .5px;
+  gap: 24px;
+  background: #3e6149;
+  border-color: #3e6149;
+  color: #fffdf5;
+  box-shadow: 0 4px 12px #3e614912;
+}
+.home-shell .scenario-content > .entry-button.secondary {
+  background: transparent;
+  border-color: #c9d2bd;
+  color: #466345;
+}
+.home-shell .scenario-content > .entry-button:hover {
+  background: #33513c;
+  border-color: #33513c;
+  color: white;
+}
+.home-shell .scenario-content > .entry-button:focus-visible {
+  outline: 2px solid #68825b;
+  outline-offset: 5px;
+}
+@media (max-width: 600px) {
+  .home-shell .home-main {
+    padding: 0 24px 38px;
+  }
+  .home-shell .home-hero {
+    padding: 38px 0 34px;
+  }
+  .home-shell .home-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.6px;
+  }
+  .home-shell .home-hero h1 {
+    font-size: 59px;
+    letter-spacing: 5px;
+    padding-left: 5px;
+    margin: 17px auto 16px;
+  }
+  .home-shell .home-hero h1 i {
+    width: 6px;
+    height: 6px;
+    bottom: 10px;
+    right: -7px;
+  }
+  .home-shell .home-hero > p {
+    font-size: 16px;
+    letter-spacing: 1.1px;
+  }
+  .home-shell .home-hero .hero-support {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    margin-top: 9px;
+  }
+  .home-shell .scenarios-section {
+    max-width: 360px;
+  }
+  .home-shell .scenario-grid {
+    gap: 32px;
+  }
+  .home-shell .scenario-art {
+    width: 170px;
+    height: 100px;
+    margin-bottom: 12px;
+  }
+  .home-shell .scenario-content {
+    padding: 0;
+  }
+  .home-shell .scenario-content h2 {
+    font-size: clamp(20px, 5.7vw, 22px);
+    line-height: 1.65;
+    letter-spacing: .8px;
+  }
+  .home-shell .scenario-title-phrase {
+    display: block;
+  }
+  .home-shell .scenario-description {
+    font-size: 13px;
+  }
+  .home-shell .scenario-content > .entry-button {
+    margin-top: 22px;
+    font-size: 14px;
+  }
+}

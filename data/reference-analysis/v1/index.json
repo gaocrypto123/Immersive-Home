@@ -1,0 +1,538 @@
+{
+  "schema": "jyxj.reference-analysis-index.v1",
+  "version": "v1",
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "automated_image_parser": false,
+  "types": [
+    {
+      "key": 1,
+      "title": "四级空间图",
+      "file": "plan-graph.json"
+    },
+    {
+      "key": 2,
+      "title": "3D关系图",
+      "file": "scene-graph.json"
+    },
+    {
+      "key": 3,
+      "title": "家具清单",
+      "file": "furniture-inventory.json"
+    },
+    {
+      "key": 4,
+      "title": "蒙版与属性",
+      "file": "masks-attributes.json"
+    },
+    {
+      "key": 5,
+      "title": "3D代理模型",
+      "file": "models.json"
+    },
+    {
+      "key": 6,
+      "title": "房间属性",
+      "file": "room-properties.json"
+    },
+    {
+      "key": 7,
+      "title": "饰面材质",
+      "file": "finish-materials.json"
+    }
+  ],
+  "cases": [
+    {
+      "id": "L01",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "title": "舒展横床",
+      "style": "原木清新",
+      "image": "/assets/inspiration/L01.png",
+      "source_sha256": "88F61C116869909FA80FE5F20D1F561B7F33F5A3B8F999385A36953D8E6D45E1",
+      "instance_count": 11,
+      "bundle": "L01/analysis.json",
+      "types": [
+        {
+          "key": 1,
+          "title": "四级空间图",
+          "file": "L01/plan-graph.json"
+        },
+        {
+          "key": 2,
+          "title": "3D关系图",
+          "file": "L01/scene-graph.json"
+        },
+        {
+          "key": 3,
+          "title": "家具清单",
+          "file": "L01/furniture-inventory.json"
+        },
+        {
+          "key": 4,
+          "title": "蒙版与属性",
+          "file": "L01/masks-attributes.json"
+        },
+        {
+          "key": 5,
+          "title": "3D代理模型",
+          "file": "L01/models.json"
+        },
+        {
+          "key": 6,
+          "title": "房间属性",
+          "file": "L01/room-properties.json"
+        },
+        {
+          "key": 7,
+          "title": "饰面材质",
+          "file": "L01/finish-materials.json"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "title": "动静分区",
+      "style": "奶油法式",
+      "image": "/assets/inspiration/L02.png",
+      "source_sha256": "1A14A9EA190495ACE051AE756FD2E3D9C2C3321F0831EEA0B7563EBC8B13B7D8",
+      "instance_count": 12,
+      "bundle": "L02/analysis.json",
+      "types": [
+        {
+          "key": 1,
+          "title": "四级空间图",
+          "file": "L02/plan-graph.json"
+        },
+        {
+          "key": 2,
+          "title": "3D关系图",
+          "file": "L02/scene-graph.json"
+        },
+        {
+          "key": 3,
+          "title": "家具清单",
+          "file": "L02/furniture-inventory.json"
+        },
+        {
+          "key": 4,
+          "title": "蒙版与属性",
+          "file": "L02/masks-attributes.json"
+        },
+        {
+          "key": 5,
+          "title": "3D代理模型",
+          "file": "L02/models.json"
+        },
+        {
+          "key": 6,
+          "title": "房间属性",
+          "file": "L02/room-properties.json"
+        },
+        {
+          "key": 7,
+          "title": "饰面材质",
+          "file": "L02/finish-materials.json"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "case_id": "REF-L03",
+      "room_id": "REF-L03-R01",
+      "title": "临窗安眠",
+      "style": "现代极简",
+      "image": "/assets/inspiration/L03.png",
+      "source_sha256": "F8593B03504234FD788BE26CB9005601C58F19C1BE0CA1A0F088CFEA8C5CF024",
+      "instance_count": 11,
+      "bundle": "L03/analysis.json",
+      "types": [
+        {
+          "key": 1,
+          "title": "四级空间图",
+          "file": "L03/plan-graph.json"
+        },
+        {
+          "key": 2,
+          "title": "3D关系图",
+          "file": "L03/scene-graph.json"
+        },
+        {
+          "key": 3,
+          "title": "家具清单",
+          "file": "L03/furniture-inventory.json"
+        },
+        {
+          "key": 4,
+          "title": "蒙版与属性",
+          "file": "L03/masks-attributes.json"
+        },
+        {
+          "key": 5,
+          "title": "3D代理模型",
+          "file": "L03/models.json"
+        },
+        {
+          "key": 6,
+          "title": "房间属性",
+          "file": "L03/room-properties.json"
+        },
+        {
+          "key": 7,
+          "title": "饰面材质",
+          "file": "L03/finish-materials.json"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "title": "转角独处",
+      "style": "意式轻奢",
+      "image": "/assets/inspiration/L04.png",
+      "source_sha256": "5F50D72407254018FB4F0046C639F8106C8C1CECE9F2FE60F026F501CFCC2D53",
+      "instance_count": 10,
+      "bundle": "L04/analysis.json",
+      "types": [
+        {
+          "key": 1,
+          "title": "四级空间图",
+          "file": "L04/plan-graph.json"
+        },
+        {
+          "key": 2,
+          "title": "3D关系图",
+          "file": "L04/scene-graph.json"
+        },
+        {
+          "key": 3,
+          "title": "家具清单",
+          "file": "L04/furniture-inventory.json"
+        },
+        {
+          "key": 4,
+          "title": "蒙版与属性",
+          "file": "L04/masks-attributes.json"
+        },
+        {
+          "key": 5,
+          "title": "3D代理模型",
+          "file": "L04/models.json"
+        },
+        {
+          "key": 6,
+          "title": "房间属性",
+          "file": "L04/room-properties.json"
+        },
+        {
+          "key": 7,
+          "title": "饰面材质",
+          "file": "L04/finish-materials.json"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "case_id": "REF-L05",
+      "room_id": "REF-L05-R01",
+      "title": "收纳有序",
+      "style": "日式侘寂",
+      "image": "/assets/inspiration/L05.png",
+      "source_sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "instance_count": 8,
+      "bundle": "L05/analysis.json",
+      "types": [
+        {
+          "key": 1,
+          "title": "四级空间图",
+          "file": "L05/plan-graph.json"
+        },
+        {
+          "key": 2,
+          "title": "3D关系图",
+          "file": "L05/scene-graph.json"
+        },
+        {
+          "key": 3,
+          "title": "家具清单",
+          "file": "L05/furniture-inventory.json"
+        },
+        {
+          "key": 4,
+          "title": "蒙版与属性",
+          "file": "L05/masks-attributes.json"
+        },
+        {
+          "key": 5,
+          "title": "3D代理模型",
+          "file": "L05/models.json"
+        },
+        {
+          "key": 6,
+          "title": "房间属性",
+          "file": "L05/room-properties.json"
+        },
+        {
+          "key": 7,
+          "title": "饰面材质",
+          "file": "L05/finish-materials.json"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "case_id": "REF-L06",
+      "room_id": "REF-L06-R01",
+      "title": "转角办公",
+      "style": "北欧复古",
+      "image": "/assets/inspiration/L06.png",
+      "source_sha256": "56AE473D3A51D28B5B758F268B1F0E542B7F1CDAE2FCBEAA57F6FCF4EEEBE2CD",
+      "instance_count": 13,
+      "bundle": "L06/analysis.json",
+      "types": [
+        {
+          "key": 1,
+          "title": "四级空间图",
+          "file": "L06/plan-graph.json"
+        },
+        {
+          "key": 2,
+          "title": "3D关系图",
+          "file": "L06/scene-graph.json"
+        },
+        {
+          "key": 3,
+          "title": "家具清单",
+          "file": "L06/furniture-inventory.json"
+        },
+        {
+          "key": 4,
+          "title": "蒙版与属性",
+          "file": "L06/masks-attributes.json"
+        },
+        {
+          "key": 5,
+          "title": "3D代理模型",
+          "file": "L06/models.json"
+        },
+        {
+          "key": 6,
+          "title": "房间属性",
+          "file": "L06/room-properties.json"
+        },
+        {
+          "key": 7,
+          "title": "饰面材质",
+          "file": "L06/finish-materials.json"
+        }
+      ]
+    }
+  ],
+  "files": [
+    "L01/analysis.json",
+    "L01/finish-materials.json",
+    "L01/furniture-inventory.csv",
+    "L01/furniture-inventory.json",
+    "L01/instance-ids.png",
+    "L01/mask-overlay.svg",
+    "L01/masks/bed.png",
+    "L01/masks/bench.png",
+    "L01/masks/lamp-back.png",
+    "L01/masks/lamp-front.png",
+    "L01/masks/nightstand-back.png",
+    "L01/masks/nightstand-front.png",
+    "L01/masks/plant-front.png",
+    "L01/masks/plant-table.png",
+    "L01/masks/rug.png",
+    "L01/masks/wall-art.png",
+    "L01/masks/wall-cabinet.png",
+    "L01/masks-attributes.json",
+    "L01/models/bed.glb",
+    "L01/models/bench.glb",
+    "L01/models/lamp-back.glb",
+    "L01/models/lamp-front.glb",
+    "L01/models/nightstand-back.glb",
+    "L01/models/nightstand-front.glb",
+    "L01/models/plant-front.glb",
+    "L01/models/plant-table.glb",
+    "L01/models/rug.glb",
+    "L01/models/wall-art.glb",
+    "L01/models/wall-cabinet.glb",
+    "L01/models.json",
+    "L01/plan-graph.json",
+    "L01/room-properties.json",
+    "L01/room-proxy.glb",
+    "L01/scene-graph.json",
+    "L02/analysis.json",
+    "L02/finish-materials.json",
+    "L02/furniture-inventory.csv",
+    "L02/furniture-inventory.json",
+    "L02/instance-ids.png",
+    "L02/mask-overlay.svg",
+    "L02/masks/bed.png",
+    "L02/masks/chair.png",
+    "L02/masks/curtain.png",
+    "L02/masks/desk-lamp.png",
+    "L02/masks/desk.png",
+    "L02/masks/divider.png",
+    "L02/masks/flowers-desk.png",
+    "L02/masks/flowers-divider.png",
+    "L02/masks/rug.png",
+    "L02/masks/wall-art.png",
+    "L02/masks/wall-lamp.png",
+    "L02/masks/wardrobe.png",
+    "L02/masks-attributes.json",
+    "L02/models/bed.glb",
+    "L02/models/chair.glb",
+    "L02/models/curtain.glb",
+    "L02/models/desk-lamp.glb",
+    "L02/models/desk.glb",
+    "L02/models/divider.glb",
+    "L02/models/flowers-desk.glb",
+    "L02/models/flowers-divider.glb",
+    "L02/models/rug.glb",
+    "L02/models/wall-art.glb",
+    "L02/models/wall-lamp.glb",
+    "L02/models/wardrobe.glb",
+    "L02/models.json",
+    "L02/plan-graph.json",
+    "L02/room-properties.json",
+    "L02/room-proxy.glb",
+    "L02/scene-graph.json",
+    "L03/analysis.json",
+    "L03/finish-materials.json",
+    "L03/furniture-inventory.csv",
+    "L03/furniture-inventory.json",
+    "L03/instance-ids.png",
+    "L03/mask-overlay.svg",
+    "L03/masks/bed.png",
+    "L03/masks/chair.png",
+    "L03/masks/curtain.png",
+    "L03/masks/desk-lamp.png",
+    "L03/masks/desk.png",
+    "L03/masks/nightstand.png",
+    "L03/masks/plant-desk.png",
+    "L03/masks/plant-nightstand.png",
+    "L03/masks/rug.png",
+    "L03/masks/wall-light.png",
+    "L03/masks/wardrobe.png",
+    "L03/masks-attributes.json",
+    "L03/models/bed.glb",
+    "L03/models/chair.glb",
+    "L03/models/curtain.glb",
+    "L03/models/desk-lamp.glb",
+    "L03/models/desk.glb",
+    "L03/models/nightstand.glb",
+    "L03/models/plant-desk.glb",
+    "L03/models/plant-nightstand.glb",
+    "L03/models/rug.glb",
+    "L03/models/wall-light.glb",
+    "L03/models/wardrobe.glb",
+    "L03/models.json",
+    "L03/plan-graph.json",
+    "L03/room-properties.json",
+    "L03/room-proxy.glb",
+    "L03/scene-graph.json",
+    "L04/analysis.json",
+    "L04/finish-materials.json",
+    "L04/furniture-inventory.csv",
+    "L04/furniture-inventory.json",
+    "L04/instance-ids.png",
+    "L04/mask-overlay.svg",
+    "L04/masks/bed.png",
+    "L04/masks/chair.png",
+    "L04/masks/curtain.png",
+    "L04/masks/desk.png",
+    "L04/masks/lamp.png",
+    "L04/masks/nightstand.png",
+    "L04/masks/plant-desk.png",
+    "L04/masks/plant-nightstand.png",
+    "L04/masks/rug.png",
+    "L04/masks/wardrobe.png",
+    "L04/masks-attributes.json",
+    "L04/models/bed.glb",
+    "L04/models/chair.glb",
+    "L04/models/curtain.glb",
+    "L04/models/desk.glb",
+    "L04/models/lamp.glb",
+    "L04/models/nightstand.glb",
+    "L04/models/plant-desk.glb",
+    "L04/models/plant-nightstand.glb",
+    "L04/models/rug.glb",
+    "L04/models/wardrobe.glb",
+    "L04/models.json",
+    "L04/plan-graph.json",
+    "L04/room-properties.json",
+    "L04/room-proxy.glb",
+    "L04/scene-graph.json",
+    "L05/analysis.json",
+    "L05/finish-materials.json",
+    "L05/furniture-inventory.csv",
+    "L05/furniture-inventory.json",
+    "L05/instance-ids.png",
+    "L05/mask-overlay.svg",
+    "L05/masks/bed.png",
+    "L05/masks/chair.png",
+    "L05/masks/curtain.png",
+    "L05/masks/desk.png",
+    "L05/masks/plant.png",
+    "L05/masks/rug.png",
+    "L05/masks/vase.png",
+    "L05/masks/wardrobe.png",
+    "L05/masks-attributes.json",
+    "L05/models/bed.glb",
+    "L05/models/chair.glb",
+    "L05/models/curtain.glb",
+    "L05/models/desk.glb",
+    "L05/models/plant.glb",
+    "L05/models/rug.glb",
+    "L05/models/vase.glb",
+    "L05/models/wardrobe.glb",
+    "L05/models.json",
+    "L05/plan-graph.json",
+    "L05/room-properties.json",
+    "L05/room-proxy.glb",
+    "L05/scene-graph.json",
+    "L06/analysis.json",
+    "L06/finish-materials.json",
+    "L06/furniture-inventory.csv",
+    "L06/furniture-inventory.json",
+    "L06/instance-ids.png",
+    "L06/mask-overlay.svg",
+    "L06/masks/bed.png",
+    "L06/masks/chair.png",
+    "L06/masks/curtain.png",
+    "L06/masks/desk.png",
+    "L06/masks/lamp.png",
+    "L06/masks/plant-cabinet.png",
+    "L06/masks/plant-desk.png",
+    "L06/masks/plant-front.png",
+    "L06/masks/record-player.png",
+    "L06/masks/rug.png",
+    "L06/masks/side-cabinet.png",
+    "L06/masks/wall-art.png",
+    "L06/masks/wardrobe.png",
+    "L06/masks-attributes.json",
+    "L06/models/bed.glb",
+    "L06/models/chair.glb",
+    "L06/models/curtain.glb",
+    "L06/models/desk.glb",
+    "L06/models/lamp.glb",
+    "L06/models/plant-cabinet.glb",
+    "L06/models/plant-desk.glb",
+    "L06/models/plant-front.glb",
+    "L06/models/record-player.glb",
+    "L06/models/rug.glb",
+    "L06/models/side-cabinet.glb",
+    "L06/models/wall-art.glb",
+    "L06/models/wardrobe.glb",
+    "L06/models.json",
+    "L06/plan-graph.json",
+    "L06/room-properties.json",
+    "L06/room-proxy.glb",
+    "L06/scene-graph.json",
+    "index.json"
+  ]
+}

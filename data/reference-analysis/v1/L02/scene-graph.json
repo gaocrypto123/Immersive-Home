@@ -1,0 +1,379 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L02",
+  "room_id": "REF-L02-R01",
+  "title": "动静分区",
+  "source": {
+    "reference_id": "L02",
+    "file": "/assets/inspiration/L02.png",
+    "sha256": "1A14A9EA190495ACE051AE756FD2E3D9C2C3321F0831EEA0B7563EBC8B13B7D8",
+    "width_px": 652,
+    "height_px": 998,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      340,
+      55,
+      652,
+      998
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床位于上部，床头朝画面右侧。",
+    "半高隔断柜紧贴床左侧短边；长书桌临下侧窗。",
+    "右侧可见长排奶白色柜体、黄铜色五金；不从图像推断真实品牌。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 2,
+  "name": "3D关系图",
+  "coordinate_system": {
+    "x": "画面布局向右",
+    "y": "垂直向上",
+    "z": "布局向画面前方",
+    "units": "normalized_room_width",
+    "calibrated": false,
+    "room_extent_units": [
+      1,
+      0.7,
+      1
+    ],
+    "note": "平面UV及高度为独立草模假设，不由图像像素比例直接换算。"
+  },
+  "nodes": [
+    {
+      "id": "REF-L02-R01",
+      "type": "room",
+      "position": [
+        0.5,
+        0.35,
+        0.5
+      ]
+    },
+    {
+      "id": "REF-L02-R01-rug",
+      "type": "rug",
+      "position": [
+        0.5,
+        0.002,
+        0.63
+      ],
+      "footprint_uv": [
+        0.16,
+        0.4,
+        0.84,
+        0.86
+      ],
+      "model_file": "models/rug.glb",
+      "mask_file": "masks/rug.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-bed",
+      "type": "bed",
+      "position": [
+        0.675,
+        0.115,
+        0.235
+      ],
+      "footprint_uv": [
+        0.38,
+        0.08,
+        0.97,
+        0.39
+      ],
+      "model_file": "models/bed.glb",
+      "mask_file": "masks/bed.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-divider",
+      "type": "cabinet",
+      "position": [
+        0.33,
+        0.12,
+        0.24
+      ],
+      "footprint_uv": [
+        0.28,
+        0.08,
+        0.38,
+        0.4
+      ],
+      "model_file": "models/divider.glb",
+      "mask_file": "masks/divider.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-wardrobe",
+      "type": "wardrobe",
+      "position": [
+        0.895,
+        0.33,
+        0.66
+      ],
+      "footprint_uv": [
+        0.81,
+        0.4,
+        0.98,
+        0.92
+      ],
+      "model_file": "models/wardrobe.glb",
+      "mask_file": "masks/wardrobe.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-desk",
+      "type": "desk",
+      "position": [
+        0.44,
+        0.125,
+        0.89
+      ],
+      "footprint_uv": [
+        0.07,
+        0.84,
+        0.81,
+        0.94
+      ],
+      "model_file": "models/desk.glb",
+      "mask_file": "masks/desk.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-chair",
+      "type": "chair",
+      "position": [
+        0.55,
+        0.145,
+        0.78
+      ],
+      "footprint_uv": [
+        0.46,
+        0.72,
+        0.64,
+        0.84
+      ],
+      "model_file": "models/chair.glb",
+      "mask_file": "masks/chair.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-curtain",
+      "type": "curtain",
+      "position": [
+        0.49,
+        0.37,
+        0.975
+      ],
+      "footprint_uv": [
+        0.08,
+        0.96,
+        0.9,
+        0.99
+      ],
+      "model_file": "models/curtain.glb",
+      "mask_file": "masks/curtain.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-wall-art",
+      "type": "wall_art",
+      "position": [
+        0.645,
+        0.56,
+        0.02
+      ],
+      "footprint_uv": [
+        0.59,
+        0.01,
+        0.7,
+        0.03
+      ],
+      "model_file": "models/wall-art.glb",
+      "mask_file": "masks/wall-art.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-wall-lamp",
+      "type": "wall_lamp",
+      "position": [
+        0.78,
+        0.415,
+        0.025
+      ],
+      "footprint_uv": [
+        0.74,
+        0.01,
+        0.82,
+        0.04
+      ],
+      "model_file": "models/wall-lamp.glb",
+      "mask_file": "masks/wall-lamp.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-desk-lamp",
+      "type": "table_lamp",
+      "position": [
+        0.74,
+        0.325,
+        0.885
+      ],
+      "footprint_uv": [
+        0.7,
+        0.85,
+        0.78,
+        0.92
+      ],
+      "model_file": "models/desk-lamp.glb",
+      "mask_file": "masks/desk-lamp.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-flowers-divider",
+      "type": "vase",
+      "position": [
+        0.325,
+        0.305,
+        0.125
+      ],
+      "footprint_uv": [
+        0.3,
+        0.09,
+        0.35,
+        0.16
+      ],
+      "model_file": "models/flowers-divider.glb",
+      "mask_file": "masks/flowers-divider.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L02-R01-flowers-desk",
+      "type": "vase",
+      "position": [
+        0.165,
+        0.315,
+        0.89
+      ],
+      "footprint_uv": [
+        0.12,
+        0.85,
+        0.21,
+        0.93
+      ],
+      "model_file": "models/flowers-desk.glb",
+      "mask_file": "masks/flowers-desk.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-rug",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-bed",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01-bed",
+      "to": "REF-L02-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-divider",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-wardrobe",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01-wardrobe",
+      "to": "REF-L02-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-desk",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-chair",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-curtain",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-wall-art",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-wall-lamp",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-desk-lamp",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01-desk",
+      "to": "REF-L02-R01-desk-lamp",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-flowers-divider",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01-divider",
+      "to": "REF-L02-R01-flowers-divider",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L02-R01",
+      "to": "REF-L02-R01-flowers-desk",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L02-R01-desk",
+      "to": "REF-L02-R01-flowers-desk",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    }
+  ]
+}

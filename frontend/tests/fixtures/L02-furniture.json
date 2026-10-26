@@ -1,0 +1,76 @@
+{
+  "furniture": [
+    {
+      "id": "L02_bed",
+      "type": "bed",
+      "name": "横向床（床头朝右，外框示意）",
+      "cx": 2200,
+      "cy": 875,
+      "w": 1450,
+      "d": 2300,
+      "rot": 90,
+      "color": "#c39c7d"
+    },
+    {
+      "id": "L02_wardrobe",
+      "type": "wardrobe",
+      "name": "右侧衣柜（简化占地）",
+      "cx": 3300,
+      "cy": 2550,
+      "w": 1900,
+      "d": 600,
+      "rot": 90,
+      "color": "#c5ad88"
+    },
+    {
+      "id": "L02_desk",
+      "type": "desk",
+      "name": "窗边长书桌",
+      "cx": 1875,
+      "cy": 3550,
+      "w": 2250,
+      "d": 500,
+      "rot": 180,
+      "color": "#d5bb95"
+    },
+    {
+      "id": "L02_low_cabinet",
+      "type": "cabinet",
+      "name": "书桌左侧矮柜",
+      "cx": 400,
+      "cy": 3550,
+      "w": 700,
+      "d": 500,
+      "rot": 180,
+      "color": "#d5bb95"
+    },
+    {
+      "id": "L02_chair",
+      "type": "chair",
+      "name": "书桌椅（朝画面下方）",
+      "cx": 1800,
+      "cy": 3040,
+      "w": 500,
+      "d": 500,
+      "rot": 0,
+      "color": "#bcb7a7"
+    }
+  ],
+  "FURNITURE_DETAILS": {
+    "status": "approximate_schematic_not_measured_or_selected_products",
+    "expected_heights_mm": {
+      "L02_bed": 500,
+      "L02_wardrobe": 2200,
+      "L02_desk": 750,
+      "L02_low_cabinet": 750,
+      "L02_chair": 850
+    },
+    "bed_mattress_assumption_mm": [
+      1400,
+      2000
+    ],
+    "height_note": "家具高度仅供后续模型使用，不是原项目家具状态标准字段。",
+    "positions_note": "位置基于简化平面和可见分区，用于帮助理解门窗关系；不作为图像中的精确家具量测。",
+    "native_type_note": "cabinet 用于左侧矮柜的通用示意，不认定其真实商品类型。"
+  }
+}

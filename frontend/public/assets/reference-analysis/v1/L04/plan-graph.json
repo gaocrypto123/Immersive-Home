@@ -1,0 +1,221 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L04",
+  "room_id": "REF-L04-R01",
+  "title": "转角独处",
+  "source": {
+    "reference_id": "L04",
+    "file": "/assets/inspiration/L04.png",
+    "sha256": "5F50D72407254018FB4F0046C639F8106C8C1CECE9F2FE60F026F501CFCC2D53",
+    "width_px": 647,
+    "height_px": 768,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      250,
+      280,
+      647,
+      768
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床在右上角纵放，床头朝画面上方。",
+    "入口左下侧可见双门柜，右下为书桌与皮革外观座椅。",
+    "深木色、棕色软包、金属色灯具可见；木种和皮革真伪不能确认。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 1,
+  "name": "四级空间图",
+  "hierarchy_definition": [
+    "case",
+    "room",
+    "functional_zone",
+    "instance"
+  ],
+  "definition_note": "本项目为本次解析采用的四级定义，非对截图未说明标准的推定。",
+  "nodes": [
+    {
+      "id": "REF-L04",
+      "level": 0,
+      "type": "case",
+      "label": "L04"
+    },
+    {
+      "id": "REF-L04-R01",
+      "level": 1,
+      "type": "room",
+      "label": "卧室"
+    },
+    {
+      "id": "REF-L04-R01-zone-sleep",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "睡眠区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L04-R01-zone-storage",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "收纳区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L04-R01-zone-work",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "办公区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L04-R01-zone-envelope",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "窗饰区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L04-R01-rug",
+      "level": 3,
+      "type": "instance",
+      "label": "暖灰长绒地毯"
+    },
+    {
+      "id": "REF-L04-R01-bed",
+      "level": 3,
+      "type": "instance",
+      "label": "深木色框架双人床"
+    },
+    {
+      "id": "REF-L04-R01-nightstand",
+      "level": 3,
+      "type": "instance",
+      "label": "深木色床头柜"
+    },
+    {
+      "id": "REF-L04-R01-wardrobe",
+      "level": 3,
+      "type": "instance",
+      "label": "左侧双门衣柜"
+    },
+    {
+      "id": "REF-L04-R01-desk",
+      "level": 3,
+      "type": "instance",
+      "label": "右侧床尾书桌"
+    },
+    {
+      "id": "REF-L04-R01-chair",
+      "level": 3,
+      "type": "instance",
+      "label": "棕色皮革外观座椅"
+    },
+    {
+      "id": "REF-L04-R01-curtain",
+      "level": 3,
+      "type": "instance",
+      "label": "棕灰双层窗帘"
+    },
+    {
+      "id": "REF-L04-R01-lamp",
+      "level": 3,
+      "type": "instance",
+      "label": "金属色床头台灯"
+    },
+    {
+      "id": "REF-L04-R01-plant-nightstand",
+      "level": 3,
+      "type": "instance",
+      "label": "床头绿植"
+    },
+    {
+      "id": "REF-L04-R01-plant-desk",
+      "level": 3,
+      "type": "instance",
+      "label": "书桌绿植"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L04",
+      "to": "REF-L04-R01",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01",
+      "to": "REF-L04-R01-zone-sleep",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01",
+      "to": "REF-L04-R01-zone-storage",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01",
+      "to": "REF-L04-R01-zone-work",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01",
+      "to": "REF-L04-R01-zone-envelope",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-sleep",
+      "to": "REF-L04-R01-rug",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-sleep",
+      "to": "REF-L04-R01-bed",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-sleep",
+      "to": "REF-L04-R01-nightstand",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-storage",
+      "to": "REF-L04-R01-wardrobe",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-work",
+      "to": "REF-L04-R01-desk",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-work",
+      "to": "REF-L04-R01-chair",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-envelope",
+      "to": "REF-L04-R01-curtain",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-sleep",
+      "to": "REF-L04-R01-lamp",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-sleep",
+      "to": "REF-L04-R01-plant-nightstand",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L04-R01-zone-work",
+      "to": "REF-L04-R01-plant-desk",
+      "relation": "contains"
+    }
+  ]
+}

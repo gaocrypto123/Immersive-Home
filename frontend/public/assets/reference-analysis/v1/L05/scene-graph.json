@@ -1,0 +1,277 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L05",
+  "room_id": "REF-L05-R01",
+  "title": "收纳有序",
+  "source": {
+    "reference_id": "L05",
+    "file": "/assets/inspiration/L05.png",
+    "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+    "width_px": 680,
+    "height_px": 948,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      296,
+      24,
+      680,
+      948
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床在右下方纵放，床头后留有走道与转角储物柜。",
+    "左下临窗位置是木桌和编织坐面椅。",
+    "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 2,
+  "name": "3D关系图",
+  "coordinate_system": {
+    "x": "画面布局向右",
+    "y": "垂直向上",
+    "z": "布局向画面前方",
+    "units": "normalized_room_width",
+    "calibrated": false,
+    "room_extent_units": [
+      1,
+      0.7,
+      1
+    ],
+    "note": "平面UV及高度为独立草模假设，不由图像像素比例直接换算。"
+  },
+  "nodes": [
+    {
+      "id": "REF-L05-R01",
+      "type": "room",
+      "position": [
+        0.5,
+        0.35,
+        0.5
+      ]
+    },
+    {
+      "id": "REF-L05-R01-rug",
+      "type": "rug",
+      "position": [
+        0.665,
+        0.002,
+        0.69
+      ],
+      "footprint_uv": [
+        0.36,
+        0.42,
+        0.97,
+        0.96
+      ],
+      "model_file": "models/rug.glb",
+      "mask_file": "masks/rug.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L05-R01-wardrobe",
+      "type": "wardrobe",
+      "position": [
+        0.6,
+        0.33,
+        0.21
+      ],
+      "footprint_uv": [
+        0.23,
+        0.02,
+        0.97,
+        0.4
+      ],
+      "model_file": "models/wardrobe.glb",
+      "mask_file": "masks/wardrobe.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L05-R01-bed",
+      "type": "bed",
+      "position": [
+        0.72,
+        0.115,
+        0.685
+      ],
+      "footprint_uv": [
+        0.48,
+        0.43,
+        0.96,
+        0.94
+      ],
+      "model_file": "models/bed.glb",
+      "mask_file": "masks/bed.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L05-R01-desk",
+      "type": "desk",
+      "position": [
+        0.175,
+        0.125,
+        0.83
+      ],
+      "footprint_uv": [
+        0.08,
+        0.72,
+        0.27,
+        0.94
+      ],
+      "model_file": "models/desk.glb",
+      "mask_file": "masks/desk.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L05-R01-chair",
+      "type": "chair",
+      "position": [
+        0.34,
+        0.145,
+        0.835
+      ],
+      "footprint_uv": [
+        0.27,
+        0.76,
+        0.41,
+        0.91
+      ],
+      "model_file": "models/chair.glb",
+      "mask_file": "masks/chair.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L05-R01-curtain",
+      "type": "curtain",
+      "position": [
+        0.505,
+        0.37,
+        0.985
+      ],
+      "footprint_uv": [
+        0.14,
+        0.97,
+        0.87,
+        1
+      ],
+      "model_file": "models/curtain.glb",
+      "mask_file": "masks/curtain.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L05-R01-vase",
+      "type": "vase",
+      "position": [
+        0.15,
+        0.315,
+        0.78
+      ],
+      "footprint_uv": [
+        0.1,
+        0.74,
+        0.2,
+        0.82
+      ],
+      "model_file": "models/vase.glb",
+      "mask_file": "masks/vase.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L05-R01-plant",
+      "type": "plant",
+      "position": [
+        0.92,
+        0.09,
+        0.93
+      ],
+      "footprint_uv": [
+        0.87,
+        0.88,
+        0.97,
+        0.98
+      ],
+      "model_file": "models/plant.glb",
+      "mask_file": "masks/plant.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-rug",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01-rug",
+      "to": "REF-L05-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-wardrobe",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01-wardrobe",
+      "to": "REF-L05-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-bed",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-desk",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-chair",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-curtain",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-vase",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01-desk",
+      "to": "REF-L05-R01-vase",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-plant",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L05-R01-plant",
+      "to": "REF-L05-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    }
+  ]
+}

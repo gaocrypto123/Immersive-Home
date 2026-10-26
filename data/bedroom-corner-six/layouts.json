@@ -1,0 +1,1628 @@
+{
+  "schema": "jyxj.video-layout-observation.v1",
+  "status": "manually_extracted_visual_estimates",
+  "source": {
+    "source_video": "C:\\Users\\HANI\\Downloads\\6种小拐角卧室家具布局，你最喜欢哪一种？ [6ab8a15b000000001801605b].mp4",
+    "sha256": "9363f8d7875ee8c7396346b2b4ca5808e84a3cb793c543944fd51ee54da30d75",
+    "fps": 30.0,
+    "frame_count": 653,
+    "video_duration_seconds": 21.766666666666666,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "source_unchanged": true
+  },
+  "case_context": {
+    "demo": "刚毕业大学生合租卧室改造",
+    "reference": "小拐角卧室六种家具布局",
+    "scope": "截图定位与家具空间关系提取；未建立可运行三维案例"
+  },
+  "coordinate_system": {
+    "image": "1080×1920 原视频像素，原点左上，x向右、y向下",
+    "floor_uv": "房间内轮廓外接矩形左上为(0,0)，右下为(1,1)；u向右，v向下；左上缺口不是室内",
+    "orientation": "方向均指画面方向，不代表真实南北；床记录床头，衣柜记录柜门，书桌椅记录就坐朝向",
+    "metric_scale": null,
+    "metric_scale_status": "视频未给房间或家具尺寸；不得将 uv 直接作为米制坐标",
+    "accuracy": "人工视觉初提取，位置通常只能用于相对布局草稿；高家具、U/L形与遮挡部分置信度更低",
+    "center_note": "estimated_center_uv 是占地外接矩形中心，U/L形不等于几何质心"
+  },
+  "layouts": [
+    {
+      "id": "L01",
+      "title": "床居中横放，拐角衣柜",
+      "frame_index": 102,
+      "selection_note": "房间家具均可见；手位于画面右上方，未遮挡房间。",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "image_bbox_px": [
+            459,
+            811,
+            841,
+            1078
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.33,
+            0.42,
+            1,
+            0.84
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.33,
+              0.42
+            ],
+            [
+              1,
+              0.42
+            ],
+            [
+              1,
+              0.84
+            ],
+            [
+              0.33,
+              0.84
+            ]
+          ],
+          "estimated_center_uv": [
+            0.665,
+            0.63
+          ],
+          "orientation": "床头朝画面右侧",
+          "position_description": "右侧墙中段横向放床，床尾向左",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 1
+        },
+        {
+          "id": "bedside_north",
+          "label": "上侧床头柜",
+          "category": "bedside_cabinet",
+          "image_bbox_px": [
+            722,
+            730,
+            820,
+            824
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.83,
+            0.29,
+            1,
+            0.43
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.83,
+              0.29
+            ],
+            [
+              1,
+              0.29
+            ],
+            [
+              1,
+              0.43
+            ],
+            [
+              0.83,
+              0.43
+            ]
+          ],
+          "estimated_center_uv": [
+            0.915,
+            0.36
+          ],
+          "orientation": null,
+          "position_description": "右墙，床头上方",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 2
+        },
+        {
+          "id": "bedside_south",
+          "label": "下侧床头柜",
+          "category": "bedside_cabinet",
+          "image_bbox_px": [
+            724,
+            1069,
+            815,
+            1163
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.83,
+            0.84,
+            1,
+            0.98
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.83,
+              0.84
+            ],
+            [
+              1,
+              0.84
+            ],
+            [
+              1,
+              0.98
+            ],
+            [
+              0.83,
+              0.98
+            ]
+          ],
+          "estimated_center_uv": [
+            0.915,
+            0.91
+          ],
+          "orientation": null,
+          "position_description": "右墙，床头下方、靠窗一侧",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 3
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "image_bbox_px": [
+            469,
+            483,
+            865,
+            682
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.35,
+            0,
+            1,
+            0.2
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.35,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.2
+            ],
+            [
+              0.35,
+              0.2
+            ]
+          ],
+          "estimated_center_uv": [
+            0.675,
+            0.1
+          ],
+          "orientation": "柜门朝画面下方",
+          "position_description": "上方内凹拐角，沿上墙横向布置",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "low",
+          "notes": "高柜顶部向画面上方偏移；落地范围依据柜底及墙线估计。",
+          "number": 4
+        }
+      ],
+      "timestamp_seconds": 3.4,
+      "timestamp_display": "3.400s",
+      "room_crop_bbox_px": [
+        170,
+        425,
+        920,
+        1270
+      ],
+      "screenshot_original": "screenshots/layout-01-original.png",
+      "screenshot_room": "screenshots/layout-01-room.png",
+      "screenshot_sha256": "2aa18e67b863725d83b03d849cbd72484b2d3f066e189ee86fbb16db56db16a5",
+      "room_registration": {
+        "image_inner_floor_bounding_box_px": [
+          284,
+          558,
+          811,
+          1178
+        ],
+        "shared_outline_uv": [
+          [
+            0.34,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.15
+          ],
+          [
+            0.34,
+            0.15
+          ]
+        ],
+        "method": "逐帧人工按墙体内缘对齐；上墙被柜体遮挡时借助相邻帧估计；没有完成摄影测量或严格透视标定",
+        "notch_note": "左上角缺口；入口在缺口的下方横边；窗位于下边中段"
+      }
+    },
+    {
+      "id": "L02",
+      "title": "床移入上方，床尾隔断，窗边书桌",
+      "frame_index": 268,
+      "selection_note": "家具已放定，双手已离开房间；字幕已开始介绍下一次移动。",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "image_bbox_px": [
+            430,
+            538,
+            821,
+            813
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.3,
+            0.02,
+            1,
+            0.42
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.3,
+              0.02
+            ],
+            [
+              1,
+              0.02
+            ],
+            [
+              1,
+              0.42
+            ],
+            [
+              0.3,
+              0.42
+            ]
+          ],
+          "estimated_center_uv": [
+            0.65,
+            0.22
+          ],
+          "orientation": "床头朝画面右侧",
+          "position_description": "上方拐角内横放，床尾朝入口",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 1
+        },
+        {
+          "id": "partition",
+          "label": "床尾隔断",
+          "category": "partition",
+          "image_bbox_px": [
+            407,
+            617,
+            452,
+            800
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.28,
+            0.11,
+            0.34,
+            0.42
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.28,
+              0.11
+            ],
+            [
+              0.34,
+              0.11
+            ],
+            [
+              0.34,
+              0.42
+            ],
+            [
+              0.28,
+              0.42
+            ]
+          ],
+          "estimated_center_uv": [
+            0.31,
+            0.265
+          ],
+          "orientation": null,
+          "position_description": "床的左侧短边、靠入户侧",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "low",
+          "notes": "字幕明确“前面隔断到顶”；仅确认床尾隔断，绝对高度未知。",
+          "number": 2
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "image_bbox_px": [
+            689,
+            784,
+            887,
+            1193
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.79,
+            0.42,
+            1,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.79,
+              0.42
+            ],
+            [
+              1,
+              0.42
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.79,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.895,
+            0.71
+          ],
+          "orientation": "柜门朝画面左侧",
+          "position_description": "右墙中下段纵向布置",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "low",
+          "notes": "落地范围按靠墙柜底估计，不能用偏出墙线的柜顶直接测宽。",
+          "number": 3
+        },
+        {
+          "id": "desk",
+          "label": "书桌（按桌椅形态识别）",
+          "category": "desk",
+          "image_bbox_px": [
+            389,
+            1071,
+            727,
+            1192
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.23,
+            0.84,
+            0.82,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.23,
+              0.84
+            ],
+            [
+              0.82,
+              0.84
+            ],
+            [
+              0.82,
+              1
+            ],
+            [
+              0.23,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.525,
+            0.92
+          ],
+          "orientation": "坐下后朝画面下方",
+          "position_description": "下方窗前，沿窗横放",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "此段字幕称“柜子”；依据桌面及配套椅子的形态暂识别为书桌，具体柜桌功能仍待确认。",
+          "number": 4
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "image_bbox_px": [
+            509,
+            994,
+            592,
+            1076
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.44,
+            0.72,
+            0.6,
+            0.85
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.44,
+              0.72
+            ],
+            [
+              0.6,
+              0.72
+            ],
+            [
+              0.6,
+              0.85
+            ],
+            [
+              0.44,
+              0.85
+            ]
+          ],
+          "estimated_center_uv": [
+            0.52,
+            0.785
+          ],
+          "orientation": "坐下后朝画面下方",
+          "position_description": "书桌上方，椅子向窗侧书桌就坐",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "部分椅身可被桌沿遮挡。",
+          "number": 5
+        },
+        {
+          "id": "storage",
+          "label": "小柜子",
+          "category": "storage_cabinet",
+          "image_bbox_px": [
+            255,
+            1080,
+            395,
+            1212
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0,
+            0.82,
+            0.24,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0,
+              0.82
+            ],
+            [
+              0.24,
+              0.82
+            ],
+            [
+              0.24,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.12,
+            0.91
+          ],
+          "orientation": null,
+          "position_description": "左下角，与窗前书桌相邻",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "由放置过程确认是独立小柜；字幕未说明具体柜型。",
+          "number": 6
+        }
+      ],
+      "timestamp_seconds": 8.933333,
+      "timestamp_display": "8.933s",
+      "room_crop_bbox_px": [
+        170,
+        425,
+        920,
+        1270
+      ],
+      "screenshot_original": "screenshots/layout-02-original.png",
+      "screenshot_room": "screenshots/layout-02-room.png",
+      "screenshot_sha256": "31502c88bdbb5c727822b92008fefe71a62ea191151aff98b4957dc2e7e2dd52",
+      "room_registration": {
+        "image_inner_floor_bounding_box_px": [
+          268,
+          558,
+          808,
+          1180
+        ],
+        "shared_outline_uv": [
+          [
+            0.34,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.15
+          ],
+          [
+            0.34,
+            0.15
+          ]
+        ],
+        "method": "逐帧人工按墙体内缘对齐；上墙被柜体遮挡时借助相邻帧估计；没有完成摄影测量或严格透视标定",
+        "notch_note": "左上角缺口；入口在缺口的下方横边；窗位于下边中段"
+      }
+    },
+    {
+      "id": "L03",
+      "title": "床靠窗横放，右侧书桌，上方衣柜",
+      "frame_index": 354,
+      "selection_note": "衣柜已落定，操作者的手已离开房间。",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "image_bbox_px": [
+            432,
+            919,
+            821,
+            1179
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.3,
+            0.59,
+            1,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.3,
+              0.59
+            ],
+            [
+              1,
+              0.59
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.3,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.65,
+            0.795
+          ],
+          "orientation": "床头朝画面右侧",
+          "position_description": "下方靠窗横放，床头靠右墙",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 1
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "image_bbox_px": [
+            448,
+            464,
+            876,
+            650
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.34,
+            0,
+            1,
+            0.18
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.34,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.18
+            ],
+            [
+              0.34,
+              0.18
+            ]
+          ],
+          "estimated_center_uv": [
+            0.67,
+            0.09
+          ],
+          "orientation": "柜门朝画面下方",
+          "position_description": "上方内凹拐角，横向靠墙",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "low",
+          "notes": "",
+          "number": 2
+        },
+        {
+          "id": "desk",
+          "label": "书桌",
+          "category": "desk",
+          "image_bbox_px": [
+            694,
+            634,
+            816,
+            914
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.79,
+            0.18,
+            1,
+            0.59
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.79,
+              0.18
+            ],
+            [
+              1,
+              0.18
+            ],
+            [
+              1,
+              0.59
+            ],
+            [
+              0.79,
+              0.59
+            ]
+          ],
+          "estimated_center_uv": [
+            0.895,
+            0.385
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "position_description": "右墙上半段，与床头相接",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 3
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "image_bbox_px": [
+            611,
+            739,
+            695,
+            830
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.63,
+            0.31,
+            0.79,
+            0.46
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.63,
+              0.31
+            ],
+            [
+              0.79,
+              0.31
+            ],
+            [
+              0.79,
+              0.46
+            ],
+            [
+              0.63,
+              0.46
+            ]
+          ],
+          "estimated_center_uv": [
+            0.71,
+            0.385
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "position_description": "书桌左侧、房间内侧",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 4
+        }
+      ],
+      "timestamp_seconds": 11.8,
+      "timestamp_display": "11.800s",
+      "room_crop_bbox_px": [
+        170,
+        425,
+        920,
+        1270
+      ],
+      "screenshot_original": "screenshots/layout-03-original.png",
+      "screenshot_room": "screenshots/layout-03-room.png",
+      "screenshot_sha256": "6cd608ca8e024a077303b77e270619c1dff09b616265cc72107c312222042dde",
+      "room_registration": {
+        "image_inner_floor_bounding_box_px": [
+          268,
+          558,
+          808,
+          1180
+        ],
+        "shared_outline_uv": [
+          [
+            0.34,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.15
+          ],
+          [
+            0.34,
+            0.15
+          ]
+        ],
+        "method": "逐帧人工按墙体内缘对齐；上墙被柜体遮挡时借助相邻帧估计；没有完成摄影测量或严格透视标定",
+        "notch_note": "左上角缺口；入口在缺口的下方横边；窗位于下边中段"
+      }
+    },
+    {
+      "id": "L04",
+      "title": "床纵放进拐角，入口衣柜，床尾书桌",
+      "frame_index": 459,
+      "selection_note": "家具均已放定；手在下方画面边缘，未遮挡家具。",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "image_bbox_px": [
+            550,
+            528,
+            813,
+            916
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.52,
+            0,
+            1,
+            0.58
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.52,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.58
+            ],
+            [
+              0.52,
+              0.58
+            ]
+          ],
+          "estimated_center_uv": [
+            0.76,
+            0.29
+          ],
+          "orientation": "床头朝画面上方",
+          "position_description": "上方拐角内纵向放床，床尾向窗",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 1
+        },
+        {
+          "id": "bedside",
+          "label": "床头柜",
+          "category": "bedside_cabinet",
+          "image_bbox_px": [
+            457,
+            546,
+            550,
+            650
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.35,
+            0,
+            0.52,
+            0.17
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.35,
+              0
+            ],
+            [
+              0.52,
+              0
+            ],
+            [
+              0.52,
+              0.17
+            ],
+            [
+              0.35,
+              0.17
+            ]
+          ],
+          "estimated_center_uv": [
+            0.435,
+            0.085
+          ],
+          "orientation": null,
+          "position_description": "床头左侧，靠上方拐角",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 2
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "image_bbox_px": [
+            256,
+            785,
+            382,
+            1201
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0,
+            0.38,
+            0.23,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0,
+              0.38
+            ],
+            [
+              0.23,
+              0.38
+            ],
+            [
+              0.23,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.115,
+            0.69
+          ],
+          "orientation": "柜门朝画面右侧",
+          "position_description": "入口下方左墙，纵向靠墙",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "low",
+          "notes": "",
+          "number": 3
+        },
+        {
+          "id": "desk",
+          "label": "书桌",
+          "category": "desk",
+          "image_bbox_px": [
+            696,
+            896,
+            812,
+            1178
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.79,
+            0.58,
+            1,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.79,
+              0.58
+            ],
+            [
+              1,
+              0.58
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.79,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.895,
+            0.79
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "position_description": "右下方床尾，沿右墙纵放",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 4
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "image_bbox_px": [
+            608,
+            985,
+            697,
+            1082
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.63,
+            0.69,
+            0.79,
+            0.84
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.63,
+              0.69
+            ],
+            [
+              0.79,
+              0.69
+            ],
+            [
+              0.79,
+              0.84
+            ],
+            [
+              0.63,
+              0.84
+            ]
+          ],
+          "estimated_center_uv": [
+            0.71,
+            0.765
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "position_description": "书桌左侧，位于房间中下部",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 5
+        }
+      ],
+      "timestamp_seconds": 15.3,
+      "timestamp_display": "15.300s",
+      "room_crop_bbox_px": [
+        170,
+        425,
+        920,
+        1270
+      ],
+      "screenshot_original": "screenshots/layout-04-original.png",
+      "screenshot_room": "screenshots/layout-04-room.png",
+      "screenshot_sha256": "11ec74d91a0f0452bc64a047345a27c7f1b68f8c0b4419c8ba8ab3a498616f89",
+      "room_registration": {
+        "image_inner_floor_bounding_box_px": [
+          268,
+          558,
+          808,
+          1180
+        ],
+        "shared_outline_uv": [
+          [
+            0.34,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.15
+          ],
+          [
+            0.34,
+            0.15
+          ]
+        ],
+        "method": "逐帧人工按墙体内缘对齐；上墙被柜体遮挡时借助相邻帧估计；没有完成摄影测量或严格透视标定",
+        "notch_note": "左上角缺口；入口在缺口的下方横边；窗位于下边中段"
+      }
+    },
+    {
+      "id": "L05",
+      "title": "床前移，床后衣帽间，窗边书桌",
+      "frame_index": 547,
+      "selection_note": "书桌放定且双手离开房间，下一步尚未搬走衣帽间。",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "image_bbox_px": [
+            540,
+            785,
+            812,
+            1178
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.52,
+            0.38,
+            1,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.52,
+              0.38
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.52,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.76,
+            0.69
+          ],
+          "orientation": "床头朝画面上方",
+          "position_description": "右侧靠窗纵放，床头前移到房间中段",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 1
+        },
+        {
+          "id": "closet",
+          "label": "衣帽间柜体组合",
+          "category": "walk_in_closet",
+          "image_bbox_px": [
+            449,
+            450,
+            871,
+            786
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.34,
+            0,
+            1,
+            0.38
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.34,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              0.52,
+              0.38
+            ],
+            [
+              0.52,
+              0.29
+            ],
+            [
+              0.81,
+              0.29
+            ],
+            [
+              0.81,
+              0.13
+            ],
+            [
+              0.34,
+              0.13
+            ]
+          ],
+          "estimated_center_uv": [
+            0.67,
+            0.19
+          ],
+          "orientation": "入口朝画面左侧",
+          "position_description": "床头后方拐角，约呈 U 形围合",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "low",
+          "notes": "按视频“背后放衣帽间”识别为组合；柜体分段与实际内部构造尚未确认，不将开口当作实心柜。",
+          "number": 2
+        },
+        {
+          "id": "desk",
+          "label": "书桌",
+          "category": "desk",
+          "image_bbox_px": [
+            272,
+            1065,
+            561,
+            1183
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0,
+            0.82,
+            0.53,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0,
+              0.82
+            ],
+            [
+              0.53,
+              0.82
+            ],
+            [
+              0.53,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.265,
+            0.91
+          ],
+          "orientation": "坐下后朝画面下方",
+          "position_description": "窗前偏左横放，与床尾并列",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 3
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "image_bbox_px": [
+            379,
+            986,
+            459,
+            1066
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.21,
+            0.69,
+            0.36,
+            0.82
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.21,
+              0.69
+            ],
+            [
+              0.36,
+              0.69
+            ],
+            [
+              0.36,
+              0.82
+            ],
+            [
+              0.21,
+              0.82
+            ]
+          ],
+          "estimated_center_uv": [
+            0.285,
+            0.755
+          ],
+          "orientation": "坐下后朝画面下方",
+          "position_description": "书桌上方、左侧通道内",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 4
+        }
+      ],
+      "timestamp_seconds": 18.233333,
+      "timestamp_display": "18.233s",
+      "room_crop_bbox_px": [
+        170,
+        425,
+        920,
+        1270
+      ],
+      "screenshot_original": "screenshots/layout-05-original.png",
+      "screenshot_room": "screenshots/layout-05-room.png",
+      "screenshot_sha256": "145e390487e7e818ef22251918efe8f288021f742cd371d5f337f2275d4e5496",
+      "room_registration": {
+        "image_inner_floor_bounding_box_px": [
+          268,
+          558,
+          808,
+          1180
+        ],
+        "shared_outline_uv": [
+          [
+            0.34,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.15
+          ],
+          [
+            0.34,
+            0.15
+          ]
+        ],
+        "method": "逐帧人工按墙体内缘对齐；上墙被柜体遮挡时借助相邻帧估计；没有完成摄影测量或严格透视标定",
+        "notch_note": "左上角缺口；入口在缺口的下方横边；窗位于下边中段"
+      }
+    },
+    {
+      "id": "L06",
+      "title": "左墙衣柜，床头后方转角书桌",
+      "frame_index": 639,
+      "selection_note": "视频结尾完整定格，家具未被手遮挡。",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "image_bbox_px": [
+            539,
+            785,
+            813,
+            1178
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.52,
+            0.38,
+            1,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.52,
+              0.38
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.52,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.76,
+            0.69
+          ],
+          "orientation": "床头朝画面上方",
+          "position_description": "右侧靠窗纵放，床头朝上",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 1
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "image_bbox_px": [
+            255,
+            785,
+            384,
+            1201
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0,
+            0.38,
+            0.23,
+            1
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0,
+              0.38
+            ],
+            [
+              0.23,
+              0.38
+            ],
+            [
+              0.23,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "estimated_center_uv": [
+            0.115,
+            0.69
+          ],
+          "orientation": "柜门朝画面右侧",
+          "position_description": "入口下方左墙，纵向靠墙",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "low",
+          "notes": "",
+          "number": 2
+        },
+        {
+          "id": "desk",
+          "label": "转角书桌",
+          "category": "desk",
+          "image_bbox_px": [
+            447,
+            514,
+            815,
+            787
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.34,
+            0,
+            1,
+            0.38
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.34,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              0.79,
+              0.38
+            ],
+            [
+              0.79,
+              0.16
+            ],
+            [
+              0.34,
+              0.16
+            ]
+          ],
+          "estimated_center_uv": [
+            0.67,
+            0.19
+          ],
+          "orientation": "椅子朝画面上方就坐",
+          "position_description": "床头后方拐角，沿上墙并沿右墙转折",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "按字幕“床头后面放书桌”和桌椅形态识别；L 形转折为视觉估计。",
+          "number": 3
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "image_bbox_px": [
+            539,
+            636,
+            637,
+            731
+          ],
+          "image_bbox_basis": "人工描记可见实体的包围框；包含家具顶部投影，不是落地轮廓",
+          "estimated_floor_bbox_uv": [
+            0.5,
+            0.16,
+            0.68,
+            0.29
+          ],
+          "estimated_floor_polygon_uv": [
+            [
+              0.5,
+              0.16
+            ],
+            [
+              0.68,
+              0.16
+            ],
+            [
+              0.68,
+              0.29
+            ],
+            [
+              0.5,
+              0.29
+            ]
+          ],
+          "estimated_center_uv": [
+            0.59,
+            0.225
+          ],
+          "orientation": "坐下后朝画面上方",
+          "position_description": "转角桌上墙桌面下方，床头左上方",
+          "identification_confidence": "medium",
+          "floor_position_confidence": "medium",
+          "notes": "",
+          "number": 4
+        }
+      ],
+      "timestamp_seconds": 21.3,
+      "timestamp_display": "21.300s",
+      "room_crop_bbox_px": [
+        170,
+        425,
+        920,
+        1270
+      ],
+      "screenshot_original": "screenshots/layout-06-original.png",
+      "screenshot_room": "screenshots/layout-06-room.png",
+      "screenshot_sha256": "87ce704046e53e6ad2afe175c782d824c88608a71c5695ffb0ac0893d8c15c27",
+      "room_registration": {
+        "image_inner_floor_bounding_box_px": [
+          268,
+          558,
+          808,
+          1180
+        ],
+        "shared_outline_uv": [
+          [
+            0.34,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.15
+          ],
+          [
+            0.34,
+            0.15
+          ]
+        ],
+        "method": "逐帧人工按墙体内缘对齐；上墙被柜体遮挡时借助相邻帧估计；没有完成摄影测量或严格透视标定",
+        "notch_note": "左上角缺口；入口在缺口的下方横边；窗位于下边中段"
+      }
+    }
+  ]
+}

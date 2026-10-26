@@ -1,0 +1,2421 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L05",
+  "room_id": "REF-L05-R01",
+  "title": "收纳有序",
+  "source": {
+    "reference_id": "L05",
+    "file": "/assets/inspiration/L05.png",
+    "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+    "width_px": 680,
+    "height_px": 948,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      296,
+      24,
+      680,
+      948
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床在右下方纵放，床头后留有走道与转角储物柜。",
+    "左下临窗位置是木桌和编织坐面椅。",
+    "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "plan_graph": {
+    "schema": "jyxj.reference-seven-types.v1",
+    "case_id": "REF-L05",
+    "room_id": "REF-L05-R01",
+    "title": "收纳有序",
+    "source": {
+      "reference_id": "L05",
+      "file": "/assets/inspiration/L05.png",
+      "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "width_px": 680,
+      "height_px": 948,
+      "image_kind": "image_gen_concept_image",
+      "crop_rectangle_in_main_board_xywh": [
+        296,
+        24,
+        680,
+        948
+      ]
+    },
+    "method": "agent_visual_annotation_with_programmatic_structuring",
+    "review_status": "draft_for_human_review",
+    "observations": [
+      "床在右下方纵放，床头后留有走道与转角储物柜。",
+      "左下临窗位置是木桌和编织坐面椅。",
+      "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+    ],
+    "boundaries": [
+      "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+      "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+      "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+      "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+    ],
+    "type": 1,
+    "name": "四级空间图",
+    "hierarchy_definition": [
+      "case",
+      "room",
+      "functional_zone",
+      "instance"
+    ],
+    "definition_note": "本项目为本次解析采用的四级定义，非对截图未说明标准的推定。",
+    "nodes": [
+      {
+        "id": "REF-L05",
+        "level": 0,
+        "type": "case",
+        "label": "L05"
+      },
+      {
+        "id": "REF-L05-R01",
+        "level": 1,
+        "type": "room",
+        "label": "卧室"
+      },
+      {
+        "id": "REF-L05-R01-zone-sleep",
+        "level": 2,
+        "type": "functional_zone",
+        "label": "睡眠区",
+        "evidence": "inferred_function"
+      },
+      {
+        "id": "REF-L05-R01-zone-storage",
+        "level": 2,
+        "type": "functional_zone",
+        "label": "收纳区",
+        "evidence": "inferred_function"
+      },
+      {
+        "id": "REF-L05-R01-zone-work",
+        "level": 2,
+        "type": "functional_zone",
+        "label": "办公区",
+        "evidence": "inferred_function"
+      },
+      {
+        "id": "REF-L05-R01-zone-envelope",
+        "level": 2,
+        "type": "functional_zone",
+        "label": "窗饰区",
+        "evidence": "inferred_function"
+      },
+      {
+        "id": "REF-L05-R01-zone-decor",
+        "level": 2,
+        "type": "functional_zone",
+        "label": "独立陈设",
+        "evidence": "inferred_function"
+      },
+      {
+        "id": "REF-L05-R01-rug",
+        "level": 3,
+        "type": "instance",
+        "label": "自然色编织外观地毯"
+      },
+      {
+        "id": "REF-L05-R01-wardrobe",
+        "level": 3,
+        "type": "instance",
+        "label": "转角衣帽柜及床后台面"
+      },
+      {
+        "id": "REF-L05-R01-bed",
+        "level": 3,
+        "type": "instance",
+        "label": "浅木色低矮双人床"
+      },
+      {
+        "id": "REF-L05-R01-desk",
+        "level": 3,
+        "type": "instance",
+        "label": "窗边木书桌"
+      },
+      {
+        "id": "REF-L05-R01-chair",
+        "level": 3,
+        "type": "instance",
+        "label": "编织坐面木椅"
+      },
+      {
+        "id": "REF-L05-R01-curtain",
+        "level": 3,
+        "type": "instance",
+        "label": "自然色窗帘或卷帘"
+      },
+      {
+        "id": "REF-L05-R01-vase",
+        "level": 3,
+        "type": "instance",
+        "label": "粗陶外观花瓶与干枝"
+      },
+      {
+        "id": "REF-L05-R01-plant",
+        "level": 3,
+        "type": "instance",
+        "label": "床尾绿植（局部）"
+      }
+    ],
+    "edges": [
+      {
+        "from": "REF-L05",
+        "to": "REF-L05-R01",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-zone-sleep",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-zone-storage",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-zone-work",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-zone-envelope",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-zone-decor",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-sleep",
+        "to": "REF-L05-R01-rug",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-storage",
+        "to": "REF-L05-R01-wardrobe",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-sleep",
+        "to": "REF-L05-R01-bed",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-work",
+        "to": "REF-L05-R01-desk",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-work",
+        "to": "REF-L05-R01-chair",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-envelope",
+        "to": "REF-L05-R01-curtain",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-work",
+        "to": "REF-L05-R01-vase",
+        "relation": "contains"
+      },
+      {
+        "from": "REF-L05-R01-zone-decor",
+        "to": "REF-L05-R01-plant",
+        "relation": "contains"
+      }
+    ]
+  },
+  "scene_graph": {
+    "schema": "jyxj.reference-seven-types.v1",
+    "case_id": "REF-L05",
+    "room_id": "REF-L05-R01",
+    "title": "收纳有序",
+    "source": {
+      "reference_id": "L05",
+      "file": "/assets/inspiration/L05.png",
+      "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "width_px": 680,
+      "height_px": 948,
+      "image_kind": "image_gen_concept_image",
+      "crop_rectangle_in_main_board_xywh": [
+        296,
+        24,
+        680,
+        948
+      ]
+    },
+    "method": "agent_visual_annotation_with_programmatic_structuring",
+    "review_status": "draft_for_human_review",
+    "observations": [
+      "床在右下方纵放，床头后留有走道与转角储物柜。",
+      "左下临窗位置是木桌和编织坐面椅。",
+      "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+    ],
+    "boundaries": [
+      "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+      "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+      "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+      "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+    ],
+    "type": 2,
+    "name": "3D关系图",
+    "coordinate_system": {
+      "x": "画面布局向右",
+      "y": "垂直向上",
+      "z": "布局向画面前方",
+      "units": "normalized_room_width",
+      "calibrated": false,
+      "room_extent_units": [
+        1,
+        0.7,
+        1
+      ],
+      "note": "平面UV及高度为独立草模假设，不由图像像素比例直接换算。"
+    },
+    "nodes": [
+      {
+        "id": "REF-L05-R01",
+        "type": "room",
+        "position": [
+          0.5,
+          0.35,
+          0.5
+        ]
+      },
+      {
+        "id": "REF-L05-R01-rug",
+        "type": "rug",
+        "position": [
+          0.665,
+          0.002,
+          0.69
+        ],
+        "footprint_uv": [
+          0.36,
+          0.42,
+          0.97,
+          0.96
+        ],
+        "model_file": "models/rug.glb",
+        "mask_file": "masks/rug.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      },
+      {
+        "id": "REF-L05-R01-wardrobe",
+        "type": "wardrobe",
+        "position": [
+          0.6,
+          0.33,
+          0.21
+        ],
+        "footprint_uv": [
+          0.23,
+          0.02,
+          0.97,
+          0.4
+        ],
+        "model_file": "models/wardrobe.glb",
+        "mask_file": "masks/wardrobe.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      },
+      {
+        "id": "REF-L05-R01-bed",
+        "type": "bed",
+        "position": [
+          0.72,
+          0.115,
+          0.685
+        ],
+        "footprint_uv": [
+          0.48,
+          0.43,
+          0.96,
+          0.94
+        ],
+        "model_file": "models/bed.glb",
+        "mask_file": "masks/bed.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      },
+      {
+        "id": "REF-L05-R01-desk",
+        "type": "desk",
+        "position": [
+          0.175,
+          0.125,
+          0.83
+        ],
+        "footprint_uv": [
+          0.08,
+          0.72,
+          0.27,
+          0.94
+        ],
+        "model_file": "models/desk.glb",
+        "mask_file": "masks/desk.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      },
+      {
+        "id": "REF-L05-R01-chair",
+        "type": "chair",
+        "position": [
+          0.34,
+          0.145,
+          0.835
+        ],
+        "footprint_uv": [
+          0.27,
+          0.76,
+          0.41,
+          0.91
+        ],
+        "model_file": "models/chair.glb",
+        "mask_file": "masks/chair.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      },
+      {
+        "id": "REF-L05-R01-curtain",
+        "type": "curtain",
+        "position": [
+          0.505,
+          0.37,
+          0.985
+        ],
+        "footprint_uv": [
+          0.14,
+          0.97,
+          0.87,
+          1
+        ],
+        "model_file": "models/curtain.glb",
+        "mask_file": "masks/curtain.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      },
+      {
+        "id": "REF-L05-R01-vase",
+        "type": "vase",
+        "position": [
+          0.15,
+          0.315,
+          0.78
+        ],
+        "footprint_uv": [
+          0.1,
+          0.74,
+          0.2,
+          0.82
+        ],
+        "model_file": "models/vase.glb",
+        "mask_file": "masks/vase.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      },
+      {
+        "id": "REF-L05-R01-plant",
+        "type": "plant",
+        "position": [
+          0.92,
+          0.09,
+          0.93
+        ],
+        "footprint_uv": [
+          0.87,
+          0.88,
+          0.97,
+          0.98
+        ],
+        "model_file": "models/plant.glb",
+        "mask_file": "masks/plant.png",
+        "geometry_status": "uncalibrated_geometry_hypothesis"
+      }
+    ],
+    "edges": [
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-rug",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01-rug",
+        "to": "REF-L05-R01",
+        "relation": "near_right_boundary",
+        "evidence": "proxy_hypothesis"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-wardrobe",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01-wardrobe",
+        "to": "REF-L05-R01",
+        "relation": "near_right_boundary",
+        "evidence": "proxy_hypothesis"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-bed",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-desk",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-chair",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-curtain",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-vase",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01-desk",
+        "to": "REF-L05-R01-vase",
+        "relation": "supports",
+        "evidence": "visual_inference"
+      },
+      {
+        "from": "REF-L05-R01",
+        "to": "REF-L05-R01-plant",
+        "relation": "contains",
+        "evidence": "visual_annotation"
+      },
+      {
+        "from": "REF-L05-R01-plant",
+        "to": "REF-L05-R01",
+        "relation": "near_right_boundary",
+        "evidence": "proxy_hypothesis"
+      }
+    ]
+  },
+  "furniture_inventory": {
+    "schema": "jyxj.reference-seven-types.v1",
+    "case_id": "REF-L05",
+    "room_id": "REF-L05-R01",
+    "title": "收纳有序",
+    "source": {
+      "reference_id": "L05",
+      "file": "/assets/inspiration/L05.png",
+      "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "width_px": 680,
+      "height_px": 948,
+      "image_kind": "image_gen_concept_image",
+      "crop_rectangle_in_main_board_xywh": [
+        296,
+        24,
+        680,
+        948
+      ]
+    },
+    "method": "agent_visual_annotation_with_programmatic_structuring",
+    "review_status": "draft_for_human_review",
+    "observations": [
+      "床在右下方纵放，床头后留有走道与转角储物柜。",
+      "左下临窗位置是木桌和编织坐面椅。",
+      "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+    ],
+    "boundaries": [
+      "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+      "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+      "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+      "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+    ],
+    "type": 3,
+    "name": "家具清单",
+    "scope": "主要家具、独立灯具、地毯、窗饰及显著陈设；床品作为床的属性，小型杯碟书本不逐件计数。",
+    "instance_count": 8,
+    "category_counts": {
+      "rug": 1,
+      "wardrobe": 1,
+      "bed": 1,
+      "desk": 1,
+      "chair": 1,
+      "curtain": 1,
+      "vase": 1,
+      "plant": 1
+    },
+    "items": [
+      {
+        "instance_id": "REF-L05-R01-rug",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "rug",
+        "label": "自然色编织外观地毯",
+        "category": "rug",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-sleep",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#ae9563",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.36,
+            0.42,
+            0.97,
+            0.96
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.004,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": null,
+        "mask": {
+          "label_value": 1,
+          "color": "#b0a17a",
+          "file": "masks/rug.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                252,
+                377
+              ],
+              [
+                596,
+                380
+              ],
+              [
+                615,
+                817
+              ],
+              [
+                246,
+                819
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 0,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 25974,
+          "bbox_xywh_px": [
+            246,
+            377,
+            297,
+            440
+          ]
+        },
+        "model_file": "models/rug.glb"
+      },
+      {
+        "instance_id": "REF-L05-R01-wardrobe",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "wardrobe",
+        "label": "转角衣帽柜及床后台面",
+        "category": "wardrobe",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-storage",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "组合柜分段仅用于草模，柜内布局与真实深度未知。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#b49a71",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.23,
+            0.02,
+            0.97,
+            0.4
+          ],
+          "parts_uv": [
+            [
+              0.23,
+              0.02,
+              0.97,
+              0.17
+            ],
+            [
+              0.81,
+              0.17,
+              0.97,
+              0.34
+            ],
+            [
+              0.61,
+              0.34,
+              0.97,
+              0.4
+            ]
+          ],
+          "part_heights_units": [
+            0.66,
+            0.66,
+            0.22
+          ],
+          "height_units": 0.66,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": null,
+        "mask": {
+          "label_value": 2,
+          "color": "#7e9d72",
+          "file": "masks/wardrobe.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                205,
+                36
+              ],
+              [
+                611,
+                37
+              ],
+              [
+                617,
+                327
+              ],
+              [
+                574,
+                351
+              ],
+              [
+                407,
+                349
+              ],
+              [
+                407,
+                265
+              ],
+              [
+                506,
+                264
+              ],
+              [
+                506,
+                171
+              ],
+              [
+                208,
+                171
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 1,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 81534,
+          "bbox_xywh_px": [
+            205,
+            36,
+            412,
+            311
+          ]
+        },
+        "model_file": "models/wardrobe.glb"
+      },
+      {
+        "instance_id": "REF-L05-R01-bed",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "bed",
+        "label": "浅木色低矮双人床",
+        "category": "bed",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-sleep",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#d2c2a0",
+          "materials_appearance": [
+            "浅木色框架外观",
+            "米白织物",
+            "陶土色盖毯"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.48,
+            0.43,
+            0.96,
+            0.94
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.23,
+          "base_y_units": 0,
+          "head_direction": "north",
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": null,
+        "mask": {
+          "label_value": 3,
+          "color": "#a37957",
+          "file": "masks/bed.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                313,
+                348
+              ],
+              [
+                592,
+                345
+              ],
+              [
+                610,
+                375
+              ],
+              [
+                612,
+                791
+              ],
+              [
+                335,
+                805
+              ],
+              [
+                297,
+                758
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 2,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 133135,
+          "bbox_xywh_px": [
+            297,
+            345,
+            315,
+            460
+          ]
+        },
+        "model_file": "models/bed.glb"
+      },
+      {
+        "instance_id": "REF-L05-R01-desk",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "desk",
+        "label": "窗边木书桌",
+        "category": "desk",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-work",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#b89c6c",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.08,
+            0.72,
+            0.27,
+            0.94
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.25,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": null,
+        "mask": {
+          "label_value": 4,
+          "color": "#728fac",
+          "file": "masks/desk.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                95,
+                573
+              ],
+              [
+                184,
+                580
+              ],
+              [
+                181,
+                809
+              ],
+              [
+                95,
+                810
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 3,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 17900,
+          "bbox_xywh_px": [
+            95,
+            573,
+            89,
+            237
+          ]
+        },
+        "model_file": "models/desk.glb"
+      },
+      {
+        "instance_id": "REF-L05-R01-chair",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "chair",
+        "label": "编织坐面木椅",
+        "category": "chair",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-work",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#a48a56",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.27,
+            0.76,
+            0.41,
+            0.91
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.29,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": null,
+        "mask": {
+          "label_value": 5,
+          "color": "#b6a570",
+          "file": "masks/chair.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                185,
+                627
+              ],
+              [
+                242,
+                636
+              ],
+              [
+                243,
+                729
+              ],
+              [
+                187,
+                742
+              ],
+              [
+                169,
+                699
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 4,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 6875,
+          "bbox_xywh_px": [
+            169,
+            627,
+            74,
+            115
+          ]
+        },
+        "model_file": "models/chair.glb"
+      },
+      {
+        "instance_id": "REF-L05-R01-curtain",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "curtain",
+        "label": "自然色窗帘或卷帘",
+        "category": "curtain",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-envelope",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "下侧可见织物窗饰；具体开合机构无法从单图确定。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#c5b58e",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.14,
+            0.97,
+            0.87,
+            1
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.64,
+          "base_y_units": 0.05,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": null,
+        "mask": {
+          "label_value": 6,
+          "color": "#9d7f98",
+          "file": "masks/curtain.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                126,
+                808
+              ],
+              [
+                534,
+                807
+              ],
+              [
+                538,
+                895
+              ],
+              [
+                124,
+                896
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 5,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 36156,
+          "bbox_xywh_px": [
+            124,
+            807,
+            414,
+            89
+          ]
+        },
+        "model_file": "models/curtain.glb"
+      },
+      {
+        "instance_id": "REF-L05-R01-vase",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "vase",
+        "label": "粗陶外观花瓶与干枝",
+        "category": "vase",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-work",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#8f7952",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.1,
+            0.74,
+            0.2,
+            0.82
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.13,
+          "base_y_units": 0.25,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": "REF-L05-R01-desk",
+        "mask": {
+          "label_value": 7,
+          "color": "#67988e",
+          "file": "masks/vase.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                103,
+                487
+              ],
+              [
+                165,
+                493
+              ],
+              [
+                172,
+                552
+              ],
+              [
+                154,
+                565
+              ],
+              [
+                162,
+                604
+              ],
+              [
+                128,
+                624
+              ],
+              [
+                110,
+                600
+              ],
+              [
+                119,
+                558
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 6,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 6386,
+          "bbox_xywh_px": [
+            103,
+            487,
+            69,
+            137
+          ]
+        },
+        "model_file": "models/vase.glb"
+      },
+      {
+        "instance_id": "REF-L05-R01-plant",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "key": "plant",
+        "label": "床尾绿植（局部）",
+        "category": "plant",
+        "quantity": 1,
+        "zone_id": "REF-L05-R01-zone-decor",
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "low",
+          "visibility": "partial",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "measured_dimensions_m": {
+          "width": null,
+          "depth": null,
+          "height": null
+        },
+        "appearance": {
+          "display_color": "#627044",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.87,
+            0.88,
+            0.97,
+            0.98
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.18,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "supported_by": null,
+        "mask": {
+          "label_value": 8,
+          "color": "#af875d",
+          "file": "masks/plant.png",
+          "attributes_file": "masks-attributes.json",
+          "polygon_source": "manual_coarse_outline",
+          "polygons_px": [
+            [
+              [
+                549,
+                734
+              ],
+              [
+                605,
+                726
+              ],
+              [
+                635,
+                791
+              ],
+              [
+                620,
+                858
+              ],
+              [
+                560,
+                855
+              ],
+              [
+                532,
+                793
+              ]
+            ]
+          ],
+          "precision": "coarse_not_pixel_accurate",
+          "occlusion_order": 7,
+          "unknown_hidden_surface": true,
+          "visible_area_px": 10211,
+          "bbox_xywh_px": [
+            532,
+            726,
+            103,
+            132
+          ]
+        },
+        "model_file": "models/plant.glb"
+      }
+    ]
+  },
+  "masks_attributes": {
+    "schema": "jyxj.reference-seven-types.v1",
+    "case_id": "REF-L05",
+    "room_id": "REF-L05-R01",
+    "title": "收纳有序",
+    "source": {
+      "reference_id": "L05",
+      "file": "/assets/inspiration/L05.png",
+      "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "width_px": 680,
+      "height_px": 948,
+      "image_kind": "image_gen_concept_image",
+      "crop_rectangle_in_main_board_xywh": [
+        296,
+        24,
+        680,
+        948
+      ]
+    },
+    "method": "agent_visual_annotation_with_programmatic_structuring",
+    "review_status": "draft_for_human_review",
+    "observations": [
+      "床在右下方纵放，床头后留有走道与转角储物柜。",
+      "左下临窗位置是木桌和编织坐面椅。",
+      "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+    ],
+    "boundaries": [
+      "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+      "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+      "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+      "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+    ],
+    "type": 4,
+    "name": "蒙版与属性",
+    "coordinate_system": {
+      "origin": "image top-left",
+      "x": "right",
+      "y": "down",
+      "units": "pixel",
+      "size": [
+        680,
+        948
+      ]
+    },
+    "precision": "manual_coarse_not_ground_truth",
+    "instance_index_png": "instance-ids.png",
+    "background_value": 0,
+    "index_semantics": "8-bit grayscale integer ID; 0=unannotated; labels map to the same case/room/instance IDs",
+    "occlusion_note": "多个粗多边形重叠时，后标注实例覆盖前实例；二值蒙版由最终索引图生成。",
+    "instances": [
+      {
+        "instance_id": "REF-L05-R01-rug",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "自然色编织外观地毯",
+        "category": "rug",
+        "appearance": {
+          "display_color": "#ae9563",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "label_value": 1,
+        "color": "#b0a17a",
+        "file": "masks/rug.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              252,
+              377
+            ],
+            [
+              596,
+              380
+            ],
+            [
+              615,
+              817
+            ],
+            [
+              246,
+              819
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 0,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 25974,
+        "bbox_xywh_px": [
+          246,
+          377,
+          297,
+          440
+        ]
+      },
+      {
+        "instance_id": "REF-L05-R01-wardrobe",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "转角衣帽柜及床后台面",
+        "category": "wardrobe",
+        "appearance": {
+          "display_color": "#b49a71",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "组合柜分段仅用于草模，柜内布局与真实深度未知。"
+        },
+        "label_value": 2,
+        "color": "#7e9d72",
+        "file": "masks/wardrobe.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              205,
+              36
+            ],
+            [
+              611,
+              37
+            ],
+            [
+              617,
+              327
+            ],
+            [
+              574,
+              351
+            ],
+            [
+              407,
+              349
+            ],
+            [
+              407,
+              265
+            ],
+            [
+              506,
+              264
+            ],
+            [
+              506,
+              171
+            ],
+            [
+              208,
+              171
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 1,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 81534,
+        "bbox_xywh_px": [
+          205,
+          36,
+          412,
+          311
+        ]
+      },
+      {
+        "instance_id": "REF-L05-R01-bed",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "浅木色低矮双人床",
+        "category": "bed",
+        "appearance": {
+          "display_color": "#d2c2a0",
+          "materials_appearance": [
+            "浅木色框架外观",
+            "米白织物",
+            "陶土色盖毯"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "label_value": 3,
+        "color": "#a37957",
+        "file": "masks/bed.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              313,
+              348
+            ],
+            [
+              592,
+              345
+            ],
+            [
+              610,
+              375
+            ],
+            [
+              612,
+              791
+            ],
+            [
+              335,
+              805
+            ],
+            [
+              297,
+              758
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 2,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 133135,
+        "bbox_xywh_px": [
+          297,
+          345,
+          315,
+          460
+        ]
+      },
+      {
+        "instance_id": "REF-L05-R01-desk",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "窗边木书桌",
+        "category": "desk",
+        "appearance": {
+          "display_color": "#b89c6c",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "label_value": 4,
+        "color": "#728fac",
+        "file": "masks/desk.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              95,
+              573
+            ],
+            [
+              184,
+              580
+            ],
+            [
+              181,
+              809
+            ],
+            [
+              95,
+              810
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 3,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 17900,
+        "bbox_xywh_px": [
+          95,
+          573,
+          89,
+          237
+        ]
+      },
+      {
+        "instance_id": "REF-L05-R01-chair",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "编织坐面木椅",
+        "category": "chair",
+        "appearance": {
+          "display_color": "#a48a56",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "label_value": 5,
+        "color": "#b6a570",
+        "file": "masks/chair.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              185,
+              627
+            ],
+            [
+              242,
+              636
+            ],
+            [
+              243,
+              729
+            ],
+            [
+              187,
+              742
+            ],
+            [
+              169,
+              699
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 4,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 6875,
+        "bbox_xywh_px": [
+          169,
+          627,
+          74,
+          115
+        ]
+      },
+      {
+        "instance_id": "REF-L05-R01-curtain",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "自然色窗帘或卷帘",
+        "category": "curtain",
+        "appearance": {
+          "display_color": "#c5b58e",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "下侧可见织物窗饰；具体开合机构无法从单图确定。"
+        },
+        "label_value": 6,
+        "color": "#9d7f98",
+        "file": "masks/curtain.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              126,
+              808
+            ],
+            [
+              534,
+              807
+            ],
+            [
+              538,
+              895
+            ],
+            [
+              124,
+              896
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 5,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 36156,
+        "bbox_xywh_px": [
+          124,
+          807,
+          414,
+          89
+        ]
+      },
+      {
+        "instance_id": "REF-L05-R01-vase",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "粗陶外观花瓶与干枝",
+        "category": "vase",
+        "appearance": {
+          "display_color": "#8f7952",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "medium",
+          "visibility": "visible",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "label_value": 7,
+        "color": "#67988e",
+        "file": "masks/vase.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              103,
+              487
+            ],
+            [
+              165,
+              493
+            ],
+            [
+              172,
+              552
+            ],
+            [
+              154,
+              565
+            ],
+            [
+              162,
+              604
+            ],
+            [
+              128,
+              624
+            ],
+            [
+              110,
+              600
+            ],
+            [
+              119,
+              558
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 6,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 6386,
+        "bbox_xywh_px": [
+          103,
+          487,
+          69,
+          137
+        ]
+      },
+      {
+        "instance_id": "REF-L05-R01-plant",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "床尾绿植（局部）",
+        "category": "plant",
+        "appearance": {
+          "display_color": "#627044",
+          "materials_appearance": [
+            "依可见外观记录，具体材料未鉴定"
+          ],
+          "material_identity_verified": false
+        },
+        "evidence": {
+          "source": "actual_core_crop",
+          "classification": "agent_visual_observation",
+          "confidence": "low",
+          "visibility": "partial",
+          "notes": "类别及外观为目视判读；遮挡面未知。"
+        },
+        "label_value": 8,
+        "color": "#af875d",
+        "file": "masks/plant.png",
+        "attributes_file": "masks-attributes.json",
+        "polygon_source": "manual_coarse_outline",
+        "polygons_px": [
+          [
+            [
+              549,
+              734
+            ],
+            [
+              605,
+              726
+            ],
+            [
+              635,
+              791
+            ],
+            [
+              620,
+              858
+            ],
+            [
+              560,
+              855
+            ],
+            [
+              532,
+              793
+            ]
+          ]
+        ],
+        "precision": "coarse_not_pixel_accurate",
+        "occlusion_order": 7,
+        "unknown_hidden_surface": true,
+        "visible_area_px": 10211,
+        "bbox_xywh_px": [
+          532,
+          726,
+          103,
+          132
+        ]
+      }
+    ]
+  },
+  "models": {
+    "schema": "jyxj.reference-seven-types.v1",
+    "case_id": "REF-L05",
+    "room_id": "REF-L05-R01",
+    "title": "收纳有序",
+    "source": {
+      "reference_id": "L05",
+      "file": "/assets/inspiration/L05.png",
+      "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "width_px": 680,
+      "height_px": 948,
+      "image_kind": "image_gen_concept_image",
+      "crop_rectangle_in_main_board_xywh": [
+        296,
+        24,
+        680,
+        948
+      ]
+    },
+    "method": "agent_visual_annotation_with_programmatic_structuring",
+    "review_status": "draft_for_human_review",
+    "observations": [
+      "床在右下方纵放，床头后留有走道与转角储物柜。",
+      "左下临窗位置是木桌和编织坐面椅。",
+      "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+    ],
+    "boundaries": [
+      "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+      "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+      "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+      "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+    ],
+    "type": 5,
+    "name": "3D代理模型",
+    "combined_scene_file": "room-proxy.glb",
+    "representation": "procedural_proxy_not_reconstruction",
+    "scale_note": "归一化房间宽度为1。GLB用于拓扑/组团示意；数值不得解释为实测米制尺寸。",
+    "scene_stats": {
+      "mesh_count": 51,
+      "node_count": 51,
+      "byte_length": 125996
+    },
+    "instances": [
+      {
+        "instance_id": "REF-L05-R01-rug",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "自然色编织外观地毯",
+        "file": "models/rug.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.36,
+            0.42,
+            0.97,
+            0.96
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.004,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 1,
+        "node_count": 1,
+        "byte_length": 2136
+      },
+      {
+        "instance_id": "REF-L05-R01-wardrobe",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "转角衣帽柜及床后台面",
+        "file": "models/wardrobe.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.23,
+            0.02,
+            0.97,
+            0.4
+          ],
+          "parts_uv": [
+            [
+              0.23,
+              0.02,
+              0.97,
+              0.17
+            ],
+            [
+              0.81,
+              0.17,
+              0.97,
+              0.34
+            ],
+            [
+              0.61,
+              0.34,
+              0.97,
+              0.4
+            ]
+          ],
+          "part_heights_units": [
+            0.66,
+            0.66,
+            0.22
+          ],
+          "height_units": 0.66,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 3,
+        "node_count": 3,
+        "byte_length": 5704
+      },
+      {
+        "instance_id": "REF-L05-R01-bed",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "浅木色低矮双人床",
+        "file": "models/bed.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.48,
+            0.43,
+            0.96,
+            0.94
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.23,
+          "base_y_units": 0,
+          "head_direction": "north",
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 6,
+        "node_count": 6,
+        "byte_length": 10792
+      },
+      {
+        "instance_id": "REF-L05-R01-desk",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "窗边木书桌",
+        "file": "models/desk.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.08,
+            0.72,
+            0.27,
+            0.94
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.25,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 5,
+        "node_count": 5,
+        "byte_length": 9152
+      },
+      {
+        "instance_id": "REF-L05-R01-chair",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "编织坐面木椅",
+        "file": "models/chair.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.27,
+            0.76,
+            0.41,
+            0.91
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.29,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 6,
+        "node_count": 6,
+        "byte_length": 10988
+      },
+      {
+        "instance_id": "REF-L05-R01-curtain",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "自然色窗帘或卷帘",
+        "file": "models/curtain.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.14,
+            0.97,
+            0.87,
+            1
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.64,
+          "base_y_units": 0.05,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 10,
+        "node_count": 10,
+        "byte_length": 17884
+      },
+      {
+        "instance_id": "REF-L05-R01-vase",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "粗陶外观花瓶与干枝",
+        "file": "models/vase.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.1,
+            0.74,
+            0.2,
+            0.82
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.13,
+          "base_y_units": 0.25,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 8,
+        "node_count": 8,
+        "byte_length": 32560
+      },
+      {
+        "instance_id": "REF-L05-R01-plant",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "label": "床尾绿植（局部）",
+        "file": "models/plant.glb",
+        "representation": "procedural_proxy_not_reconstruction",
+        "physical_scale_known": false,
+        "proxy": {
+          "status": "uncalibrated_geometry_hypothesis",
+          "units": "normalized_room_width",
+          "footprint_uv": [
+            0.87,
+            0.88,
+            0.97,
+            0.98
+          ],
+          "parts_uv": null,
+          "part_heights_units": null,
+          "height_units": 0.18,
+          "base_y_units": 0,
+          "head_direction": null,
+          "physical_scale_known": false,
+          "confidence": "low"
+        },
+        "mesh_count": 8,
+        "node_count": 8,
+        "byte_length": 32592
+      }
+    ]
+  },
+  "room_properties": {
+    "schema": "jyxj.reference-seven-types.v1",
+    "case_id": "REF-L05",
+    "room_id": "REF-L05-R01",
+    "title": "收纳有序",
+    "source": {
+      "reference_id": "L05",
+      "file": "/assets/inspiration/L05.png",
+      "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "width_px": 680,
+      "height_px": 948,
+      "image_kind": "image_gen_concept_image",
+      "crop_rectangle_in_main_board_xywh": [
+        296,
+        24,
+        680,
+        948
+      ]
+    },
+    "method": "agent_visual_annotation_with_programmatic_structuring",
+    "review_status": "draft_for_human_review",
+    "observations": [
+      "床在右下方纵放，床头后留有走道与转角储物柜。",
+      "左下临窗位置是木桌和编织坐面椅。",
+      "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+    ],
+    "boundaries": [
+      "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+      "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+      "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+      "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+    ],
+    "type": 6,
+    "name": "房间属性",
+    "room_use": {
+      "value": "bedroom",
+      "evidence": "inferred_from_visible_bed",
+      "confidence": "high"
+    },
+    "room_count_visible": 1,
+    "dimensions_m": {
+      "width": null,
+      "depth": null,
+      "height": null
+    },
+    "area_m2": null,
+    "metric_status": "unknown_without_calibration",
+    "proxy_envelope_uv": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "proxy_envelope_status": "rectangular_working_hypothesis_entry_recess_unresolved",
+    "openings": [
+      {
+        "id": "REF-L05-R01-door-01",
+        "kind": "door",
+        "wall": "left",
+        "range_uv": [
+          0.06,
+          0.23
+        ],
+        "evidence": "visible",
+        "dimensions_m": null
+      },
+      {
+        "id": "REF-L05-R01-window-01",
+        "kind": "window",
+        "wall": "front",
+        "range_uv": [
+          0.16,
+          0.86
+        ],
+        "evidence": "visible",
+        "dimensions_m": null
+      }
+    ],
+    "unobserved_openings": [],
+    "ceiling_visible": false,
+    "unknowns": [
+      "实际长宽高与面积",
+      "真实指南针方向",
+      "柜内结构和被遮挡表面",
+      "材料品种、品牌与型号"
+    ],
+    "proxy_scale": {
+      "units": "normalized_room_width",
+      "extent": [
+        1,
+        0.7,
+        1
+      ],
+      "physical_scale_known": false
+    },
+    "dimensions_note": "不复用旧L02估算房间的3600×3800mm，避免将另一个来源的假设误作本图量测。"
+  },
+  "finish_materials": {
+    "schema": "jyxj.reference-seven-types.v1",
+    "case_id": "REF-L05",
+    "room_id": "REF-L05-R01",
+    "title": "收纳有序",
+    "source": {
+      "reference_id": "L05",
+      "file": "/assets/inspiration/L05.png",
+      "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "width_px": 680,
+      "height_px": 948,
+      "image_kind": "image_gen_concept_image",
+      "crop_rectangle_in_main_board_xywh": [
+        296,
+        24,
+        680,
+        948
+      ]
+    },
+    "method": "agent_visual_annotation_with_programmatic_structuring",
+    "review_status": "draft_for_human_review",
+    "observations": [
+      "床在右下方纵放，床头后留有走道与转角储物柜。",
+      "左下临窗位置是木桌和编织坐面椅。",
+      "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+    ],
+    "boundaries": [
+      "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+      "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+      "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+      "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+    ],
+    "type": 7,
+    "name": "饰面材质",
+    "surfaces": [
+      {
+        "surface": "wall",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "visibility": "visible",
+        "appearance": "暖白粗肌理墙面",
+        "material_candidates": [
+          "肌理涂料或其他粗糙饰面"
+        ],
+        "material_identity_verified": false,
+        "confidence": "low",
+        "color_sample": {
+          "xy_px": [
+            115,
+            370
+          ],
+          "rgb": [
+            99,
+            72,
+            46
+          ],
+          "hex": "#63482e",
+          "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+        }
+      },
+      {
+        "surface": "floor",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "visibility": "visible",
+        "appearance": "浅暖木纹条板",
+        "material_candidates": [
+          "木地板或仿木材料"
+        ],
+        "material_identity_verified": false,
+        "confidence": "low",
+        "color_sample": {
+          "xy_px": [
+            290,
+            260
+          ],
+          "rgb": [
+            172,
+            145,
+            117
+          ],
+          "hex": "#ac9175",
+          "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+        }
+      },
+      {
+        "surface": "ceiling",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "visibility": "not_visible_or_not_identifiable",
+        "appearance": null,
+        "material_candidates": [],
+        "material_identity_verified": false,
+        "color_sample": null
+      },
+      {
+        "surface": "accent",
+        "case_id": "REF-L05",
+        "room_id": "REF-L05-R01",
+        "visibility": "visible",
+        "appearance": "浅木色储物饰面",
+        "material_candidates": [
+          "木饰面板"
+        ],
+        "material_identity_verified": false,
+        "confidence": "low",
+        "color_sample": {
+          "xy_px": [
+            389,
+            83
+          ],
+          "rgb": [
+            146,
+            110,
+            72
+          ],
+          "hex": "#926e48",
+          "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+        }
+      }
+    ],
+    "note": "具体木种、石种、皮革真伪和涂料品种不能由图像确认；颜色样本含光照与阴影。"
+  }
+}

@@ -1,0 +1,18 @@
+家有新解 — third-party and provenance notes
+
+Three.js v0.180.0: MIT license, Copyright © 2010-2025 three.js authors.
+The full license is retained at vendor/three/LICENSE in the demo export.
+Blender, Python libraries and the official Aholo SDK retain their respective licenses.
+See uv.lock and package-lock.json for exact dependency versions.
+
+Development provenance:
+Early scan-reconstruction experiments used LiteReality-Agent (Apache-2.0).
+The independent project migrates task-specific room-transfer scripts developed during
+that exploration, and replaces its settings, registry and imported inspection helpers.
+No LiteReality-Agent Python module is imported by the independent runtime.
+This statement does not assert that all algorithms or design ideas are novel.
+Historical scripts are retained privately in audit/ as provenance, not as runtime code.
+
+Images, floorplans and product evidence retain their original source records.
+Public presentation rights for source images remain to be confirmed.
+Lux3D outputs and generated image assets are subject to their providers' terms.

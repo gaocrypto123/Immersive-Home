@@ -1,0 +1,373 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L03",
+  "room_id": "REF-L03-R01",
+  "title": "临窗安眠",
+  "source": {
+    "reference_id": "L03",
+    "file": "/assets/inspiration/L03.png",
+    "sha256": "F8593B03504234FD788BE26CB9005601C58F19C1BE0CA1A0F088CFEA8C5CF024",
+    "width_px": 652,
+    "height_px": 917,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      260,
+      142,
+      652,
+      917
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "横床位于近窗处，床头朝画面右侧。",
+    "后墙为白色无明显拉手柜体，书桌在右墙上段。",
+    "此裁剪图未见原提示词提及的黑白挂画，清单不补造该物件。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 2,
+  "name": "3D关系图",
+  "coordinate_system": {
+    "x": "画面布局向右",
+    "y": "垂直向上",
+    "z": "布局向画面前方",
+    "units": "normalized_room_width",
+    "calibrated": false,
+    "room_extent_units": [
+      1,
+      0.7,
+      1
+    ],
+    "note": "平面UV及高度为独立草模假设，不由图像像素比例直接换算。"
+  },
+  "nodes": [
+    {
+      "id": "REF-L03-R01",
+      "type": "room",
+      "position": [
+        0.5,
+        0.35,
+        0.5
+      ]
+    },
+    {
+      "id": "REF-L03-R01-rug",
+      "type": "rug",
+      "position": [
+        0.585,
+        0.002,
+        0.72
+      ],
+      "footprint_uv": [
+        0.2,
+        0.48,
+        0.97,
+        0.96
+      ],
+      "model_file": "models/rug.glb",
+      "mask_file": "masks/rug.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-wardrobe",
+      "type": "wardrobe",
+      "position": [
+        0.595,
+        0.33,
+        0.105
+      ],
+      "footprint_uv": [
+        0.23,
+        0.02,
+        0.96,
+        0.19
+      ],
+      "model_file": "models/wardrobe.glb",
+      "mask_file": "masks/wardrobe.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-bed",
+      "type": "bed",
+      "position": [
+        0.615,
+        0.115,
+        0.725
+      ],
+      "footprint_uv": [
+        0.25,
+        0.55,
+        0.98,
+        0.9
+      ],
+      "model_file": "models/bed.glb",
+      "mask_file": "masks/bed.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-desk",
+      "type": "desk",
+      "position": [
+        0.905,
+        0.125,
+        0.365
+      ],
+      "footprint_uv": [
+        0.83,
+        0.24,
+        0.98,
+        0.49
+      ],
+      "model_file": "models/desk.glb",
+      "mask_file": "masks/desk.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-chair",
+      "type": "chair",
+      "position": [
+        0.74,
+        0.145,
+        0.38
+      ],
+      "footprint_uv": [
+        0.66,
+        0.31,
+        0.82,
+        0.45
+      ],
+      "model_file": "models/chair.glb",
+      "mask_file": "masks/chair.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-nightstand",
+      "type": "nightstand",
+      "position": [
+        0.89,
+        0.1,
+        0.515
+      ],
+      "footprint_uv": [
+        0.81,
+        0.48,
+        0.97,
+        0.55
+      ],
+      "model_file": "models/nightstand.glb",
+      "mask_file": "masks/nightstand.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-curtain",
+      "type": "curtain",
+      "position": [
+        0.505,
+        0.37,
+        0.985
+      ],
+      "footprint_uv": [
+        0.05,
+        0.97,
+        0.96,
+        1
+      ],
+      "model_file": "models/curtain.glb",
+      "mask_file": "masks/curtain.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-desk-lamp",
+      "type": "table_lamp",
+      "position": [
+        0.925,
+        0.325,
+        0.415
+      ],
+      "footprint_uv": [
+        0.89,
+        0.37,
+        0.96,
+        0.46
+      ],
+      "model_file": "models/desk-lamp.glb",
+      "mask_file": "masks/desk-lamp.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-wall-light",
+      "type": "wall_lamp",
+      "position": [
+        0.99,
+        0.325,
+        0.705
+      ],
+      "footprint_uv": [
+        0.98,
+        0.61,
+        1,
+        0.8
+      ],
+      "model_file": "models/wall-light.glb",
+      "mask_file": "masks/wall-light.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-plant-desk",
+      "type": "plant",
+      "position": [
+        0.88,
+        0.34,
+        0.28
+      ],
+      "footprint_uv": [
+        0.85,
+        0.25,
+        0.91,
+        0.31
+      ],
+      "model_file": "models/plant-desk.glb",
+      "mask_file": "masks/plant-desk.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L03-R01-plant-nightstand",
+      "type": "plant",
+      "position": [
+        0.895,
+        0.29,
+        0.51
+      ],
+      "footprint_uv": [
+        0.87,
+        0.48,
+        0.92,
+        0.54
+      ],
+      "model_file": "models/plant-nightstand.glb",
+      "mask_file": "masks/plant-nightstand.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-rug",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-rug",
+      "to": "REF-L03-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-wardrobe",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-bed",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-bed",
+      "to": "REF-L03-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-desk",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-desk",
+      "to": "REF-L03-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-chair",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-nightstand",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-nightstand",
+      "to": "REF-L03-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-curtain",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-desk-lamp",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-desk",
+      "to": "REF-L03-R01-desk-lamp",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-wall-light",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-wall-light",
+      "to": "REF-L03-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-plant-desk",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-desk",
+      "to": "REF-L03-R01-plant-desk",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-plant-nightstand",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L03-R01-nightstand",
+      "to": "REF-L03-R01-plant-nightstand",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    }
+  ]
+}

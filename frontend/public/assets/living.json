@@ -1,0 +1,1424 @@
+[
+  {
+    "id": "P04-R01",
+    "name": "横向客餐厅",
+    "image": "/assets/P04-R01/overview.png",
+    "plan": "/assets/P04-R01/plan.svg",
+    "model": "/assets/P04-R01/Room.glb",
+    "settings": {
+      "cutaway_walls": [
+        "W08",
+        "W11",
+        "W07",
+        "W05",
+        "W12",
+        "W06"
+      ],
+      "views": {
+        "whole": {
+          "position": [
+            12,
+            11,
+            -13
+          ],
+          "target": [
+            3.8,
+            0.5,
+            -3.9
+          ],
+          "fov": 42,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "walls": false,
+          "roof": false
+        },
+        "living": {
+          "position": [
+            4.8,
+            2.45,
+            -3.95
+          ],
+          "target": [
+            2.25,
+            0.65,
+            -2.7
+          ],
+          "fov": 65,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "walls": true,
+          "roof": false
+        },
+        "top": {
+          "position": [
+            4.2,
+            16,
+            -4.4
+          ],
+          "target": [
+            4.2,
+            0,
+            -4.4
+          ],
+          "fov": 43,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "walls": false,
+          "roof": false
+        }
+      }
+    },
+    "total": 5164.96,
+    "items": [
+      {
+        "id": "cabinet_1",
+        "label": "EKET 落地柜 1",
+        "size": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "price": "¥450",
+        "allocation": 450,
+        "notes": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+        "products": [
+          {
+            "sku": "80574589",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+          },
+          {
+            "sku": "50574661",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+          }
+        ]
+      },
+      {
+        "id": "cabinet_2",
+        "label": "EKET 落地柜 2",
+        "size": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "price": "¥450",
+        "allocation": 450,
+        "notes": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+        "products": [
+          {
+            "sku": "80574589",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+          },
+          {
+            "sku": "50574661",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+          }
+        ]
+      },
+      {
+        "id": "cabinet_3",
+        "label": "EKET 落地柜 3",
+        "size": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "price": "¥450",
+        "allocation": 450,
+        "notes": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+        "products": [
+          {
+            "sku": "80574589",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+          },
+          {
+            "sku": "50574661",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_1",
+        "label": "EKET 壁挂格柜 1",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_2",
+        "label": "EKET 壁挂格柜 2",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_3",
+        "label": "EKET 壁挂格柜 3",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_4",
+        "label": "EKET 壁挂格柜 4",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "sofa",
+        "label": "SKÖNABÄCK 双人沙发",
+        "size": [
+          1.58,
+          0.75,
+          0.74
+        ],
+        "price": "¥1499",
+        "allocation": 1499,
+        "notes": "",
+        "products": [
+          {
+            "sku": "20582549",
+            "name": "SKÖNABÄCK 霍纳贝",
+            "source_url": "https://www.ikea.cn/cn/zh/p/skoenabaeck-huo-na-bei-shuang-ren-sha-fa-chuang-wei-suo-er-huang-lu-se-20582549/"
+          }
+        ]
+      },
+      {
+        "id": "table_walnut",
+        "label": "SONHULT 方形茶几",
+        "size": [
+          0.55,
+          0.55,
+          0.45
+        ],
+        "price": "¥399 / 两桌共一套",
+        "allocation": 199.5,
+        "notes": "同一套装生成两个独立实例；购买价只计一次。",
+        "products": [
+          {
+            "sku": "50584293",
+            "name": "SONHULT 桑胡特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen-50584293/"
+          }
+        ]
+      },
+      {
+        "id": "table_gray",
+        "label": "SONHULT 长方茶几",
+        "size": [
+          0.7,
+          0.4,
+          0.38
+        ],
+        "price": "¥399 / 两桌共一套",
+        "allocation": 199.5,
+        "notes": "同一套装生成两个独立实例；购买价只计一次。",
+        "products": [
+          {
+            "sku": "50584293",
+            "name": "SONHULT 桑胡特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen-50584293/"
+          }
+        ]
+      },
+      {
+        "id": "chair",
+        "label": "FRÖSET 休闲椅",
+        "size": [
+          0.59,
+          0.57,
+          0.74
+        ],
+        "price": "¥599",
+        "allocation": 599,
+        "notes": "",
+        "products": [
+          {
+            "sku": "60425642",
+            "name": "FRÖSET 富罗瑟",
+            "source_url": "https://www.ikea.cn/cn/zh/p/froeset-fu-luo-se-xiu-xian-yi-hei-qi-xiang-mu-tie-mian-60425642/"
+          }
+        ]
+      },
+      {
+        "id": "rug",
+        "label": "TIPHEDE 平织地毯",
+        "size": [
+          2.2,
+          1.55,
+          0.002
+        ],
+        "price": "¥149",
+        "allocation": 149,
+        "notes": "案例系列对应地毯，程序几何与近似织物材质。防滑垫另购，未列入本演示价格。",
+        "products": [
+          {
+            "sku": "60470045",
+            "name": "TIPHEDE 提普赫德",
+            "source_url": "https://www.ikea.cn/cn/zh/p/tiphede-ti-pu-he-de-ping-zhi-di-tan-hei-se-zi-ran-se-60470045/"
+          }
+        ]
+      },
+      {
+        "id": "dining_table",
+        "label": "SANDSBERG 餐桌 table",
+        "size": [
+          1.1,
+          0.67,
+          0.75
+        ],
+        "price": "¥249.00",
+        "allocation": 249,
+        "notes": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。",
+        "products": [
+          {
+            "sku": "s09420394",
+            "name": "SANDSBERG 餐桌",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-table-black-s09420394/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_1",
+        "label": "SANDSBERG 餐椅 1",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_2",
+        "label": "SANDSBERG 餐椅 2",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_3",
+        "label": "SANDSBERG 餐椅 3",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_4",
+        "label": "SANDSBERG 餐椅 4",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "id": "cabinet_1",
+        "asset": "cabinet",
+        "center_xy_m": [
+          1.1,
+          2.13
+        ],
+        "size_m": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 0,
+        "purchase_group": "R01-G04",
+        "front_axis_after_import": "negative_Y_before_yaw",
+        "functional_group": "living"
+      },
+      {
+        "id": "cabinet_2",
+        "asset": "cabinet",
+        "center_xy_m": [
+          1.46,
+          2.13
+        ],
+        "size_m": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 0,
+        "purchase_group": "R01-G04",
+        "front_axis_after_import": "negative_Y_before_yaw",
+        "functional_group": "living"
+      },
+      {
+        "id": "cabinet_3",
+        "asset": "cabinet",
+        "center_xy_m": [
+          1.82,
+          2.13
+        ],
+        "size_m": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 0,
+        "purchase_group": "R01-G04",
+        "front_axis_after_import": "negative_Y_before_yaw",
+        "functional_group": "living"
+      },
+      {
+        "id": "wallcube_1",
+        "asset": "wallcube",
+        "center_xy_m": [
+          0.92,
+          2.06
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 1.65,
+        "purchase_group": "R01-G05",
+        "front_axis_after_import": "negative_Y_before_yaw",
+        "functional_group": "living"
+      },
+      {
+        "id": "wallcube_2",
+        "asset": "wallcube",
+        "center_xy_m": [
+          1.28,
+          2.06
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 1.65,
+        "purchase_group": "R01-G05",
+        "front_axis_after_import": "negative_Y_before_yaw",
+        "functional_group": "living"
+      },
+      {
+        "id": "wallcube_3",
+        "asset": "wallcube",
+        "center_xy_m": [
+          1.6400000000000001,
+          2.06
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 1.65,
+        "purchase_group": "R01-G05",
+        "front_axis_after_import": "negative_Y_before_yaw",
+        "functional_group": "living"
+      },
+      {
+        "id": "wallcube_4",
+        "asset": "wallcube",
+        "center_xy_m": [
+          2,
+          2.06
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 1.65,
+        "purchase_group": "R01-G05",
+        "front_axis_after_import": "negative_Y_before_yaw",
+        "functional_group": "living"
+      },
+      {
+        "id": "sofa",
+        "asset": "sofa",
+        "center_xy_m": [
+          0.5,
+          3.3
+        ],
+        "size_m": [
+          1.58,
+          0.75,
+          0.74
+        ],
+        "yaw_degrees": 90,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "table_walnut",
+        "asset": "table_walnut",
+        "center_xy_m": [
+          1.5,
+          3.5
+        ],
+        "size_m": [
+          0.55,
+          0.55,
+          0.45
+        ],
+        "yaw_degrees": 0,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "table_gray",
+        "asset": "table_gray",
+        "center_xy_m": [
+          1.65,
+          2.98
+        ],
+        "size_m": [
+          0.7,
+          0.4,
+          0.38
+        ],
+        "yaw_degrees": 0,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "chair",
+        "asset": "chair",
+        "center_xy_m": [
+          2.3,
+          3.65
+        ],
+        "size_m": [
+          0.59,
+          0.57,
+          0.74
+        ],
+        "yaw_degrees": -75,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_table",
+        "asset": "dining_table",
+        "center_xy_m": [
+          4.1,
+          2.55
+        ],
+        "size_m": [
+          1.1,
+          0.67,
+          0.75
+        ],
+        "yaw_degrees": 0,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_1",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          3.8249999999999997,
+          1.9099999999999997
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_2",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          4.375,
+          1.9099999999999997
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 180,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_3",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          3.8249999999999997,
+          3.19
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 0,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_4",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          4.375,
+          3.19
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 0,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      }
+    ]
+  },
+  {
+    "id": "P03-R01",
+    "name": "纵向客餐厅",
+    "image": "/assets/P03-R01/overview.png",
+    "plan": "/assets/P03-R01/plan.svg",
+    "model": "/assets/P03-R01/Room.glb",
+    "settings": {
+      "cutaway_walls": [
+        "W0",
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7"
+      ],
+      "views": {
+        "whole": {
+          "position": [
+            10.6104,
+            9,
+            5
+          ],
+          "target": [
+            2.8052,
+            0.3,
+            -3.431603883495146
+          ],
+          "fov": 42,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "walls": false,
+          "roof": false
+        },
+        "living": {
+          "position": [
+            1.4279523872436986,
+            2.35,
+            -0.4703354342773296
+          ],
+          "target": [
+            2.075,
+            0.65,
+            -2.8851500000000003
+          ],
+          "fov": 65,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "walls": true,
+          "roof": false
+        },
+        "top": {
+          "position": [
+            2.8052,
+            12.353773980582526,
+            -3.431603883495146
+          ],
+          "target": [
+            2.8052,
+            0,
+            -3.431603883495146
+          ],
+          "fov": 43,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "walls": false,
+          "roof": false
+        }
+      }
+    },
+    "total": 5164.96,
+    "items": [
+      {
+        "id": "cabinet_1",
+        "label": "EKET 落地柜 1",
+        "size": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "price": "¥450",
+        "allocation": 450,
+        "notes": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+        "products": [
+          {
+            "sku": "80574589",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+          },
+          {
+            "sku": "50574661",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+          }
+        ]
+      },
+      {
+        "id": "cabinet_2",
+        "label": "EKET 落地柜 2",
+        "size": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "price": "¥450",
+        "allocation": 450,
+        "notes": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+        "products": [
+          {
+            "sku": "80574589",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+          },
+          {
+            "sku": "50574661",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+          }
+        ]
+      },
+      {
+        "id": "cabinet_3",
+        "label": "EKET 落地柜 3",
+        "size": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "price": "¥450",
+        "allocation": 450,
+        "notes": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+        "products": [
+          {
+            "sku": "80574589",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+          },
+          {
+            "sku": "50574661",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_1",
+        "label": "EKET 壁挂格柜 1",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_2",
+        "label": "EKET 壁挂格柜 2",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_3",
+        "label": "EKET 壁挂格柜 3",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "wallcube_4",
+        "label": "EKET 壁挂格柜 4",
+        "size": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "price": "¥170",
+        "allocation": 170,
+        "notes": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+        "products": [
+          {
+            "sku": "s29490277",
+            "name": "EKET 伊克特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+          }
+        ]
+      },
+      {
+        "id": "sofa",
+        "label": "SKÖNABÄCK 双人沙发",
+        "size": [
+          1.58,
+          0.75,
+          0.74
+        ],
+        "price": "¥1499",
+        "allocation": 1499,
+        "notes": "",
+        "products": [
+          {
+            "sku": "20582549",
+            "name": "SKÖNABÄCK 霍纳贝",
+            "source_url": "https://www.ikea.cn/cn/zh/p/skoenabaeck-huo-na-bei-shuang-ren-sha-fa-chuang-wei-suo-er-huang-lu-se-20582549/"
+          }
+        ]
+      },
+      {
+        "id": "table_walnut",
+        "label": "SONHULT 方形茶几",
+        "size": [
+          0.55,
+          0.55,
+          0.45
+        ],
+        "price": "¥399 / 两桌共一套",
+        "allocation": 199.5,
+        "notes": "同一套装生成两个独立实例；购买价只计一次。",
+        "products": [
+          {
+            "sku": "50584293",
+            "name": "SONHULT 桑胡特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen-50584293/"
+          }
+        ]
+      },
+      {
+        "id": "table_gray",
+        "label": "SONHULT 长方茶几",
+        "size": [
+          0.7,
+          0.4,
+          0.38
+        ],
+        "price": "¥399 / 两桌共一套",
+        "allocation": 199.5,
+        "notes": "同一套装生成两个独立实例；购买价只计一次。",
+        "products": [
+          {
+            "sku": "50584293",
+            "name": "SONHULT 桑胡特",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen-50584293/"
+          }
+        ]
+      },
+      {
+        "id": "chair",
+        "label": "FRÖSET 休闲椅",
+        "size": [
+          0.59,
+          0.57,
+          0.74
+        ],
+        "price": "¥599",
+        "allocation": 599,
+        "notes": "",
+        "products": [
+          {
+            "sku": "60425642",
+            "name": "FRÖSET 富罗瑟",
+            "source_url": "https://www.ikea.cn/cn/zh/p/froeset-fu-luo-se-xiu-xian-yi-hei-qi-xiang-mu-tie-mian-60425642/"
+          }
+        ]
+      },
+      {
+        "id": "rug",
+        "label": "TIPHEDE 平织地毯",
+        "size": [
+          2.2,
+          1.55,
+          0.002
+        ],
+        "price": "¥149",
+        "allocation": 149,
+        "notes": "案例系列对应地毯，程序几何与近似织物材质。防滑垫另购，未列入本演示价格。",
+        "products": [
+          {
+            "sku": "60470045",
+            "name": "TIPHEDE 提普赫德",
+            "source_url": "https://www.ikea.cn/cn/zh/p/tiphede-ti-pu-he-de-ping-zhi-di-tan-hei-se-zi-ran-se-60470045/"
+          }
+        ]
+      },
+      {
+        "id": "dining_table",
+        "label": "SANDSBERG 餐桌",
+        "size": [
+          1.1,
+          0.67,
+          0.75
+        ],
+        "price": "¥249.00",
+        "allocation": 249,
+        "notes": "补配餐厅商品；官方单品图经 Lux3D 生成近似网格。",
+        "products": [
+          {
+            "sku": "s09420394",
+            "name": "SANDSBERG 餐桌",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-table-black-s09420394/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_1",
+        "label": "SANDSBERG 餐椅",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "补配餐厅商品；官方单品图经 Lux3D 生成近似网格。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_2",
+        "label": "SANDSBERG 餐椅",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "补配餐厅商品；官方单品图经 Lux3D 生成近似网格。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_3",
+        "label": "SANDSBERG 餐椅",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "补配餐厅商品；官方单品图经 Lux3D 生成近似网格。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      },
+      {
+        "id": "dining_chair_4",
+        "label": "SANDSBERG 餐椅",
+        "size": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "price": "¥59.99",
+        "allocation": 59.99,
+        "notes": "补配餐厅商品；官方单品图经 Lux3D 生成近似网格。",
+        "products": [
+          {
+            "sku": "80605430",
+            "name": "SANDSBERG 餐椅",
+            "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "id": "sofa",
+        "asset": "sofa",
+        "center_xy_m": [
+          2.2,
+          2.325
+        ],
+        "size_m": [
+          1.58,
+          0.75,
+          0.74
+        ],
+        "yaw_degrees": 360,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "table_walnut",
+        "asset": "table_walnut",
+        "center_xy_m": [
+          2.45,
+          1.35
+        ],
+        "size_m": [
+          0.55,
+          0.55,
+          0.45
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "table_gray",
+        "asset": "table_gray",
+        "center_xy_m": [
+          1.78,
+          1.3
+        ],
+        "size_m": [
+          0.7,
+          0.4,
+          0.38
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "chair",
+        "asset": "chair",
+        "center_xy_m": [
+          2.55,
+          0.58
+        ],
+        "size_m": [
+          0.59,
+          0.57,
+          0.74
+        ],
+        "yaw_degrees": 195,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "cabinet_1",
+        "asset": "cabinet",
+        "center_xy_m": [
+          3.671,
+          0.4501
+        ],
+        "size_m": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "cabinet_2",
+        "asset": "cabinet",
+        "center_xy_m": [
+          3.671,
+          0.8101
+        ],
+        "size_m": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "cabinet_3",
+        "asset": "cabinet",
+        "center_xy_m": [
+          3.671,
+          1.1701
+        ],
+        "size_m": [
+          0.35,
+          0.35,
+          0.8
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "wallcube_1",
+        "asset": "wallcube",
+        "center_xy_m": [
+          3.721,
+          0.2701
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 1.65,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "wallcube_2",
+        "asset": "wallcube",
+        "center_xy_m": [
+          3.721,
+          0.6301
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 1.65,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "wallcube_3",
+        "asset": "wallcube",
+        "center_xy_m": [
+          3.721,
+          0.9901
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 1.65,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "wallcube_4",
+        "asset": "wallcube",
+        "center_xy_m": [
+          3.721,
+          1.3501
+        ],
+        "size_m": [
+          0.35,
+          0.25,
+          0.35
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 1.65,
+        "functional_group": "living",
+        "purchase_group": "R01",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_table",
+        "asset": "dining_table",
+        "center_xy_m": [
+          1.95,
+          3.4453
+        ],
+        "size_m": [
+          1.1,
+          0.67,
+          0.75
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_1",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          1.31,
+          3.7203
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 450,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_2",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          1.31,
+          3.1703
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 450,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_3",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          2.59,
+          3.7203
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      },
+      {
+        "id": "dining_chair_4",
+        "asset": "dining_chair",
+        "center_xy_m": [
+          2.59,
+          3.1703
+        ],
+        "size_m": [
+          0.39,
+          0.47,
+          0.77
+        ],
+        "yaw_degrees": 270,
+        "bottom_z_m": 0,
+        "functional_group": "dining",
+        "purchase_group": "DINING",
+        "front_axis_after_import": "negative_Y_before_yaw"
+      }
+    ]
+  }
+]

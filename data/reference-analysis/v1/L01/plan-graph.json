@@ -1,0 +1,221 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L01",
+  "room_id": "REF-L01-R01",
+  "title": "舒展横床",
+  "source": {
+    "reference_id": "L01",
+    "file": "/assets/inspiration/L01.png",
+    "sha256": "88F61C116869909FA80FE5F20D1F561B7F33F5A3B8F999385A36953D8E6D45E1",
+    "width_px": 759,
+    "height_px": 785,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      188,
+      349,
+      759,
+      785
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床头位于画面右侧，床尾有编织面长凳。",
+    "可见两个床头柜和两盏台灯。",
+    "背墙上部可见木饰面柜门；下方木饰面性质不明确，不能确认L型通顶衣柜。",
+    "门在后侧左部；此裁剪图未见窗户。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 1,
+  "name": "四级空间图",
+  "hierarchy_definition": [
+    "case",
+    "room",
+    "functional_zone",
+    "instance"
+  ],
+  "definition_note": "本项目为本次解析采用的四级定义，非对截图未说明标准的推定。",
+  "nodes": [
+    {
+      "id": "REF-L01",
+      "level": 0,
+      "type": "case",
+      "label": "L01"
+    },
+    {
+      "id": "REF-L01-R01",
+      "level": 1,
+      "type": "room",
+      "label": "卧室"
+    },
+    {
+      "id": "REF-L01-R01-zone-sleep",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "睡眠区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L01-R01-zone-storage",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "收纳区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L01-R01-zone-decor",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "独立陈设",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L01-R01-rug",
+      "level": 3,
+      "type": "instance",
+      "label": "浅米色织物地毯"
+    },
+    {
+      "id": "REF-L01-R01-wall-cabinet",
+      "level": 3,
+      "type": "instance",
+      "label": "上部木饰面壁柜"
+    },
+    {
+      "id": "REF-L01-R01-bed",
+      "level": 3,
+      "type": "instance",
+      "label": "双人床与床品"
+    },
+    {
+      "id": "REF-L01-R01-nightstand-back",
+      "level": 3,
+      "type": "instance",
+      "label": "后侧床头柜"
+    },
+    {
+      "id": "REF-L01-R01-nightstand-front",
+      "level": 3,
+      "type": "instance",
+      "label": "前侧床头柜"
+    },
+    {
+      "id": "REF-L01-R01-bench",
+      "level": 3,
+      "type": "instance",
+      "label": "编织面床尾长凳"
+    },
+    {
+      "id": "REF-L01-R01-wall-art",
+      "level": 3,
+      "type": "instance",
+      "label": "植物主题装饰画"
+    },
+    {
+      "id": "REF-L01-R01-lamp-back",
+      "level": 3,
+      "type": "instance",
+      "label": "后侧台灯"
+    },
+    {
+      "id": "REF-L01-R01-lamp-front",
+      "level": 3,
+      "type": "instance",
+      "label": "前侧台灯"
+    },
+    {
+      "id": "REF-L01-R01-plant-table",
+      "level": 3,
+      "type": "instance",
+      "label": "床头小型绿植"
+    },
+    {
+      "id": "REF-L01-R01-plant-front",
+      "level": 3,
+      "type": "instance",
+      "label": "前景绿植（局部）"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L01",
+      "to": "REF-L01-R01",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-zone-sleep",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-zone-storage",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-zone-decor",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-rug",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-storage",
+      "to": "REF-L01-R01-wall-cabinet",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-bed",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-nightstand-back",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-nightstand-front",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-bench",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-wall-art",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-lamp-back",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-lamp-front",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-sleep",
+      "to": "REF-L01-R01-plant-table",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L01-R01-zone-decor",
+      "to": "REF-L01-R01-plant-front",
+      "relation": "contains"
+    }
+  ]
+}

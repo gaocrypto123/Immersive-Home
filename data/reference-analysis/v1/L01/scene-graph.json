@@ -1,0 +1,356 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L01",
+  "room_id": "REF-L01-R01",
+  "title": "舒展横床",
+  "source": {
+    "reference_id": "L01",
+    "file": "/assets/inspiration/L01.png",
+    "sha256": "88F61C116869909FA80FE5F20D1F561B7F33F5A3B8F999385A36953D8E6D45E1",
+    "width_px": 759,
+    "height_px": 785,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      188,
+      349,
+      759,
+      785
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床头位于画面右侧，床尾有编织面长凳。",
+    "可见两个床头柜和两盏台灯。",
+    "背墙上部可见木饰面柜门；下方木饰面性质不明确，不能确认L型通顶衣柜。",
+    "门在后侧左部；此裁剪图未见窗户。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 2,
+  "name": "3D关系图",
+  "coordinate_system": {
+    "x": "画面布局向右",
+    "y": "垂直向上",
+    "z": "布局向画面前方",
+    "units": "normalized_room_width",
+    "calibrated": false,
+    "room_extent_units": [
+      1,
+      0.7,
+      1
+    ],
+    "note": "平面UV及高度为独立草模假设，不由图像像素比例直接换算。"
+  },
+  "nodes": [
+    {
+      "id": "REF-L01-R01",
+      "type": "room",
+      "position": [
+        0.5,
+        0.35,
+        0.5
+      ]
+    },
+    {
+      "id": "REF-L01-R01-rug",
+      "type": "rug",
+      "position": [
+        0.53,
+        0.002,
+        0.61
+      ],
+      "footprint_uv": [
+        0.18,
+        0.3,
+        0.88,
+        0.92
+      ],
+      "model_file": "models/rug.glb",
+      "mask_file": "masks/rug.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-wall-cabinet",
+      "type": "wall_cabinet",
+      "position": [
+        0.59,
+        0.59,
+        0.085
+      ],
+      "footprint_uv": [
+        0.24,
+        0.01,
+        0.94,
+        0.16
+      ],
+      "model_file": "models/wall-cabinet.glb",
+      "mask_file": "masks/wall-cabinet.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-bed",
+      "type": "bed",
+      "position": [
+        0.625,
+        0.115,
+        0.53
+      ],
+      "footprint_uv": [
+        0.3,
+        0.28,
+        0.95,
+        0.78
+      ],
+      "model_file": "models/bed.glb",
+      "mask_file": "masks/bed.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-nightstand-back",
+      "type": "nightstand",
+      "position": [
+        0.88,
+        0.1,
+        0.22
+      ],
+      "footprint_uv": [
+        0.8,
+        0.16,
+        0.96,
+        0.28
+      ],
+      "model_file": "models/nightstand-back.glb",
+      "mask_file": "masks/nightstand-back.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-nightstand-front",
+      "type": "nightstand",
+      "position": [
+        0.885,
+        0.1,
+        0.875
+      ],
+      "footprint_uv": [
+        0.8,
+        0.79,
+        0.97,
+        0.96
+      ],
+      "model_file": "models/nightstand-front.glb",
+      "mask_file": "masks/nightstand-front.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-bench",
+      "type": "bench",
+      "position": [
+        0.22,
+        0.08,
+        0.545
+      ],
+      "footprint_uv": [
+        0.15,
+        0.32,
+        0.29,
+        0.77
+      ],
+      "model_file": "models/bench.glb",
+      "mask_file": "masks/bench.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-wall-art",
+      "type": "wall_art",
+      "position": [
+        0.98,
+        0.46,
+        0.465
+      ],
+      "footprint_uv": [
+        0.97,
+        0.36,
+        0.99,
+        0.57
+      ],
+      "model_file": "models/wall-art.glb",
+      "mask_file": "masks/wall-art.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-lamp-back",
+      "type": "table_lamp",
+      "position": [
+        0.88,
+        0.275,
+        0.22
+      ],
+      "footprint_uv": [
+        0.84,
+        0.19,
+        0.92,
+        0.25
+      ],
+      "model_file": "models/lamp-back.glb",
+      "mask_file": "masks/lamp-back.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-lamp-front",
+      "type": "table_lamp",
+      "position": [
+        0.89,
+        0.275,
+        0.875
+      ],
+      "footprint_uv": [
+        0.84,
+        0.83,
+        0.94,
+        0.92
+      ],
+      "model_file": "models/lamp-front.glb",
+      "mask_file": "masks/lamp-front.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-plant-table",
+      "type": "plant",
+      "position": [
+        0.825,
+        0.29,
+        0.195
+      ],
+      "footprint_uv": [
+        0.8,
+        0.17,
+        0.85,
+        0.22
+      ],
+      "model_file": "models/plant-table.glb",
+      "mask_file": "masks/plant-table.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    },
+    {
+      "id": "REF-L01-R01-plant-front",
+      "type": "plant",
+      "position": [
+        0.075,
+        0.09,
+        0.865
+      ],
+      "footprint_uv": [
+        0.01,
+        0.75,
+        0.14,
+        0.98
+      ],
+      "model_file": "models/plant-front.glb",
+      "mask_file": "masks/plant-front.png",
+      "geometry_status": "uncalibrated_geometry_hypothesis"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-rug",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-wall-cabinet",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-bed",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-nightstand-back",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-nightstand-front",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01-nightstand-front",
+      "to": "REF-L01-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-bench",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-wall-art",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01-wall-art",
+      "to": "REF-L01-R01",
+      "relation": "near_right_boundary",
+      "evidence": "proxy_hypothesis"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-lamp-back",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01-nightstand-back",
+      "to": "REF-L01-R01-lamp-back",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-lamp-front",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01-nightstand-front",
+      "to": "REF-L01-R01-lamp-front",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-plant-table",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    },
+    {
+      "from": "REF-L01-R01-nightstand-back",
+      "to": "REF-L01-R01-plant-table",
+      "relation": "supports",
+      "evidence": "visual_inference"
+    },
+    {
+      "from": "REF-L01-R01",
+      "to": "REF-L01-R01-plant-front",
+      "relation": "contains",
+      "evidence": "visual_annotation"
+    }
+  ]
+}

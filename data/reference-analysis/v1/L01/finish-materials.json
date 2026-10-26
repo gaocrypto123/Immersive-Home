@@ -1,0 +1,139 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L01",
+  "room_id": "REF-L01-R01",
+  "title": "舒展横床",
+  "source": {
+    "reference_id": "L01",
+    "file": "/assets/inspiration/L01.png",
+    "sha256": "88F61C116869909FA80FE5F20D1F561B7F33F5A3B8F999385A36953D8E6D45E1",
+    "width_px": 759,
+    "height_px": 785,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      188,
+      349,
+      759,
+      785
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床头位于画面右侧，床尾有编织面长凳。",
+    "可见两个床头柜和两盏台灯。",
+    "背墙上部可见木饰面柜门；下方木饰面性质不明确，不能确认L型通顶衣柜。",
+    "门在后侧左部；此裁剪图未见窗户。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 7,
+  "name": "饰面材质",
+  "surfaces": [
+    {
+      "surface": "wall",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "visibility": "visible",
+      "appearance": "暖米色哑光墙面",
+      "material_candidates": [
+        "乳胶漆或其他哑光饰面"
+      ],
+      "material_identity_verified": false,
+      "confidence": "low",
+      "color_sample": {
+        "xy_px": [
+          31,
+          180
+        ],
+        "rgb": [
+          186,
+          162,
+          135
+        ],
+        "hex": "#baa287",
+        "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+      }
+    },
+    {
+      "surface": "floor",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "visibility": "visible",
+      "appearance": "浅色木纹条板",
+      "material_candidates": [
+        "木地板或仿木材料"
+      ],
+      "material_identity_verified": false,
+      "confidence": "low",
+      "color_sample": {
+        "xy_px": [
+          95,
+          350
+        ],
+        "rgb": [
+          219,
+          169,
+          111
+        ],
+        "hex": "#dba96f",
+        "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+      }
+    },
+    {
+      "surface": "ceiling",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "visibility": "visible",
+      "appearance": "局部暖白顶面",
+      "material_candidates": [
+        "哑光涂饰"
+      ],
+      "material_identity_verified": false,
+      "confidence": "low",
+      "color_sample": {
+        "xy_px": [
+          300,
+          14
+        ],
+        "rgb": [
+          192,
+          166,
+          138
+        ],
+        "hex": "#c0a68a",
+        "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+      }
+    },
+    {
+      "surface": "accent",
+      "case_id": "REF-L01",
+      "room_id": "REF-L01-R01",
+      "visibility": "visible",
+      "appearance": "背墙原木色饰面",
+      "material_candidates": [
+        "木饰面板"
+      ],
+      "material_identity_verified": false,
+      "confidence": "low",
+      "color_sample": {
+        "xy_px": [
+          368,
+          199
+        ],
+        "rgb": [
+          185,
+          153,
+          118
+        ],
+        "hex": "#b99976",
+        "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+      }
+    }
+  ],
+  "note": "具体木种、石种、皮革真伪和涂料品种不能由图像确认；颜色样本含光照与阴影。"
+}

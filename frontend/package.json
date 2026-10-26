@@ -1,0 +1,23 @@
+{
+  "name": "jia-you-xin-jie-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/sync-assets.mjs",
+    "dev": "npm run assets && vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "npm run assets && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5173 --strictPort",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "three": "0.180.0",
+    "lucide-react": "0.544.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "vite": "7.3.7"
+  }
+}

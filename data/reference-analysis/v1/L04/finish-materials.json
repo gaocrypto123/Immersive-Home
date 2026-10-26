@@ -1,0 +1,108 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L04",
+  "room_id": "REF-L04-R01",
+  "title": "转角独处",
+  "source": {
+    "reference_id": "L04",
+    "file": "/assets/inspiration/L04.png",
+    "sha256": "5F50D72407254018FB4F0046C639F8106C8C1CECE9F2FE60F026F501CFCC2D53",
+    "width_px": 647,
+    "height_px": 768,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      250,
+      280,
+      647,
+      768
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床在右上角纵放，床头朝画面上方。",
+    "入口左下侧可见双门柜，右下为书桌与皮革外观座椅。",
+    "深木色、棕色软包、金属色灯具可见；木种和皮革真伪不能确认。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 7,
+  "name": "饰面材质",
+  "surfaces": [
+    {
+      "surface": "wall",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "visibility": "visible",
+      "appearance": "奶咖色分块软硬包外观",
+      "material_candidates": [
+        "软包或硬包饰面候选"
+      ],
+      "material_identity_verified": false,
+      "confidence": "low",
+      "color_sample": {
+        "xy_px": [
+          452,
+          37
+        ],
+        "rgb": [
+          148,
+          119,
+          93
+        ],
+        "hex": "#94775d",
+        "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+      }
+    },
+    {
+      "surface": "floor",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "visibility": "visible",
+      "appearance": "深暖色木纹地面",
+      "material_candidates": [
+        "木地板或仿木材料"
+      ],
+      "material_identity_verified": false,
+      "confidence": "low",
+      "color_sample": {
+        "xy_px": [
+          195,
+          180
+        ],
+        "rgb": [
+          160,
+          116,
+          81
+        ],
+        "hex": "#a07451",
+        "status": "single_visible_pixel_under_rendered_lighting_not_material_albedo"
+      }
+    },
+    {
+      "surface": "ceiling",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "visibility": "not_visible_or_not_identifiable",
+      "appearance": null,
+      "material_candidates": [],
+      "material_identity_verified": false,
+      "color_sample": null
+    },
+    {
+      "surface": "accent",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "visibility": "not_visible_or_not_identifiable",
+      "appearance": null,
+      "material_candidates": [],
+      "material_identity_verified": false,
+      "color_sample": null
+    }
+  ],
+  "note": "具体木种、石种、皮革真伪和涂料品种不能由图像确认；颜色样本含光照与阴影。"
+}

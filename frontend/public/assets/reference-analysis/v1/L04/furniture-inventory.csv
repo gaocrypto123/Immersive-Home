@@ -1,0 +1,11 @@
+﻿instance_id,case_id,room_id,label,category,quantity,measured_width_m,measured_depth_m,measured_height_m,model_file,mask_file
+"REF-L04-R01-rug","REF-L04","REF-L04-R01","暖灰长绒地毯","rug","1","","","","models/rug.glb","masks/rug.png"
+"REF-L04-R01-bed","REF-L04","REF-L04-R01","深木色框架双人床","bed","1","","","","models/bed.glb","masks/bed.png"
+"REF-L04-R01-nightstand","REF-L04","REF-L04-R01","深木色床头柜","nightstand","1","","","","models/nightstand.glb","masks/nightstand.png"
+"REF-L04-R01-wardrobe","REF-L04","REF-L04-R01","左侧双门衣柜","wardrobe","1","","","","models/wardrobe.glb","masks/wardrobe.png"
+"REF-L04-R01-desk","REF-L04","REF-L04-R01","右侧床尾书桌","desk","1","","","","models/desk.glb","masks/desk.png"
+"REF-L04-R01-chair","REF-L04","REF-L04-R01","棕色皮革外观座椅","chair","1","","","","models/chair.glb","masks/chair.png"
+"REF-L04-R01-curtain","REF-L04","REF-L04-R01","棕灰双层窗帘","curtain","1","","","","models/curtain.glb","masks/curtain.png"
+"REF-L04-R01-lamp","REF-L04","REF-L04-R01","金属色床头台灯","table_lamp","1","","","","models/lamp.glb","masks/lamp.png"
+"REF-L04-R01-plant-nightstand","REF-L04","REF-L04-R01","床头绿植","plant","1","","","","models/plant-nightstand.glb","masks/plant-nightstand.png"
+"REF-L04-R01-plant-desk","REF-L04","REF-L04-R01","书桌绿植","plant","1","","","","models/plant-desk.glb","masks/plant-desk.png"

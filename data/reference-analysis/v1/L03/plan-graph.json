@@ -1,0 +1,232 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L03",
+  "room_id": "REF-L03-R01",
+  "title": "临窗安眠",
+  "source": {
+    "reference_id": "L03",
+    "file": "/assets/inspiration/L03.png",
+    "sha256": "F8593B03504234FD788BE26CB9005601C58F19C1BE0CA1A0F088CFEA8C5CF024",
+    "width_px": 652,
+    "height_px": 917,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      260,
+      142,
+      652,
+      917
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "横床位于近窗处，床头朝画面右侧。",
+    "后墙为白色无明显拉手柜体，书桌在右墙上段。",
+    "此裁剪图未见原提示词提及的黑白挂画，清单不补造该物件。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 1,
+  "name": "四级空间图",
+  "hierarchy_definition": [
+    "case",
+    "room",
+    "functional_zone",
+    "instance"
+  ],
+  "definition_note": "本项目为本次解析采用的四级定义，非对截图未说明标准的推定。",
+  "nodes": [
+    {
+      "id": "REF-L03",
+      "level": 0,
+      "type": "case",
+      "label": "L03"
+    },
+    {
+      "id": "REF-L03-R01",
+      "level": 1,
+      "type": "room",
+      "label": "卧室"
+    },
+    {
+      "id": "REF-L03-R01-zone-sleep",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "睡眠区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L03-R01-zone-storage",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "收纳区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L03-R01-zone-work",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "办公区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L03-R01-zone-envelope",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "窗饰区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L03-R01-rug",
+      "level": 3,
+      "type": "instance",
+      "label": "浅灰绒面地毯"
+    },
+    {
+      "id": "REF-L03-R01-wardrobe",
+      "level": 3,
+      "type": "instance",
+      "label": "后墙白色衣柜"
+    },
+    {
+      "id": "REF-L03-R01-bed",
+      "level": 3,
+      "type": "instance",
+      "label": "浅色双人床与深灰盖毯"
+    },
+    {
+      "id": "REF-L03-R01-desk",
+      "level": 3,
+      "type": "instance",
+      "label": "白色悬空书桌"
+    },
+    {
+      "id": "REF-L03-R01-chair",
+      "level": 3,
+      "type": "instance",
+      "label": "灰色软包座椅"
+    },
+    {
+      "id": "REF-L03-R01-nightstand",
+      "level": 3,
+      "type": "instance",
+      "label": "黑色圆形床头边几"
+    },
+    {
+      "id": "REF-L03-R01-curtain",
+      "level": 3,
+      "type": "instance",
+      "label": "灰白双层窗帘"
+    },
+    {
+      "id": "REF-L03-R01-desk-lamp",
+      "level": 3,
+      "type": "instance",
+      "label": "黑色台灯"
+    },
+    {
+      "id": "REF-L03-R01-wall-light",
+      "level": 3,
+      "type": "instance",
+      "label": "线性床头灯"
+    },
+    {
+      "id": "REF-L03-R01-plant-desk",
+      "level": 3,
+      "type": "instance",
+      "label": "书桌小绿植"
+    },
+    {
+      "id": "REF-L03-R01-plant-nightstand",
+      "level": 3,
+      "type": "instance",
+      "label": "床头小绿植"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L03",
+      "to": "REF-L03-R01",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-zone-sleep",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-zone-storage",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-zone-work",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01",
+      "to": "REF-L03-R01-zone-envelope",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-sleep",
+      "to": "REF-L03-R01-rug",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-storage",
+      "to": "REF-L03-R01-wardrobe",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-sleep",
+      "to": "REF-L03-R01-bed",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-work",
+      "to": "REF-L03-R01-desk",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-work",
+      "to": "REF-L03-R01-chair",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-sleep",
+      "to": "REF-L03-R01-nightstand",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-envelope",
+      "to": "REF-L03-R01-curtain",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-work",
+      "to": "REF-L03-R01-desk-lamp",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-sleep",
+      "to": "REF-L03-R01-wall-light",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-work",
+      "to": "REF-L03-R01-plant-desk",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L03-R01-zone-sleep",
+      "to": "REF-L03-R01-plant-nightstand",
+      "relation": "contains"
+    }
+  ]
+}

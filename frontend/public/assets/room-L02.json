@@ -1,0 +1,325 @@
+{
+  "schema": "jyxj.floorplan-3d-room-description.v1",
+  "name": "L02 动静分区卧室——图片估算草模",
+  "status": "visual_estimate_not_measured",
+  "units": "mm",
+  "source": {
+    "image": "../../../介绍视频素材-20261024/L02-动静分区.png",
+    "image_sha256": "fe718524432ae7cf211d69f8b992800deacc4db00856894309aa52d5e724d815",
+    "image_size_px": [
+      1672,
+      941
+    ],
+    "image_kind": "AI 生成的概念布局展示图；源素材 README 明确不是尺寸量测图。",
+    "reference_repository": "https://github.com/wy51ai/floorplan-3d",
+    "reference_file": "https://github.com/wy51ai/floorplan-3d/blob/master/index.html",
+    "reference_git_blob_sha": "4c5d17f6eb1633ac27724b25d8f666c0f03737c0",
+    "reference_url_note": "上面的标识为文件 blob SHA；固定内容核对使用 GitHub blob API，不能将其当作 commit SHA。",
+    "schema_reference_url": "https://github.com/wy51ai/floorplan-3d/blob/master/index.html",
+    "source_sections": {
+      "WALLS": 395,
+      "WINS": 423,
+      "DOORS": 431,
+      "ROOMS": 445,
+      "furniture": 506,
+      "defaultState": 540,
+      "json_import_export": 1474
+    },
+    "reference_blob_api": "https://api.github.com/repos/wy51ai/floorplan-3d/git/blobs/4c5d17f6eb1633ac27724b25d8f666c0f03737c0"
+  },
+  "coordinate_system": {
+    "origin": "房间净尺寸外接矩形的左上角；原点位于左上缺口内，不是实际室内角点。",
+    "x_axis": "向画面右侧",
+    "y_axis": "向画面下方",
+    "vertical_axis": "height/sillHeight 等高度从完成地面向上，单位 mm；未从图片量测。",
+    "rotation": "rot 是平面顺时针角度，单位度；家具 cx,cy 是中心，w,d 是旋转前局部宽深。",
+    "compass": "图上方/下方仅为画面方向，不代表真实南北。",
+    "boundary": "ROOMS.poly 为完成面内轮廓；WALLS 矩形向室外侧扩展，门窗占据墙厚范围。"
+  },
+  "DIMENSIONS": {
+    "clear_bbox_width_mm": 3600,
+    "clear_bbox_depth_mm": 3800,
+    "upper_left_notch_width_mm": 950,
+    "upper_left_notch_depth_mm": 500,
+    "net_floor_area_m2": 13.205,
+    "wall_thickness_mm": 150,
+    "ceiling_height_mm": 2800,
+    "nominal_scale_only": true,
+    "estimated_ranges_mm": {
+      "clear_bbox_width": [
+        3200,
+        4100
+      ],
+      "clear_bbox_depth": [
+        3400,
+        4300
+      ],
+      "notch_width": [
+        800,
+        1100
+      ],
+      "notch_depth": [
+        400,
+        650
+      ],
+      "wall_thickness": [
+        120,
+        240
+      ],
+      "ceiling_height": [
+        2600,
+        3000
+      ]
+    },
+    "range_note": "供演示草模调整的主观范围，不是统计置信区间。长宽的比例尺误差相关，不能把区间当作实测公差。"
+  },
+  "estimation": {
+    "summary": "按本张展示图建立一个尺寸合理的工作假设，不声称还原真实房间。",
+    "calibration_assumptions": [
+      "将床垫大致按 2000×1400mm、含软包与外框的床占地按 2300×1450mm 作为比例参照；床的真实规格未知。",
+      "同时以门净开口约 750mm、书桌深约 500mm、衣柜深约 600mm 检查尺度是否适合演示；这些均为假设值。",
+      "图像不是量测图，床框、门扇和柜体透视不能可靠地用同一像素比例尺严格拟合。"
+    ],
+    "confidence": {
+      "outline_shape": "medium",
+      "relative_door_window_locations": "medium",
+      "absolute_plan_dimensions": "low",
+      "opening_heights_and_sill": "assumption_only",
+      "wall_thickness_and_ceiling": "assumption_only"
+    },
+    "image_observations_px_approx": {
+      "room_inner_face_bbox": [
+        686,
+        52,
+        1456,
+        854
+      ],
+      "notch_inner_corner": [
+        888,
+        160
+      ],
+      "door_hinge": [
+        694,
+        160
+      ],
+      "door_closed_end": [
+        849,
+        160
+      ],
+      "lower_window_visible_span_x": [
+        824,
+        1275
+      ],
+      "note": "人工识别的视觉参照点；部分墙脚被家具遮挡。这不是一套精确配准控制点，也没有可用的像素到毫米变换。"
+    },
+    "limitations": [
+      "绝对尺寸没有实测基准；本文件用于布局讨论和程序草模，不应据此下单定制家具或施工。",
+      "左上门按本张图中的门扇和圆弧，放在凹口的水平边；没有把原视频的房间形状或文字提示当作本图量测结果。",
+      "窗的上下沿、窗台高、门高、墙高和墙厚无法由俯视图确认，使用显式建模假设。"
+    ]
+  },
+  "compatibility": {
+    "geometry_style": "沿用参考项目 ROOMS / WALLS / WINS / DOORS / SLIDES 数据形状与毫米坐标。",
+    "state_style": "根级 furniture / rooms / demolished / measures 沿用参考项目导出 state 的字段形状。",
+    "native_json_import_replaces_geometry": false,
+    "native_json_import_warning": "原项目的导入按钮只读取 furniture 等状态，不读取新增 ROOMS/WALLS/WINS/DOORS。直接导入本文件会保留原户型，不能宣称已导入本房间。",
+    "usage": "应由载入器先读取本文件的几何常量，或将几何常量接入原项目，再加载家具状态。",
+    "height_fields_are_extensions": true,
+    "height_warning": "门窗高度等扩展字段不会被原项目原样自动使用；原项目 3D 窗台高度等含硬编码，接入时需显式读取本文件参数。",
+    "wall_type_warning": "WALLS 的 e 仅沿用参考项目外围墙绘图样式；本图无法判定承重性、真实内外墙性质或可拆改性。",
+    "current_jyxj_studio_import_compatible": false,
+    "current_jyxj_studio_note": "原六方案工作台仍使用 UV 导入格式；卧室预设页面通过独立毫米坐标适配器读取本文件，不改变旧格式。",
+    "jyxj_bedroom_preset_compatible": true,
+    "jyxj_bedroom_route": "/bedroom"
+  },
+  "ROOMS": [
+    {
+      "id": "bedroom_L02",
+      "name": "动静分区卧室",
+      "poly": [
+        [
+          950,
+          0
+        ],
+        [
+          3600,
+          0
+        ],
+        [
+          3600,
+          3800
+        ],
+        [
+          0,
+          3800
+        ],
+        [
+          0,
+          500
+        ],
+        [
+          950,
+          500
+        ]
+      ],
+      "mat": "wood",
+      "at": [
+        1800,
+        2400
+      ]
+    }
+  ],
+  "WALLS": [
+    [
+      800,
+      -150,
+      3750,
+      0,
+      "e"
+    ],
+    [
+      3600,
+      0,
+      3750,
+      3950,
+      "e"
+    ],
+    [
+      2750,
+      3800,
+      3600,
+      3950,
+      "e"
+    ],
+    [
+      -150,
+      3800,
+      650,
+      3950,
+      "e"
+    ],
+    [
+      -150,
+      350,
+      0,
+      3800,
+      "e"
+    ],
+    [
+      0,
+      350,
+      50,
+      500,
+      "e"
+    ],
+    [
+      800,
+      0,
+      950,
+      500,
+      "e"
+    ]
+  ],
+  "WALL_DETAILS": {
+    "structural_classification": "unknown",
+    "exterior_or_interior": "unknown",
+    "editable_or_demolishable": "not_assessed",
+    "rectangles": "每项 [x0,y0,x1,y1,type]；矩形已给门窗让出洞口，勿先画完整墙再叠加开口。"
+  },
+  "WINS": [
+    [
+      650,
+      3800,
+      2750,
+      3950
+    ]
+  ],
+  "WINDOW_DETAILS": [
+    {
+      "id": "window_01",
+      "wins_index": 0,
+      "name": "下侧窗",
+      "wall": "画面下方水平墙",
+      "start_mm": [
+        650,
+        3800
+      ],
+      "end_mm": [
+        2750,
+        3800
+      ],
+      "opening_width_mm": 2100,
+      "opening_height_mm": 1500,
+      "sill_height_mm": 850,
+      "head_height_mm": 2350,
+      "offset_from_left_inner_corner_mm": 650,
+      "offset_from_right_inner_corner_mm": 850,
+      "vertical_dimensions_status": "assumption_only",
+      "estimated_width_range_mm": [
+        1800,
+        2400
+      ],
+      "note": "按可见窗框/窗帘间开口近似，不把窗帘外轮廓当作精确洞口；不额外虚构飘窗凹入深度。"
+    }
+  ],
+  "DOORS": [
+    {
+      "name": "卧室门",
+      "rect": [
+        50,
+        350,
+        800,
+        500
+      ],
+      "h": [
+        50,
+        500
+      ],
+      "c": [
+        1,
+        0
+      ],
+      "o": [
+        0,
+        1
+      ],
+      "len": 750,
+      "id": "door_01",
+      "height_mm": 2100,
+      "leaf_thickness_mm": 40,
+      "location": "左上凹口水平边，室内侧边界 y=500；距左侧内墙 50mm，距凹口右侧内角 150mm。",
+      "open_angle_degrees": 90,
+      "swing": "左侧铰点，向室内画面下方开启。",
+      "height_status": "assumption_only",
+      "estimated_width_range_mm": [
+        700,
+        900
+      ],
+      "swing_envelope_mm": [
+        50,
+        500,
+        800,
+        1250
+      ]
+    }
+  ],
+  "SLIDES": [],
+  "furniture": [],
+  "rooms": {
+    "bedroom_L02": {
+      "name": "动静分区卧室",
+      "mat": "wood"
+    }
+  },
+  "demolished": [],
+  "measures": [],
+  "MATS": {
+    "wood": {
+      "name": "原木地板（仅示意）",
+      "price": 0,
+      "sw": "#d8b88a"
+    }
+  },
+  "materials_note": "price=0 表示本描述不估算造价，不代表实际免费。",
+  "furniture_status": "intentionally_omitted_empty_room"
+}

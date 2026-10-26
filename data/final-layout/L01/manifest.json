@@ -1,0 +1,25 @@
+{
+  "id": "L01",
+  "filename": "balanced-layout-16.glb",
+  "bytes": 15907636,
+  "sha256": "0b76df4eea3a14ab97cd6a5124fb3b0d4f1d30c1113f048eb13b54bf0f2e2371",
+  "source": "03-最终布局生成/L01-原木清新/手机清晰版16MB/L01-原木清新-手机清晰版16MB.glb",
+  "profile": "mobile-balanced",
+  "assembledFurniture": 18,
+  "sceneTriangles": 860630,
+  "originalSceneTriangles": 860630,
+  "maxBoundsErrorM": 2.1752358750015688E-05,
+  "textureSizes": {
+    "otherBaseColor": 1024,
+    "largeFurniture": 1536,
+    "metallicRoughness": 256,
+    "bed": 2048
+  },
+  "bedTextureOriginalPreserved": true,
+  "pixelRatioCap": 2,
+  "rollback": [
+    "mobile-layout.glb",
+    "full-layout.glb"
+  ],
+  "mode": "saved-layout-demo"
+}

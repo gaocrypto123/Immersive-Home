@@ -1,0 +1,957 @@
+{
+  "currency": "CNY",
+  "price_date": "2026-10-23",
+  "price_basis": "对应 SKU 官方常规价；生成网格为近似形态。",
+  "furniture_subtotal_cny": 5015.96,
+  "rug_subtotal_cny": 149,
+  "total_cny": 5164.96,
+  "groups": [
+    {
+      "label": "双人沙发床",
+      "quantity": 1,
+      "match": "official_hotspot",
+      "note": "",
+      "evidence": [
+        "R01-MAIN"
+      ],
+      "mesh_count_per_unit": 1,
+      "id": "R01-G01",
+      "purchase_lines": [
+        {
+          "sku": "20582549",
+          "name": "SKÖNABÄCK 霍纳贝",
+          "type": "双人沙发床",
+          "variant": "威索尔 黄绿色",
+          "quantity": 1,
+          "quantity_per_unit": 1,
+          "unit_price_cny": 1499,
+          "price_basis": "official_regular_price",
+          "display_price_cny": 1499,
+          "discount_conditions": {
+            "currencyCode": "CNY",
+            "type": "REG",
+            "regularPrice": 1499,
+            "priceUnit": "",
+            "breathTaking": false,
+            "hasFamilyCard": false
+          },
+          "subtotal_cny": 1499,
+          "dimensions": [
+            {
+              "first": "扶手高度",
+              "second": "66 厘米"
+            },
+            {
+              "first": "床长",
+              "second": "190 厘米"
+            },
+            {
+              "first": "扶手宽度",
+              "second": "15 厘米"
+            },
+            {
+              "first": "床宽",
+              "second": "71 厘米"
+            },
+            {
+              "first": "床高",
+              "second": "39 厘米"
+            },
+            {
+              "first": "深度",
+              "second": "75 厘米"
+            },
+            {
+              "first": "家具下方自由高度",
+              "second": "4 厘米"
+            },
+            {
+              "first": "靠背高度",
+              "second": "66 厘米"
+            },
+            {
+              "first": "含靠垫高度",
+              "second": "74 厘米"
+            },
+            {
+              "first": "座深",
+              "second": "51 厘米"
+            },
+            {
+              "first": "座高",
+              "second": "39 厘米"
+            },
+            {
+              "first": "座宽",
+              "second": "128 厘米"
+            },
+            {
+              "first": "宽度",
+              "second": "158 厘米"
+            }
+          ],
+          "dimension_text": "深度 75 x 宽度 158 厘米",
+          "dimension_notes": [
+            "这款框架罩的耐光性为6级（防褪色性能），等级范围为1至8级。根据行业标准，家居用品的耐光性应达到4级或更高。",
+            "这款座椅类家具经过测试，符合相关强度和耐用性方面的标准。这些测试是根据体重不超过110公斤的人员对该产品的典型使用情况进行评估的。",
+            "此垫套的耐磨性能经过测试，可承受55,000次循环。可承受15,000次循环以上即可用于家具，供家庭日常使用。可承受30,000次循环以上，即代表耐磨性能出色。"
+          ],
+          "source_url": "https://www.ikea.cn/cn/zh/p/skoenabaeck-huo-na-bei-shuang-ren-sha-fa-chuang-wei-suo-er-huang-lu-se-20582549/",
+          "price_checked_at": "2026-10-23T10:02:10.632Z",
+          "evidence_file": "raw-products/20582549.html",
+          "product_reference_image": "https://file.app.ikea.cn/cn/zh/images/products/skoenabaeck-huo-na-bei-shuang-ren-sha-fa-chuang-wei-suo-er-huang-lu-se__1360562_pe954483_s5.jpg",
+          "local_product_reference_image": null,
+          "assembly_components_included": []
+        }
+      ],
+      "total_cny": 1499,
+      "instance_ids": [
+        "R01-G01-I01"
+      ],
+      "price_display": "¥1499.00 × 1",
+      "generation_input_policy": "从真实参考图分离家具；根据 SKU／补配组件校核形态和尺寸",
+      "quantity_basis": "manual_visual_count",
+      "source_original_identity_confirmed": false,
+      "layout_dimensions_status": "official_dimensions_attached_not_yet_validated_against_generated_mesh"
+    },
+    {
+      "label": "黑色休闲椅",
+      "quantity": 1,
+      "match": "official_hotspot",
+      "note": "",
+      "evidence": [
+        "R01-MAIN"
+      ],
+      "mesh_count_per_unit": 1,
+      "id": "R01-G02",
+      "purchase_lines": [
+        {
+          "sku": "60425642",
+          "name": "FRÖSET 富罗瑟",
+          "type": "休闲椅",
+          "variant": "黑漆 橡木贴面",
+          "quantity": 1,
+          "quantity_per_unit": 1,
+          "unit_price_cny": 599,
+          "price_basis": "official_regular_price",
+          "display_price_cny": 599,
+          "discount_conditions": {
+            "currencyCode": "CNY",
+            "type": "REG",
+            "regularPrice": 599,
+            "priceUnit": "",
+            "breathTaking": false,
+            "hasFamilyCard": false
+          },
+          "subtotal_cny": 599,
+          "dimensions": [
+            {
+              "first": "宽度",
+              "second": "59 厘米"
+            },
+            {
+              "first": "深度",
+              "second": "57 厘米"
+            },
+            {
+              "first": "高度",
+              "second": "74 厘米"
+            },
+            {
+              "first": "座宽",
+              "second": "59 厘米"
+            },
+            {
+              "first": "座深",
+              "second": "46 厘米"
+            },
+            {
+              "first": "座高",
+              "second": "38 厘米"
+            }
+          ],
+          "dimension_text": "宽度 59 x 深度 57 x 高度 74 厘米",
+          "dimension_notes": [
+            "该产品已经通过家用和公共场合使用测试，符合以下标准规定的耐用性和稳定性要求：EN 1022和EN 16139。",
+            "这款座椅类家具经过测试，符合相关强度和耐用性方面的标准。这些测试是根据体重不超过110公斤的人员对该产品的典型使用情况进行评估的。"
+          ],
+          "source_url": "https://www.ikea.cn/cn/zh/p/froeset-fu-luo-se-xiu-xian-yi-hei-qi-xiang-mu-tie-mian-60425642/",
+          "price_checked_at": "2026-10-23T10:02:12.401Z",
+          "evidence_file": "raw-products/60425642.html",
+          "product_reference_image": "https://file.app.ikea.cn/cn/zh/images/products/froeset-fu-luo-se-xiu-xian-yi-hei-qi-xiang-mu-tie-mian__0824150_pe776003_s5.jpg",
+          "local_product_reference_image": null,
+          "assembly_components_included": []
+        }
+      ],
+      "total_cny": 599,
+      "instance_ids": [
+        "R01-G02-I01"
+      ],
+      "price_display": "¥599.00 × 1",
+      "generation_input_policy": "从真实参考图分离家具；根据 SKU／补配组件校核形态和尺寸",
+      "quantity_basis": "manual_visual_count",
+      "source_original_identity_confirmed": false,
+      "layout_dimensions_status": "official_dimensions_attached_not_yet_validated_against_generated_mesh"
+    },
+    {
+      "label": "两张独立套桌",
+      "quantity": 1,
+      "match": "official_hotspot",
+      "note": "同一套装生成两个独立实例；购买价只计一次。",
+      "evidence": [
+        "R01-S03",
+        "R01-S04"
+      ],
+      "mesh_count_per_unit": 2,
+      "id": "R01-G03",
+      "purchase_lines": [
+        {
+          "sku": "50584293",
+          "name": "SONHULT 桑胡特",
+          "type": "套桌，2件套",
+          "variant": "灰色/胡桃木纹",
+          "quantity": 1,
+          "quantity_per_unit": 1,
+          "unit_price_cny": 399,
+          "price_basis": "official_regular_price",
+          "display_price_cny": 399,
+          "discount_conditions": {
+            "currencyCode": "CNY",
+            "type": "REG",
+            "regularPrice": 399,
+            "priceUnit": "",
+            "breathTaking": false,
+            "hasFamilyCard": false
+          },
+          "subtotal_cny": 399,
+          "dimensions": [
+            {
+              "first": "最大可承重",
+              "second": "20 公斤"
+            }
+          ],
+          "dimension_text": "",
+          "dimension_notes": [
+            "仅限在室内使用。",
+            "包含：2块桌面(55x55cm/70x40cm)和8个支腿（高度38cm/45cm）。"
+          ],
+          "source_url": "https://www.ikea.cn/cn/zh/p/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen-50584293/",
+          "price_checked_at": "2026-10-23T10:02:10.418Z",
+          "evidence_file": "raw-products/50584293.html",
+          "product_reference_image": "https://file.app.ikea.cn/cn/zh/images/products/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen__1329101_pe945076_s5.jpg",
+          "local_product_reference_image": null,
+          "assembly_components_included": []
+        }
+      ],
+      "total_cny": 399,
+      "instance_ids": [
+        "R01-G03-I01",
+        "R01-G03-I02"
+      ],
+      "price_display": "¥399.00 / 2 件套装（不可按单件购买价拆分）",
+      "generation_input_policy": "从真实参考图分离家具；根据 SKU／补配组件校核形态和尺寸",
+      "quantity_basis": "manual_visual_count",
+      "source_original_identity_confirmed": false,
+      "layout_dimensions_status": "official_dimensions_attached_not_yet_validated_against_generated_mesh"
+    },
+    {
+      "label": "落地柜单元（含四脚）",
+      "quantity": 3,
+      "match": "demo_configuration",
+      "note": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+      "evidence": [
+        "R01-S06"
+      ],
+      "mesh_count_per_unit": 1,
+      "id": "R01-G04",
+      "purchase_lines": [
+        {
+          "sku": "80574589",
+          "name": "EKET 伊克特",
+          "type": "橱柜一门/一搁板",
+          "variant": "褐色 胡桃木纹",
+          "quantity": 3,
+          "quantity_per_unit": 1,
+          "unit_price_cny": 400,
+          "price_basis": "official_regular_price",
+          "display_price_cny": 400,
+          "discount_conditions": {
+            "currencyCode": "CNY",
+            "type": "REG",
+            "regularPrice": 400,
+            "priceUnit": "",
+            "breathTaking": false,
+            "hasFamilyCard": false
+          },
+          "subtotal_cny": 1200,
+          "dimensions": [
+            {
+              "first": "宽度",
+              "second": "35 厘米"
+            },
+            {
+              "first": "深度",
+              "second": "35 厘米"
+            },
+            {
+              "first": "高度",
+              "second": "70 厘米"
+            },
+            {
+              "first": "每块搁板最大可承重",
+              "second": "7 公斤"
+            }
+          ],
+          "dimension_text": "宽度 35 x 深度 35 x 高度 70 厘米",
+          "dimension_notes": [
+            "如果你选择将框架安装在墙上，必须使用 EKET 伊克特 悬挂杆进行安装。该框架需要1根35cm长的悬挂杆，须另购。",
+            "如果你选择将柜子放置在地板上，则需搭配支脚或支腿。须另购。",
+            "壁柜最大可承重取决于墙壁的材质。",
+            "安全警示！ 倾倒风险 - 本产品必须安全固定。 请使用合适的螺丝和螺栓。 如果无法确定，请咨询专业人士。",
+            "安全警示！ 掉落危险——为降低本产品掉落的风险，请务必将其牢固固定。 请使用合适的螺丝和螺栓。 如有任何疑问，请咨询专业人员。"
+          ],
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/",
+          "price_checked_at": "2026-10-23T10:02:12.182Z",
+          "evidence_file": "raw-products/80574589.html",
+          "product_reference_image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen__1373858_pe960064_s5.jpg",
+          "local_product_reference_image": null,
+          "assembly_components_included": []
+        },
+        {
+          "sku": "50574661",
+          "name": "EKET 伊克特",
+          "type": "支腿",
+          "variant": "金属/黑色",
+          "quantity": 3,
+          "quantity_per_unit": 1,
+          "unit_price_cny": 50,
+          "price_basis": "official_regular_price",
+          "display_price_cny": 50,
+          "discount_conditions": {
+            "currencyCode": "CNY",
+            "type": "REG",
+            "regularPrice": 50,
+            "priceUnit": "",
+            "breathTaking": false,
+            "hasFamilyCard": false
+          },
+          "subtotal_cny": 150,
+          "dimensions": [
+            {
+              "first": "高度",
+              "second": "10 厘米"
+            },
+            {
+              "first": "直径",
+              "second": "3 厘米"
+            },
+            {
+              "first": "最大高度",
+              "second": "11 厘米"
+            },
+            {
+              "first": "净含量/包装数量",
+              "second": "4 件"
+            }
+          ],
+          "dimension_text": "高度 10 厘米",
+          "dimension_notes": [
+            "适合 EKET 伊克特 系列的柜子。"
+          ],
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/",
+          "price_checked_at": "2026-10-23T10:56:47.467Z",
+          "evidence_file": "raw-products/50574661-resolution.html",
+          "product_reference_image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-zhi-tui-jin-shu-hei-se__1337875_pe948161_s5.jpg",
+          "local_product_reference_image": null,
+          "assembly_components_included": []
+        }
+      ],
+      "total_cny": 1350,
+      "instance_ids": [
+        "R01-G04-I01",
+        "R01-G04-I02",
+        "R01-G04-I03"
+      ],
+      "price_display": "¥450.00 × 3",
+      "generation_input_policy": "从真实参考图分离家具；根据 SKU／补配组件校核形态和尺寸",
+      "quantity_basis": "chosen_demo_configuration",
+      "source_original_identity_confirmed": false,
+      "layout_dimensions_status": "official_dimensions_attached_not_yet_validated_against_generated_mesh"
+    },
+    {
+      "label": "胡桃木壁挂格柜（含挂条）",
+      "quantity": 4,
+      "match": "visual_inference",
+      "note": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+      "evidence": [
+        "R01-S06"
+      ],
+      "mesh_count_per_unit": 1,
+      "id": "R01-G05",
+      "purchase_lines": [
+        {
+          "sku": "s29490277",
+          "name": "EKET 伊克特",
+          "type": "壁装搁架单元",
+          "variant": "褐色 胡桃木纹",
+          "quantity": 4,
+          "quantity_per_unit": 1,
+          "unit_price_cny": 170,
+          "price_basis": "official_regular_price",
+          "display_price_cny": 170,
+          "discount_conditions": {
+            "currencyCode": "CNY",
+            "type": "REG",
+            "regularPrice": 170,
+            "priceUnit": "",
+            "breathTaking": false,
+            "hasFamilyCard": false
+          },
+          "subtotal_cny": 680,
+          "dimensions": [
+            {
+              "first": "宽度",
+              "second": "35 厘米"
+            },
+            {
+              "first": "深度",
+              "second": "25 厘米"
+            },
+            {
+              "first": "高度",
+              "second": "35 厘米"
+            },
+            {
+              "first": "每块搁板最大可承重",
+              "second": "5 公斤"
+            }
+          ],
+          "dimension_text": "宽度 35 x 深度 25 x 高度 35 厘米",
+          "dimension_notes": [
+            "安全警示！ 掉落危险——为降低本产品掉落的风险，请务必将其牢固固定。 请使用合适的螺丝和螺栓。 如有任何疑问，请咨询专业人员。",
+            "含 EKET 伊克特 壁装悬挂杆。",
+            "壁柜最大可承重取决于墙壁的材质。",
+            "请确保框架顶端与天花板之间有至少5cm的间隔。将框架安装至悬挂杆上时，需要此预留空间。"
+          ],
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/",
+          "price_checked_at": "2026-10-23T10:55:47.239Z",
+          "evidence_file": "raw-products/s29490277-resolution.html",
+          "product_reference_image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen__1326078_pe944107_s5.jpg",
+          "local_product_reference_image": null,
+          "assembly_components_included": [
+            {
+              "sku": "00530575",
+              "quantity": 1,
+              "name": "EKET 伊克特",
+              "type": "柜子"
+            },
+            {
+              "sku": "60340049",
+              "quantity": 1,
+              "name": "EKET 伊克特",
+              "type": "挂条"
+            }
+          ]
+        }
+      ],
+      "total_cny": 680,
+      "instance_ids": [
+        "R01-G05-I01",
+        "R01-G05-I02",
+        "R01-G05-I03",
+        "R01-G05-I04"
+      ],
+      "price_display": "¥170.00 × 4",
+      "generation_input_policy": "从真实参考图分离家具；根据 SKU／补配组件校核形态和尺寸",
+      "quantity_basis": "manual_visual_count",
+      "source_original_identity_confirmed": false,
+      "layout_dimensions_status": "official_dimensions_attached_not_yet_validated_against_generated_mesh"
+    },
+    {
+      "id": "R01-G06",
+      "label": "TIPHEDE 平织地毯",
+      "quantity": 1,
+      "total_cny": 149,
+      "match": "demo_configuration",
+      "note": "案例系列对应地毯，程序几何与近似织物材质。防滑垫另购，未列入本演示价格。",
+      "purchase_lines": [
+        {
+          "sku": "60470045",
+          "name": "TIPHEDE 提普赫德",
+          "quantity": 1,
+          "unit_price_cny": 149,
+          "subtotal_cny": 149,
+          "source_url": "https://www.ikea.cn/cn/zh/p/tiphede-ti-pu-he-de-ping-zhi-di-tan-hei-se-zi-ran-se-60470045/",
+          "price_checked_at": "2026-10-23T10:55:46.423Z",
+          "evidence_file": "raw-products/60470045-resolution.html"
+        }
+      ]
+    },
+    {
+      "id": "dining_table",
+      "label": "SANDSBERG 餐桌",
+      "quantity": 1,
+      "total_cny": 249,
+      "purchase_lines": [
+        {
+          "sku": "s09420394",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-table-black-s09420394/",
+          "unit_price_cny": 249,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "dining_chair",
+      "label": "SANDSBERG 餐椅",
+      "quantity": 4,
+      "total_cny": 239.96,
+      "purchase_lines": [
+        {
+          "sku": "80605430",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/",
+          "unit_price_cny": 59.99,
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "cabinet_1",
+      "label": "EKET 落地柜 1",
+      "asset": "cabinet",
+      "reference": "references/cabinet.png",
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "purchase_group": "R01-G04",
+      "price_cny": 450.0,
+      "price_label": "¥450",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 450.0,
+      "allocation_note": "",
+      "note": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+      "products": [
+        {
+          "sku": "80574589",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+        },
+        {
+          "sku": "50574661",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+        }
+      ]
+    },
+    {
+      "id": "cabinet_2",
+      "label": "EKET 落地柜 2",
+      "asset": "cabinet",
+      "reference": "references/cabinet.png",
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "purchase_group": "R01-G04",
+      "price_cny": 450.0,
+      "price_label": "¥450",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 450.0,
+      "allocation_note": "",
+      "note": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+      "products": [
+        {
+          "sku": "80574589",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+        },
+        {
+          "sku": "50574661",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+        }
+      ]
+    },
+    {
+      "id": "cabinet_3",
+      "label": "EKET 落地柜 3",
+      "asset": "cabinet",
+      "reference": "references/cabinet.png",
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "purchase_group": "R01-G04",
+      "price_cny": 450.0,
+      "price_label": "¥450",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 450.0,
+      "allocation_note": "",
+      "note": "补图可见三柜；每柜采用一包四脚，支脚型号为补配选择。",
+      "products": [
+        {
+          "sku": "80574589",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-he-se-hu-tao-mu-wen-80574589/"
+        },
+        {
+          "sku": "50574661",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-zhi-tui-jin-shu-hei-se-50574661/"
+        }
+      ]
+    },
+    {
+      "id": "wallcube_1",
+      "label": "EKET 壁挂格柜 1",
+      "asset": "wallcube",
+      "reference": "references/wallcube.png",
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "purchase_group": "R01-G05",
+      "price_cny": 170.0,
+      "price_label": "¥170",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 170.0,
+      "allocation_note": "",
+      "note": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+      "products": [
+        {
+          "sku": "s29490277",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+        }
+      ]
+    },
+    {
+      "id": "wallcube_2",
+      "label": "EKET 壁挂格柜 2",
+      "asset": "wallcube",
+      "reference": "references/wallcube.png",
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "purchase_group": "R01-G05",
+      "price_cny": 170.0,
+      "price_label": "¥170",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 170.0,
+      "allocation_note": "",
+      "note": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+      "products": [
+        {
+          "sku": "s29490277",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+        }
+      ]
+    },
+    {
+      "id": "wallcube_3",
+      "label": "EKET 壁挂格柜 3",
+      "asset": "wallcube",
+      "reference": "references/wallcube.png",
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "purchase_group": "R01-G05",
+      "price_cny": 170.0,
+      "price_label": "¥170",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 170.0,
+      "allocation_note": "",
+      "note": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+      "products": [
+        {
+          "sku": "s29490277",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+        }
+      ]
+    },
+    {
+      "id": "wallcube_4",
+      "label": "EKET 壁挂格柜 4",
+      "asset": "wallcube",
+      "reference": "references/wallcube.png",
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "purchase_group": "R01-G05",
+      "price_cny": 170.0,
+      "price_label": "¥170",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 170.0,
+      "allocation_note": "",
+      "note": "补图确认横排四格；组合 SKU 已含挂条，不另加。",
+      "products": [
+        {
+          "sku": "s29490277",
+          "name": "EKET 伊克特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-he-se-hu-tao-mu-wen-s29490277/"
+        }
+      ]
+    },
+    {
+      "id": "sofa",
+      "label": "SKÖNABÄCK 双人沙发",
+      "asset": "sofa",
+      "reference": "references/sofa.png",
+      "size_m": [
+        1.58,
+        0.75,
+        0.74
+      ],
+      "purchase_group": "R01-G01",
+      "price_cny": 1499.0,
+      "price_label": "¥1499",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 1499.0,
+      "allocation_note": "",
+      "note": "",
+      "products": [
+        {
+          "sku": "20582549",
+          "name": "SKÖNABÄCK 霍纳贝",
+          "source_url": "https://www.ikea.cn/cn/zh/p/skoenabaeck-huo-na-bei-shuang-ren-sha-fa-chuang-wei-suo-er-huang-lu-se-20582549/"
+        }
+      ]
+    },
+    {
+      "id": "table_walnut",
+      "label": "SONHULT 方形茶几",
+      "asset": "table_walnut",
+      "reference": "references/table_walnut.png",
+      "size_m": [
+        0.55,
+        0.55,
+        0.45
+      ],
+      "purchase_group": "R01-G03",
+      "price_cny": 399,
+      "price_label": "¥399 / 两桌共一套",
+      "price_kind": "shared_set",
+      "budget_allocation_cny": 199.5,
+      "allocation_note": "仅用于预算分摊，不是单件售价",
+      "note": "同一套装生成两个独立实例；购买价只计一次。",
+      "products": [
+        {
+          "sku": "50584293",
+          "name": "SONHULT 桑胡特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen-50584293/"
+        }
+      ]
+    },
+    {
+      "id": "table_gray",
+      "label": "SONHULT 长方茶几",
+      "asset": "table_gray",
+      "reference": "references/table_gray.png",
+      "size_m": [
+        0.7,
+        0.4,
+        0.38
+      ],
+      "purchase_group": "R01-G03",
+      "price_cny": 399,
+      "price_label": "¥399 / 两桌共一套",
+      "price_kind": "shared_set",
+      "budget_allocation_cny": 199.5,
+      "allocation_note": "仅用于预算分摊，不是单件售价",
+      "note": "同一套装生成两个独立实例；购买价只计一次。",
+      "products": [
+        {
+          "sku": "50584293",
+          "name": "SONHULT 桑胡特",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sonhult-sang-hu-te-tao-zhuo-2-jian-tao-hui-se-hu-tao-mu-wen-50584293/"
+        }
+      ]
+    },
+    {
+      "id": "chair",
+      "label": "FRÖSET 休闲椅",
+      "asset": "chair",
+      "reference": "references/chair.png",
+      "size_m": [
+        0.59,
+        0.57,
+        0.74
+      ],
+      "purchase_group": "R01-G02",
+      "price_cny": 599.0,
+      "price_label": "¥599",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 599.0,
+      "allocation_note": "",
+      "note": "",
+      "products": [
+        {
+          "sku": "60425642",
+          "name": "FRÖSET 富罗瑟",
+          "source_url": "https://www.ikea.cn/cn/zh/p/froeset-fu-luo-se-xiu-xian-yi-hei-qi-xiang-mu-tie-mian-60425642/"
+        }
+      ]
+    },
+    {
+      "id": "rug",
+      "label": "TIPHEDE 平织地毯",
+      "asset": "rug",
+      "reference": "render/top.png",
+      "size_m": [
+        2.2,
+        1.55,
+        0.002
+      ],
+      "purchase_group": "R01-G06",
+      "price_cny": 149,
+      "price_label": "¥149",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 149,
+      "note": "案例系列对应地毯，程序几何与近似织物材质。防滑垫另购，未列入本演示价格。",
+      "products": [
+        {
+          "sku": "60470045",
+          "name": "TIPHEDE 提普赫德",
+          "source_url": "https://www.ikea.cn/cn/zh/p/tiphede-ti-pu-he-de-ping-zhi-di-tan-hei-se-zi-ran-se-60470045/"
+        }
+      ]
+    },
+    {
+      "id": "dining_table",
+      "asset": "dining_table",
+      "label": "SANDSBERG 餐桌 table",
+      "size_m": [
+        1.1,
+        0.67,
+        0.75
+      ],
+      "price_cny": 249,
+      "price_label": "¥249.00",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 249,
+      "reference": "references/dining_table.png",
+      "products": [
+        {
+          "sku": "s09420394",
+          "name": "SANDSBERG 餐桌",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-table-black-s09420394/"
+        }
+      ],
+      "note": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。"
+    },
+    {
+      "id": "dining_chair_1",
+      "asset": "dining_chair",
+      "label": "SANDSBERG 餐椅 1",
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "price_cny": 59.99,
+      "price_label": "¥59.99",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 59.99,
+      "reference": "references/dining_chair.png",
+      "products": [
+        {
+          "sku": "80605430",
+          "name": "SANDSBERG 餐椅",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+        }
+      ],
+      "note": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。"
+    },
+    {
+      "id": "dining_chair_2",
+      "asset": "dining_chair",
+      "label": "SANDSBERG 餐椅 2",
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "price_cny": 59.99,
+      "price_label": "¥59.99",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 59.99,
+      "reference": "references/dining_chair.png",
+      "products": [
+        {
+          "sku": "80605430",
+          "name": "SANDSBERG 餐椅",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+        }
+      ],
+      "note": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。"
+    },
+    {
+      "id": "dining_chair_3",
+      "asset": "dining_chair",
+      "label": "SANDSBERG 餐椅 3",
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "price_cny": 59.99,
+      "price_label": "¥59.99",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 59.99,
+      "reference": "references/dining_chair.png",
+      "products": [
+        {
+          "sku": "80605430",
+          "name": "SANDSBERG 餐椅",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+        }
+      ],
+      "note": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。"
+    },
+    {
+      "id": "dining_chair_4",
+      "asset": "dining_chair",
+      "label": "SANDSBERG 餐椅 4",
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "price_cny": 59.99,
+      "price_label": "¥59.99",
+      "price_kind": "per_instance",
+      "budget_allocation_cny": 59.99,
+      "reference": "references/dining_chair.png",
+      "products": [
+        {
+          "sku": "80605430",
+          "name": "SANDSBERG 餐椅",
+          "source_url": "https://www.ikea.cn/cn/zh/p/sandsberg-sang-de-bei-li-yi-zi-hei-se-80605430/"
+        }
+      ],
+      "note": "新增餐厅配置，官方单品照片直接送入 Lux3D；不是 R01 中已出现的家具。"
+    }
+  ],
+  "exclusions": [
+    "装修工程",
+    "配送安装与固定耗材",
+    "地毯防滑垫",
+    "未建模装饰"
+  ],
+  "source_case": "https://www.ikea.cn/cn/zh/rooms/living-room/gallery/earthy-colours-set-the-mood-in-a-small-flexible-living-room-pub8ae45da5"
+}

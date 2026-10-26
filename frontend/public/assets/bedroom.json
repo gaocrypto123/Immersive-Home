@@ -1,0 +1,1140 @@
+{
+  "source": {
+    "type": "video_observation",
+    "sha256": "9363f8d7875ee8c7396346b2b4ca5808e84a3cb793c543944fd51ee54da30d75",
+    "scale": "relative",
+    "metricScale": null
+  },
+  "outline": [
+    [
+      0.34,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      0.15
+    ],
+    [
+      0.34,
+      0.15
+    ]
+  ],
+  "layouts": [
+    {
+      "id": "L01",
+      "title": "床居中横放，拐角衣柜",
+      "time": 3.4,
+      "frame": 102,
+      "image": "/assets/reference/layout-01.png",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "bounds": [
+            0.33,
+            0.42,
+            1,
+            0.84
+          ],
+          "polygon": [
+            [
+              0.33,
+              0.42
+            ],
+            [
+              1,
+              0.42
+            ],
+            [
+              1,
+              0.84
+            ],
+            [
+              0.33,
+              0.84
+            ]
+          ],
+          "center": [
+            0.665,
+            0.63
+          ],
+          "orientation": "床头朝画面右侧",
+          "description": "右侧墙中段横向放床，床尾向左",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "bedside_north",
+          "label": "上侧床头柜",
+          "category": "bedside_cabinet",
+          "bounds": [
+            0.83,
+            0.29,
+            1,
+            0.43
+          ],
+          "polygon": [
+            [
+              0.83,
+              0.29
+            ],
+            [
+              1,
+              0.29
+            ],
+            [
+              1,
+              0.43
+            ],
+            [
+              0.83,
+              0.43
+            ]
+          ],
+          "center": [
+            0.915,
+            0.36
+          ],
+          "orientation": null,
+          "description": "右墙，床头上方",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "bedside_south",
+          "label": "下侧床头柜",
+          "category": "bedside_cabinet",
+          "bounds": [
+            0.83,
+            0.84,
+            1,
+            0.98
+          ],
+          "polygon": [
+            [
+              0.83,
+              0.84
+            ],
+            [
+              1,
+              0.84
+            ],
+            [
+              1,
+              0.98
+            ],
+            [
+              0.83,
+              0.98
+            ]
+          ],
+          "center": [
+            0.915,
+            0.91
+          ],
+          "orientation": null,
+          "description": "右墙，床头下方、靠窗一侧",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "bounds": [
+            0.35,
+            0,
+            1,
+            0.2
+          ],
+          "polygon": [
+            [
+              0.35,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.2
+            ],
+            [
+              0.35,
+              0.2
+            ]
+          ],
+          "center": [
+            0.675,
+            0.1
+          ],
+          "orientation": "柜门朝画面下方",
+          "description": "上方内凹拐角，沿上墙横向布置",
+          "notes": "高柜顶部向画面上方偏移；落地范围依据柜底及墙线估计。",
+          "confidence": "low",
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "床移入上方，床尾隔断，窗边书桌",
+      "time": 8.933333,
+      "frame": 268,
+      "image": "/assets/reference/layout-02.png",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "bounds": [
+            0.3,
+            0.02,
+            1,
+            0.42
+          ],
+          "polygon": [
+            [
+              0.3,
+              0.02
+            ],
+            [
+              1,
+              0.02
+            ],
+            [
+              1,
+              0.42
+            ],
+            [
+              0.3,
+              0.42
+            ]
+          ],
+          "center": [
+            0.65,
+            0.22
+          ],
+          "orientation": "床头朝画面右侧",
+          "description": "上方拐角内横放，床尾朝入口",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "partition",
+          "label": "床尾隔断",
+          "category": "partition",
+          "bounds": [
+            0.28,
+            0.11,
+            0.34,
+            0.42
+          ],
+          "polygon": [
+            [
+              0.28,
+              0.11
+            ],
+            [
+              0.34,
+              0.11
+            ],
+            [
+              0.34,
+              0.42
+            ],
+            [
+              0.28,
+              0.42
+            ]
+          ],
+          "center": [
+            0.31,
+            0.265
+          ],
+          "orientation": null,
+          "description": "床的左侧短边、靠入户侧",
+          "notes": "字幕明确“前面隔断到顶”；仅确认床尾隔断，绝对高度未知。",
+          "confidence": "low",
+          "rotation": 0
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "bounds": [
+            0.79,
+            0.42,
+            1,
+            1
+          ],
+          "polygon": [
+            [
+              0.79,
+              0.42
+            ],
+            [
+              1,
+              0.42
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.79,
+              1
+            ]
+          ],
+          "center": [
+            0.895,
+            0.71
+          ],
+          "orientation": "柜门朝画面左侧",
+          "description": "右墙中下段纵向布置",
+          "notes": "落地范围按靠墙柜底估计，不能用偏出墙线的柜顶直接测宽。",
+          "confidence": "low",
+          "rotation": 0
+        },
+        {
+          "id": "desk",
+          "label": "书桌（按桌椅形态识别）",
+          "category": "desk",
+          "bounds": [
+            0.23,
+            0.84,
+            0.82,
+            1
+          ],
+          "polygon": [
+            [
+              0.23,
+              0.84
+            ],
+            [
+              0.82,
+              0.84
+            ],
+            [
+              0.82,
+              1
+            ],
+            [
+              0.23,
+              1
+            ]
+          ],
+          "center": [
+            0.525,
+            0.92
+          ],
+          "orientation": "坐下后朝画面下方",
+          "description": "下方窗前，沿窗横放",
+          "notes": "此段字幕称“柜子”；依据桌面及配套椅子的形态暂识别为书桌，具体柜桌功能仍待确认。",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "bounds": [
+            0.44,
+            0.72,
+            0.6,
+            0.85
+          ],
+          "polygon": [
+            [
+              0.44,
+              0.72
+            ],
+            [
+              0.6,
+              0.72
+            ],
+            [
+              0.6,
+              0.85
+            ],
+            [
+              0.44,
+              0.85
+            ]
+          ],
+          "center": [
+            0.52,
+            0.785
+          ],
+          "orientation": "坐下后朝画面下方",
+          "description": "书桌上方，椅子向窗侧书桌就坐",
+          "notes": "部分椅身可被桌沿遮挡。",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "storage",
+          "label": "小柜子",
+          "category": "storage_cabinet",
+          "bounds": [
+            0,
+            0.82,
+            0.24,
+            1
+          ],
+          "polygon": [
+            [
+              0,
+              0.82
+            ],
+            [
+              0.24,
+              0.82
+            ],
+            [
+              0.24,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "center": [
+            0.12,
+            0.91
+          ],
+          "orientation": null,
+          "description": "左下角，与窗前书桌相邻",
+          "notes": "由放置过程确认是独立小柜；字幕未说明具体柜型。",
+          "confidence": "medium",
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "床靠窗横放，右侧书桌，上方衣柜",
+      "time": 11.8,
+      "frame": 354,
+      "image": "/assets/reference/layout-03.png",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "bounds": [
+            0.3,
+            0.59,
+            1,
+            1
+          ],
+          "polygon": [
+            [
+              0.3,
+              0.59
+            ],
+            [
+              1,
+              0.59
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.3,
+              1
+            ]
+          ],
+          "center": [
+            0.65,
+            0.795
+          ],
+          "orientation": "床头朝画面右侧",
+          "description": "下方靠窗横放，床头靠右墙",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "bounds": [
+            0.34,
+            0,
+            1,
+            0.18
+          ],
+          "polygon": [
+            [
+              0.34,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.18
+            ],
+            [
+              0.34,
+              0.18
+            ]
+          ],
+          "center": [
+            0.67,
+            0.09
+          ],
+          "orientation": "柜门朝画面下方",
+          "description": "上方内凹拐角，横向靠墙",
+          "notes": "",
+          "confidence": "low",
+          "rotation": 0
+        },
+        {
+          "id": "desk",
+          "label": "书桌",
+          "category": "desk",
+          "bounds": [
+            0.79,
+            0.18,
+            1,
+            0.59
+          ],
+          "polygon": [
+            [
+              0.79,
+              0.18
+            ],
+            [
+              1,
+              0.18
+            ],
+            [
+              1,
+              0.59
+            ],
+            [
+              0.79,
+              0.59
+            ]
+          ],
+          "center": [
+            0.895,
+            0.385
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "description": "右墙上半段，与床头相接",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "bounds": [
+            0.63,
+            0.31,
+            0.79,
+            0.46
+          ],
+          "polygon": [
+            [
+              0.63,
+              0.31
+            ],
+            [
+              0.79,
+              0.31
+            ],
+            [
+              0.79,
+              0.46
+            ],
+            [
+              0.63,
+              0.46
+            ]
+          ],
+          "center": [
+            0.71,
+            0.385
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "description": "书桌左侧、房间内侧",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "床纵放进拐角，入口衣柜，床尾书桌",
+      "time": 15.3,
+      "frame": 459,
+      "image": "/assets/reference/layout-04.png",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "bounds": [
+            0.52,
+            0,
+            1,
+            0.58
+          ],
+          "polygon": [
+            [
+              0.52,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.58
+            ],
+            [
+              0.52,
+              0.58
+            ]
+          ],
+          "center": [
+            0.76,
+            0.29
+          ],
+          "orientation": "床头朝画面上方",
+          "description": "上方拐角内纵向放床，床尾向窗",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "bedside",
+          "label": "床头柜",
+          "category": "bedside_cabinet",
+          "bounds": [
+            0.35,
+            0,
+            0.52,
+            0.17
+          ],
+          "polygon": [
+            [
+              0.35,
+              0
+            ],
+            [
+              0.52,
+              0
+            ],
+            [
+              0.52,
+              0.17
+            ],
+            [
+              0.35,
+              0.17
+            ]
+          ],
+          "center": [
+            0.435,
+            0.085
+          ],
+          "orientation": null,
+          "description": "床头左侧，靠上方拐角",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "bounds": [
+            0,
+            0.38,
+            0.23,
+            1
+          ],
+          "polygon": [
+            [
+              0,
+              0.38
+            ],
+            [
+              0.23,
+              0.38
+            ],
+            [
+              0.23,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "center": [
+            0.115,
+            0.69
+          ],
+          "orientation": "柜门朝画面右侧",
+          "description": "入口下方左墙，纵向靠墙",
+          "notes": "",
+          "confidence": "low",
+          "rotation": 0
+        },
+        {
+          "id": "desk",
+          "label": "书桌",
+          "category": "desk",
+          "bounds": [
+            0.79,
+            0.58,
+            1,
+            1
+          ],
+          "polygon": [
+            [
+              0.79,
+              0.58
+            ],
+            [
+              1,
+              0.58
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.79,
+              1
+            ]
+          ],
+          "center": [
+            0.895,
+            0.79
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "description": "右下方床尾，沿右墙纵放",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "bounds": [
+            0.63,
+            0.69,
+            0.79,
+            0.84
+          ],
+          "polygon": [
+            [
+              0.63,
+              0.69
+            ],
+            [
+              0.79,
+              0.69
+            ],
+            [
+              0.79,
+              0.84
+            ],
+            [
+              0.63,
+              0.84
+            ]
+          ],
+          "center": [
+            0.71,
+            0.765
+          ],
+          "orientation": "坐下后朝画面右侧",
+          "description": "书桌左侧，位于房间中下部",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "床前移，床后衣帽间，窗边书桌",
+      "time": 18.233333,
+      "frame": 547,
+      "image": "/assets/reference/layout-05.png",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "bounds": [
+            0.52,
+            0.38,
+            1,
+            1
+          ],
+          "polygon": [
+            [
+              0.52,
+              0.38
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.52,
+              1
+            ]
+          ],
+          "center": [
+            0.76,
+            0.69
+          ],
+          "orientation": "床头朝画面上方",
+          "description": "右侧靠窗纵放，床头前移到房间中段",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "closet",
+          "label": "衣帽间柜体组合",
+          "category": "walk_in_closet",
+          "bounds": [
+            0.34,
+            0,
+            1,
+            0.38
+          ],
+          "polygon": [
+            [
+              0.34,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              0.52,
+              0.38
+            ],
+            [
+              0.52,
+              0.29
+            ],
+            [
+              0.81,
+              0.29
+            ],
+            [
+              0.81,
+              0.13
+            ],
+            [
+              0.34,
+              0.13
+            ]
+          ],
+          "center": [
+            0.67,
+            0.19
+          ],
+          "orientation": "入口朝画面左侧",
+          "description": "床头后方拐角，约呈 U 形围合",
+          "notes": "按视频“背后放衣帽间”识别为组合；柜体分段与实际内部构造尚未确认，不将开口当作实心柜。",
+          "confidence": "low",
+          "rotation": 0
+        },
+        {
+          "id": "desk",
+          "label": "书桌",
+          "category": "desk",
+          "bounds": [
+            0,
+            0.82,
+            0.53,
+            1
+          ],
+          "polygon": [
+            [
+              0,
+              0.82
+            ],
+            [
+              0.53,
+              0.82
+            ],
+            [
+              0.53,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "center": [
+            0.265,
+            0.91
+          ],
+          "orientation": "坐下后朝画面下方",
+          "description": "窗前偏左横放，与床尾并列",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "bounds": [
+            0.21,
+            0.69,
+            0.36,
+            0.82
+          ],
+          "polygon": [
+            [
+              0.21,
+              0.69
+            ],
+            [
+              0.36,
+              0.69
+            ],
+            [
+              0.36,
+              0.82
+            ],
+            [
+              0.21,
+              0.82
+            ]
+          ],
+          "center": [
+            0.285,
+            0.755
+          ],
+          "orientation": "坐下后朝画面下方",
+          "description": "书桌上方、左侧通道内",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "左墙衣柜，床头后方转角书桌",
+      "time": 21.3,
+      "frame": 639,
+      "image": "/assets/reference/layout-06.png",
+      "items": [
+        {
+          "id": "bed",
+          "label": "床",
+          "category": "bed",
+          "bounds": [
+            0.52,
+            0.38,
+            1,
+            1
+          ],
+          "polygon": [
+            [
+              0.52,
+              0.38
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.52,
+              1
+            ]
+          ],
+          "center": [
+            0.76,
+            0.69
+          ],
+          "orientation": "床头朝画面上方",
+          "description": "右侧靠窗纵放，床头朝上",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "wardrobe",
+          "label": "衣柜",
+          "category": "wardrobe",
+          "bounds": [
+            0,
+            0.38,
+            0.23,
+            1
+          ],
+          "polygon": [
+            [
+              0,
+              0.38
+            ],
+            [
+              0.23,
+              0.38
+            ],
+            [
+              0.23,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "center": [
+            0.115,
+            0.69
+          ],
+          "orientation": "柜门朝画面右侧",
+          "description": "入口下方左墙，纵向靠墙",
+          "notes": "",
+          "confidence": "low",
+          "rotation": 0
+        },
+        {
+          "id": "desk",
+          "label": "转角书桌",
+          "category": "desk",
+          "bounds": [
+            0.34,
+            0,
+            1,
+            0.38
+          ],
+          "polygon": [
+            [
+              0.34,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.38
+            ],
+            [
+              0.79,
+              0.38
+            ],
+            [
+              0.79,
+              0.16
+            ],
+            [
+              0.34,
+              0.16
+            ]
+          ],
+          "center": [
+            0.67,
+            0.19
+          ],
+          "orientation": "椅子朝画面上方就坐",
+          "description": "床头后方拐角，沿上墙并沿右墙转折",
+          "notes": "按字幕“床头后面放书桌”和桌椅形态识别；L 形转折为视觉估计。",
+          "confidence": "medium",
+          "rotation": 0
+        },
+        {
+          "id": "chair",
+          "label": "书椅",
+          "category": "chair",
+          "bounds": [
+            0.5,
+            0.16,
+            0.68,
+            0.29
+          ],
+          "polygon": [
+            [
+              0.5,
+              0.16
+            ],
+            [
+              0.68,
+              0.16
+            ],
+            [
+              0.68,
+              0.29
+            ],
+            [
+              0.5,
+              0.29
+            ]
+          ],
+          "center": [
+            0.59,
+            0.225
+          ],
+          "orientation": "坐下后朝画面上方",
+          "description": "转角桌上墙桌面下方，床头左上方",
+          "notes": "",
+          "confidence": "medium",
+          "rotation": 0
+        }
+      ]
+    }
+  ]
+}

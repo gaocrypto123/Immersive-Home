@@ -1,0 +1,604 @@
+{
+  "/assets/P03-R01/overview.png": {
+    "url": "/assets/optimized/dd9738ca49880ca98897-q88.webp",
+    "lossless": false,
+    "width": 840,
+    "height": 700
+  },
+  "/assets/P04-R01/overview.png": {
+    "url": "/assets/optimized/d967be88883818739b68-q88.webp",
+    "lossless": false,
+    "width": 1120,
+    "height": 840,
+    "thumbnail": "/assets/optimized/d967be88883818739b68-thumb.webp"
+  },
+  "/assets/inspiration/L01.png": {
+    "url": "/assets/optimized/88f61c116869909fa80f-q88.webp",
+    "lossless": false,
+    "width": 759,
+    "height": 785
+  },
+  "/assets/inspiration/L02.png": {
+    "url": "/assets/optimized/1a14a9ea190495ace051-q88.webp",
+    "lossless": false,
+    "width": 652,
+    "height": 998,
+    "thumbnail": "/assets/optimized/1a14a9ea190495ace051-thumb.webp"
+  },
+  "/assets/inspiration/L03.png": {
+    "url": "/assets/optimized/f8593b03504234fd788b-q88.webp",
+    "lossless": false,
+    "width": 652,
+    "height": 917,
+    "thumbnail": "/assets/optimized/f8593b03504234fd788b-thumb.webp"
+  },
+  "/assets/inspiration/L04.png": {
+    "url": "/assets/optimized/5f50d72407254018fb4f-q88.webp",
+    "lossless": false,
+    "width": 647,
+    "height": 768
+  },
+  "/assets/inspiration/L05.png": {
+    "url": "/assets/optimized/7ebba1c3c13766f0012f-q88.webp",
+    "lossless": false,
+    "width": 680,
+    "height": 948,
+    "thumbnail": "/assets/optimized/7ebba1c3c13766f0012f-thumb.webp"
+  },
+  "/assets/inspiration/L06.png": {
+    "url": "/assets/optimized/56ae473d3a51d28b5b75-q88.webp",
+    "lossless": false,
+    "width": 663,
+    "height": 1060,
+    "thumbnail": "/assets/optimized/56ae473d3a51d28b5b75-thumb.webp"
+  },
+  "/assets/parsing/concept.png": {
+    "url": "/assets/optimized/fe718524432ae7cf211d-exact.webp",
+    "lossless": true,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/fe718524432ae7cf211d-thumb.webp"
+  },
+  "/assets/parsing/draft.png": {
+    "url": "/assets/optimized/aeede35d36f072d11559-exact.webp",
+    "lossless": true,
+    "width": 1500,
+    "height": 1650,
+    "thumbnail": "/assets/optimized/aeede35d36f072d11559-thumb.webp"
+  },
+  "/assets/parsing/listing.png": {
+    "url": "/assets/optimized/79ee81d5d200486af834-exact.webp",
+    "lossless": true,
+    "width": 1196,
+    "height": 1315,
+    "thumbnail": "/assets/optimized/79ee81d5d200486af834-thumb.webp"
+  },
+  "/assets/parsing/plan-01.png": {
+    "url": "/assets/optimized/79ee81d5d200486af834-exact.webp",
+    "lossless": true,
+    "width": 1196,
+    "height": 1315,
+    "thumbnail": "/assets/optimized/79ee81d5d200486af834-thumb.webp"
+  },
+  "/assets/parsing/plan-02.png": {
+    "url": "/assets/optimized/c6f18adc09b23aaa6b9b-exact.webp",
+    "lossless": true,
+    "width": 1086,
+    "height": 1448,
+    "thumbnail": "/assets/optimized/c6f18adc09b23aaa6b9b-thumb.webp"
+  },
+  "/assets/parsing/plan-03.png": {
+    "url": "/assets/optimized/20727923baabf5cbe6db-exact.webp",
+    "lossless": true,
+    "width": 1024,
+    "height": 1536,
+    "thumbnail": "/assets/optimized/20727923baabf5cbe6db-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L01/cutouts/L01-bed-001.png": {
+    "url": "/assets/optimized/50b71434359377cbd7de-q88.webp",
+    "lossless": false,
+    "width": 1093,
+    "height": 610,
+    "thumbnail": "/assets/optimized/50b71434359377cbd7de-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L01/cutouts/L01-bench-refined-001.png": {
+    "url": "/assets/optimized/3a9437240ecb795cae4a-q88.webp",
+    "lossless": false,
+    "width": 265,
+    "height": 402
+  },
+  "/assets/reference-pipeline/v1/L01/cutouts/L01-nightstand-001.png": {
+    "url": "/assets/optimized/d2e6b305c623ee9e5df1-q88.webp",
+    "lossless": false,
+    "width": 192,
+    "height": 294
+  },
+  "/assets/reference-pipeline/v1/L01/cutouts/L01-wardrobe-001.png": {
+    "url": "/assets/optimized/5a119f3d29ac6cb1064f-q88.webp",
+    "lossless": false,
+    "width": 703,
+    "height": 572
+  },
+  "/assets/reference-pipeline/v1/L01/plan.png": {
+    "url": "/assets/optimized/e469fc4a2c5216222a1a-exact.webp",
+    "lossless": true,
+    "width": 1197,
+    "height": 1315,
+    "thumbnail": "/assets/optimized/e469fc4a2c5216222a1a-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L01/products/L01-bed-001.png": {
+    "url": "/assets/optimized/9d7829c7586b6ff5a0a5-q88.webp",
+    "lossless": false,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/9d7829c7586b6ff5a0a5-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L01/products/L01-bench-refined-001.png": {
+    "url": "/assets/optimized/3f49c32b6141e179d98c-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/3f49c32b6141e179d98c-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L01/products/L01-nightstand-001.png": {
+    "url": "/assets/optimized/f6f45a52c1e7ddc89546-q88.webp",
+    "lossless": false,
+    "width": 1312,
+    "height": 1199,
+    "thumbnail": "/assets/optimized/f6f45a52c1e7ddc89546-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L01/products/L01-nightstand-002.png": {
+    "url": "/assets/optimized/edad36b2c77203d8f1ae-q88.webp",
+    "lossless": false,
+    "width": 1374,
+    "height": 1145,
+    "thumbnail": "/assets/optimized/edad36b2c77203d8f1ae-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L01/products/L01-wardrobe-001.png": {
+    "url": "/assets/optimized/6854df8e1ba8c3a0d276-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/6854df8e1ba8c3a0d276-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/cutouts/L02-bed-001.png": {
+    "url": "/assets/optimized/04d8c7298320e34e27cd-q88.webp",
+    "lossless": false,
+    "width": 448,
+    "height": 300
+  },
+  "/assets/reference-pipeline/v1/L02/cutouts/L02-chair-001.png": {
+    "url": "/assets/optimized/7bd8491abf3b53d2bec0-q88.webp",
+    "lossless": false,
+    "width": 476,
+    "height": 193
+  },
+  "/assets/reference-pipeline/v1/L02/cutouts/L02-desk-001.png": {
+    "url": "/assets/optimized/5cd9ed0418d9b4eefea8-q88.webp",
+    "lossless": false,
+    "width": 1565,
+    "height": 90,
+    "thumbnail": "/assets/optimized/5cd9ed0418d9b4eefea8-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/cutouts/L02-divider-refined-002.png": {
+    "url": "/assets/optimized/b432492a5a622626a26c-q88.webp",
+    "lossless": false,
+    "width": 144,
+    "height": 234
+  },
+  "/assets/reference-pipeline/v1/L02/cutouts/L02-shelf-refined-001.png": {
+    "url": "/assets/optimized/b2c64533b90b94fccdad-q88.webp",
+    "lossless": false,
+    "width": 283,
+    "height": 941,
+    "thumbnail": "/assets/optimized/b2c64533b90b94fccdad-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/cutouts/L02-wardrobe-001.png": {
+    "url": "/assets/optimized/635adf7a31ac12a2628b-q88.webp",
+    "lossless": false,
+    "width": 362,
+    "height": 850
+  },
+  "/assets/reference-pipeline/v1/L02/plan.png": {
+    "url": "/assets/optimized/90de7bb4acb7a72d16cf-exact.webp",
+    "lossless": true,
+    "width": 1198,
+    "height": 1313,
+    "thumbnail": "/assets/optimized/90de7bb4acb7a72d16cf-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/products/L02-bed-001.png": {
+    "url": "/assets/optimized/337991e0de08046056d4-q88.webp",
+    "lossless": false,
+    "width": 1671,
+    "height": 941,
+    "thumbnail": "/assets/optimized/337991e0de08046056d4-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/products/L02-chair-001.png": {
+    "url": "/assets/optimized/8b5922868bb1a110605b-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/8b5922868bb1a110605b-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/products/L02-desk-001.png": {
+    "url": "/assets/optimized/7dc09adbd74bcf061601-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/7dc09adbd74bcf061601-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/products/L02-divider-refined-002.png": {
+    "url": "/assets/optimized/c09a86d4e04f990ccee7-q88.webp",
+    "lossless": false,
+    "width": 1312,
+    "height": 1199,
+    "thumbnail": "/assets/optimized/c09a86d4e04f990ccee7-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/products/L02-shelf-refined-001.png": {
+    "url": "/assets/optimized/49e360d3bf962a3044c0-q88.webp",
+    "lossless": false,
+    "width": 1024,
+    "height": 1536,
+    "thumbnail": "/assets/optimized/49e360d3bf962a3044c0-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L02/products/L02-wardrobe-001.png": {
+    "url": "/assets/optimized/2f5e7f0b60b7f0e45ebf-q88.webp",
+    "lossless": false,
+    "width": 1400,
+    "height": 1123,
+    "thumbnail": "/assets/optimized/2f5e7f0b60b7f0e45ebf-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L03/cutouts/L03-bed-001.png": {
+    "url": "/assets/optimized/2c96bc9629c76a66e6ad-q88.webp",
+    "lossless": false,
+    "width": 1096,
+    "height": 633,
+    "thumbnail": "/assets/optimized/2c96bc9629c76a66e6ad-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L03/cutouts/L03-chair-001.png": {
+    "url": "/assets/optimized/baaf1212cc6a08b28f37-q88.webp",
+    "lossless": false,
+    "width": 163,
+    "height": 150
+  },
+  "/assets/reference-pipeline/v1/L03/cutouts/L03-desk-001.png": {
+    "url": "/assets/optimized/612557d5874afb178d21-q88.webp",
+    "lossless": false,
+    "width": 325,
+    "height": 69
+  },
+  "/assets/reference-pipeline/v1/L03/cutouts/L03-wardrobe-001.png": {
+    "url": "/assets/optimized/59cbec4231043371eda2-q88.webp",
+    "lossless": false,
+    "width": 513,
+    "height": 457
+  },
+  "/assets/reference-pipeline/v1/L03/plan.png": {
+    "url": "/assets/optimized/806b155f49acd36a4106-exact.webp",
+    "lossless": true,
+    "width": 1198,
+    "height": 1313,
+    "thumbnail": "/assets/optimized/806b155f49acd36a4106-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L03/products/L03-bed-001.png": {
+    "url": "/assets/optimized/7b89a788d0a2d55bd31a-q88.webp",
+    "lossless": false,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/7b89a788d0a2d55bd31a-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L03/products/L03-chair-001.png": {
+    "url": "/assets/optimized/e915b9f23b07f5fcf7f8-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/e915b9f23b07f5fcf7f8-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L03/products/L03-desk-001.png": {
+    "url": "/assets/optimized/5566e21707fc2274749d-q88.webp",
+    "lossless": false,
+    "width": 1774,
+    "height": 887,
+    "thumbnail": "/assets/optimized/5566e21707fc2274749d-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L03/products/L03-nightstand-001.png": {
+    "url": "/assets/optimized/1228675c546b9ac22f11-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/1228675c546b9ac22f11-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L03/products/L03-wardrobe-001.png": {
+    "url": "/assets/optimized/ddee802ac7060476db8b-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/ddee802ac7060476db8b-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L04/cutouts/L04-bed-001.png": {
+    "url": "/assets/optimized/48f1ddbdce92706bf52e-q88.webp",
+    "lossless": false,
+    "width": 700,
+    "height": 532
+  },
+  "/assets/reference-pipeline/v1/L04/cutouts/L04-chair-001.png": {
+    "url": "/assets/optimized/a66fba971acda431880f-q88.webp",
+    "lossless": false,
+    "width": 371,
+    "height": 358
+  },
+  "/assets/reference-pipeline/v1/L04/cutouts/L04-desk-refined-001.png": {
+    "url": "/assets/optimized/f4aadc8ea771be08c72b-q88.webp",
+    "lossless": false,
+    "width": 250,
+    "height": 399
+  },
+  "/assets/reference-pipeline/v1/L04/cutouts/L04-nightstand-002.png": {
+    "url": "/assets/optimized/6d043d8a7a0f307c5a72-q88.webp",
+    "lossless": false,
+    "width": 122,
+    "height": 137
+  },
+  "/assets/reference-pipeline/v1/L04/cutouts/L04-wardrobe-001.png": {
+    "url": "/assets/optimized/fe5c8d82baf3169a8dfa-q88.webp",
+    "lossless": false,
+    "width": 335,
+    "height": 856,
+    "thumbnail": "/assets/optimized/fe5c8d82baf3169a8dfa-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L04/plan.png": {
+    "url": "/assets/optimized/4c5f2d2f5e630c090ef8-exact.webp",
+    "lossless": true,
+    "width": 1197,
+    "height": 1314,
+    "thumbnail": "/assets/optimized/4c5f2d2f5e630c090ef8-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L04/products/L04-bed-001.png": {
+    "url": "/assets/optimized/5f6d63501266cecf49cf-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/5f6d63501266cecf49cf-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L04/products/L04-chair-001.png": {
+    "url": "/assets/optimized/08868ff43e52a4bbea67-q88.webp",
+    "lossless": false,
+    "width": 1374,
+    "height": 1145,
+    "thumbnail": "/assets/optimized/08868ff43e52a4bbea67-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L04/products/L04-desk-refined-001.png": {
+    "url": "/assets/optimized/2124b98e80a5d6c45b86-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/2124b98e80a5d6c45b86-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L04/products/L04-nightstand-002.png": {
+    "url": "/assets/optimized/534be87f60a22f0c1f6e-q88.webp",
+    "lossless": false,
+    "width": 1375,
+    "height": 1144,
+    "thumbnail": "/assets/optimized/534be87f60a22f0c1f6e-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L04/products/L04-wardrobe-001.png": {
+    "url": "/assets/optimized/36bcca8a5b784a2c1cb9-q88.webp",
+    "lossless": false,
+    "width": 1024,
+    "height": 1536,
+    "thumbnail": "/assets/optimized/36bcca8a5b784a2c1cb9-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L05/cutouts/L05-bed-001.png": {
+    "url": "/assets/optimized/5e0b2e4f1ae5d133a2c8-q88.webp",
+    "lossless": false,
+    "width": 876,
+    "height": 528,
+    "thumbnail": "/assets/optimized/5e0b2e4f1ae5d133a2c8-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L05/cutouts/L05-cabinet-refined-001.png": {
+    "url": "/assets/optimized/c0dfce27139997713a14-q88.webp",
+    "lossless": false,
+    "width": 694,
+    "height": 517
+  },
+  "/assets/reference-pipeline/v1/L05/cutouts/L05-chair-001.png": {
+    "url": "/assets/optimized/2efa53038822099c4b98-q88.webp",
+    "lossless": false,
+    "width": 278,
+    "height": 380
+  },
+  "/assets/reference-pipeline/v1/L05/cutouts/L05-desk-001.png": {
+    "url": "/assets/optimized/0b3803cc7831ddf9840c-q88.webp",
+    "lossless": false,
+    "width": 801,
+    "height": 369,
+    "thumbnail": "/assets/optimized/0b3803cc7831ddf9840c-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L05/plan.png": {
+    "url": "/assets/optimized/f5ca0fdaa1087532be7c-exact.webp",
+    "lossless": true,
+    "width": 1198,
+    "height": 1313,
+    "thumbnail": "/assets/optimized/f5ca0fdaa1087532be7c-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L05/products/L05-bed-001.png": {
+    "url": "/assets/optimized/e0802691f454a8d3d98a-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/e0802691f454a8d3d98a-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L05/products/L05-cabinet-refined-001.png": {
+    "url": "/assets/optimized/df6324c7ca9660ad2f4d-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/df6324c7ca9660ad2f4d-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L05/products/L05-chair-001.png": {
+    "url": "/assets/optimized/571c887b1edd50a0fc99-q88.webp",
+    "lossless": false,
+    "width": 1299,
+    "height": 1211,
+    "thumbnail": "/assets/optimized/571c887b1edd50a0fc99-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L05/products/L05-desk-001.png": {
+    "url": "/assets/optimized/4022120575bf4ef6a34b-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/4022120575bf4ef6a34b-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L06/cutouts/L06-bed-001.png": {
+    "url": "/assets/optimized/e5a532f58806bb762067-q88.webp",
+    "lossless": false,
+    "width": 801,
+    "height": 424
+  },
+  "/assets/reference-pipeline/v1/L06/cutouts/L06-cabinet-013.png": {
+    "url": "/assets/optimized/ef37b494461fad3c1314-q94.webp",
+    "lossless": false,
+    "width": 106,
+    "height": 154
+  },
+  "/assets/reference-pipeline/v1/L06/cutouts/L06-chair-001.png": {
+    "url": "/assets/optimized/fa055f0ccec598787910-q88.webp",
+    "lossless": false,
+    "width": 186,
+    "height": 203
+  },
+  "/assets/reference-pipeline/v1/L06/cutouts/L06-desk-refined-001.png": {
+    "url": "/assets/optimized/fec598d3beb96c12c798-q88.webp",
+    "lossless": false,
+    "width": 636,
+    "height": 179
+  },
+  "/assets/reference-pipeline/v1/L06/cutouts/L06-wardrobe-001.png": {
+    "url": "/assets/optimized/fb03071bccfd113efbfe-q88.webp",
+    "lossless": false,
+    "width": 435,
+    "height": 937,
+    "thumbnail": "/assets/optimized/fb03071bccfd113efbfe-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L06/plan.png": {
+    "url": "/assets/optimized/1ef10f222529e3f1cd8d-exact.webp",
+    "lossless": true,
+    "width": 1197,
+    "height": 1315,
+    "thumbnail": "/assets/optimized/1ef10f222529e3f1cd8d-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L06/products/L06-bed-001.png": {
+    "url": "/assets/optimized/6e09f92acae2bd803e99-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/6e09f92acae2bd803e99-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L06/products/L06-cabinet-013.png": {
+    "url": "/assets/optimized/01648023455955af7a43-q88.webp",
+    "lossless": false,
+    "width": 1312,
+    "height": 1199,
+    "thumbnail": "/assets/optimized/01648023455955af7a43-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L06/products/L06-chair-001.png": {
+    "url": "/assets/optimized/e498e11251d804a9a234-q88.webp",
+    "lossless": false,
+    "width": 1374,
+    "height": 1145,
+    "thumbnail": "/assets/optimized/e498e11251d804a9a234-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L06/products/L06-desk-refined-001.png": {
+    "url": "/assets/optimized/71763ef2271d5f1d86ab-q88.webp",
+    "lossless": false,
+    "width": 1536,
+    "height": 1024,
+    "thumbnail": "/assets/optimized/71763ef2271d5f1d86ab-thumb.webp"
+  },
+  "/assets/reference-pipeline/v1/L06/products/L06-wardrobe-001.png": {
+    "url": "/assets/optimized/664e21d6ed41de0e1b0f-q88.webp",
+    "lossless": false,
+    "width": 1312,
+    "height": 1199,
+    "thumbnail": "/assets/optimized/664e21d6ed41de0e1b0f-thumb.webp"
+  },
+  "/assets/reference-sources/L01.png": {
+    "url": "/assets/optimized/e70c4aa82cd176490a4e-exact.webp",
+    "lossless": true,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/e70c4aa82cd176490a4e-thumb.webp"
+  },
+  "/assets/reference-sources/L02.png": {
+    "url": "/assets/optimized/82f009f3c0906f1ad7e3-exact.webp",
+    "lossless": true,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/82f009f3c0906f1ad7e3-thumb.webp"
+  },
+  "/assets/reference-sources/L03.png": {
+    "url": "/assets/optimized/58342f0168dcf9afba46-exact.webp",
+    "lossless": true,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/58342f0168dcf9afba46-thumb.webp"
+  },
+  "/assets/reference-sources/L04.png": {
+    "url": "/assets/optimized/3c166e200f5f2e652edc-exact.webp",
+    "lossless": true,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/3c166e200f5f2e652edc-thumb.webp"
+  },
+  "/assets/reference-sources/L05.png": {
+    "url": "/assets/optimized/ca7dd28816e699e8c907-exact.webp",
+    "lossless": true,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/ca7dd28816e699e8c907-thumb.webp"
+  },
+  "/assets/reference-sources/L06.png": {
+    "url": "/assets/optimized/9eb8ac808d5f520460cb-exact.webp",
+    "lossless": true,
+    "width": 1672,
+    "height": 941,
+    "thumbnail": "/assets/optimized/9eb8ac808d5f520460cb-thumb.webp"
+  },
+  "/assets/reference/layout-01.png": {
+    "url": "/assets/optimized/e1422bc4f419037ab7fa-q88.webp",
+    "lossless": false,
+    "width": 750,
+    "height": 845
+  },
+  "/assets/reference/layout-02.png": {
+    "url": "/assets/optimized/fff4a092c5dd22402943-q88.webp",
+    "lossless": false,
+    "width": 750,
+    "height": 845
+  },
+  "/assets/reference/layout-03.png": {
+    "url": "/assets/optimized/ebeb31df4d261623bbc6-q88.webp",
+    "lossless": false,
+    "width": 750,
+    "height": 845,
+    "thumbnail": "/assets/optimized/ebeb31df4d261623bbc6-thumb.webp"
+  },
+  "/assets/reference/layout-04.png": {
+    "url": "/assets/optimized/32c130f57f0a200765a6-q88.webp",
+    "lossless": false,
+    "width": 750,
+    "height": 845
+  },
+  "/assets/reference/layout-05.png": {
+    "url": "/assets/optimized/1e5e6caa9937cf40af95-q88.webp",
+    "lossless": false,
+    "width": 750,
+    "height": 845
+  },
+  "/assets/reference/layout-06.png": {
+    "url": "/assets/optimized/7755692bebaf523a7a9d-q88.webp",
+    "lossless": false,
+    "width": 750,
+    "height": 845
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "objects": [
+    {
+      "id": "sofa",
+      "asset": "sofa",
+      "center_xy_m": [
+        2.2,
+        2.325
+      ],
+      "size_m": [
+        1.58,
+        0.75,
+        0.74
+      ],
+      "yaw_degrees": 360,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "table_walnut",
+      "asset": "table_walnut",
+      "center_xy_m": [
+        2.45,
+        1.35
+      ],
+      "size_m": [
+        0.55,
+        0.55,
+        0.45
+      ],
+      "yaw_degrees": 270,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "table_gray",
+      "asset": "table_gray",
+      "center_xy_m": [
+        1.78,
+        1.3
+      ],
+      "size_m": [
+        0.7,
+        0.4,
+        0.38
+      ],
+      "yaw_degrees": 270,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "chair",
+      "asset": "chair",
+      "center_xy_m": [
+        2.55,
+        0.58
+      ],
+      "size_m": [
+        0.59,
+        0.57,
+        0.74
+      ],
+      "yaw_degrees": 195,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "cabinet_1",
+      "asset": "cabinet",
+      "center_xy_m": [
+        3.671,
+        0.4501
+      ],
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "yaw_degrees": 270.0,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "cabinet_2",
+      "asset": "cabinet",
+      "center_xy_m": [
+        3.671,
+        0.8101
+      ],
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "yaw_degrees": 270.0,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "cabinet_3",
+      "asset": "cabinet",
+      "center_xy_m": [
+        3.671,
+        1.1701
+      ],
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "yaw_degrees": 270.0,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "wallcube_1",
+      "asset": "wallcube",
+      "center_xy_m": [
+        3.721,
+        0.2701
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 270.0,
+      "bottom_z_m": 1.65,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "wallcube_2",
+      "asset": "wallcube",
+      "center_xy_m": [
+        3.721,
+        0.6301
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 270.0,
+      "bottom_z_m": 1.65,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "wallcube_3",
+      "asset": "wallcube",
+      "center_xy_m": [
+        3.721,
+        0.9901
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 270.0,
+      "bottom_z_m": 1.65,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "wallcube_4",
+      "asset": "wallcube",
+      "center_xy_m": [
+        3.721,
+        1.3501
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 270.0,
+      "bottom_z_m": 1.65,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_table",
+      "asset": "dining_table",
+      "center_xy_m": [
+        1.95,
+        3.4453
+      ],
+      "size_m": [
+        1.1,
+        0.67,
+        0.75
+      ],
+      "yaw_degrees": 270,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_1",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        1.31,
+        3.7203
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 450,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_2",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        1.31,
+        3.1703
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 450,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_3",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        2.59,
+        3.7203
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 270,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_4",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        2.59,
+        3.1703
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 270,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    }
+  ],
+  "routes_m": {
+    "kitchen": [
+      [
+        0.325,
+        4.285
+      ],
+      [
+        1.405,
+        4.285
+      ],
+      [
+        1.405,
+        6.444999999999999
+      ]
+    ],
+    "bedroom_A": [
+      [
+        0.325,
+        4.285
+      ],
+      [
+        1.405,
+        4.285
+      ],
+      [
+        1.405,
+        4.405
+      ],
+      [
+        1.525,
+        4.405
+      ],
+      [
+        1.525,
+        5.6049999999999995
+      ]
+    ],
+    "bathroom": [
+      [
+        0.325,
+        4.285
+      ],
+      [
+        1.405,
+        4.285
+      ],
+      [
+        1.405,
+        4.405
+      ],
+      [
+        4.645,
+        4.405
+      ]
+    ],
+    "bedroom_B": [
+      [
+        0.325,
+        4.285
+      ],
+      [
+        1.405,
+        4.285
+      ],
+      [
+        1.405,
+        4.405
+      ],
+      [
+        5.245,
+        4.405
+      ],
+      [
+        5.245,
+        4.285
+      ]
+    ],
+    "bedroom_C": [
+      [
+        0.325,
+        4.285
+      ],
+      [
+        1.405,
+        4.285
+      ],
+      [
+        1.405,
+        4.405
+      ],
+      [
+        4.645,
+        4.405
+      ],
+      [
+        4.645,
+        4.285
+      ]
+    ],
+    "balcony": [
+      [
+        0.325,
+        4.285
+      ],
+      [
+        0.325,
+        2.725
+      ],
+      [
+        0.445,
+        2.725
+      ],
+      [
+        0.445,
+        2.605
+      ],
+      [
+        1.045,
+        2.605
+      ],
+      [
+        1.045,
+        1.645
+      ],
+      [
+        1.165,
+        1.645
+      ],
+      [
+        1.165,
+        0.8049999999999999
+      ],
+      [
+        1.285,
+        0.8049999999999999
+      ],
+      [
+        1.285,
+        0.565
+      ],
+      [
+        1.885,
+        0.565
+      ],
+      [
+        1.885,
+        0.325
+      ]
+    ]
+  }
+}

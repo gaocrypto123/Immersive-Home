@@ -1,0 +1,754 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L02",
+  "room_id": "REF-L02-R01",
+  "title": "动静分区",
+  "source": {
+    "reference_id": "L02",
+    "file": "/assets/inspiration/L02.png",
+    "sha256": "1A14A9EA190495ACE051AE756FD2E3D9C2C3321F0831EEA0B7563EBC8B13B7D8",
+    "width_px": 652,
+    "height_px": 998,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      340,
+      55,
+      652,
+      998
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床位于上部，床头朝画面右侧。",
+    "半高隔断柜紧贴床左侧短边；长书桌临下侧窗。",
+    "右侧可见长排奶白色柜体、黄铜色五金；不从图像推断真实品牌。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 4,
+  "name": "蒙版与属性",
+  "coordinate_system": {
+    "origin": "image top-left",
+    "x": "right",
+    "y": "down",
+    "units": "pixel",
+    "size": [
+      652,
+      998
+    ]
+  },
+  "precision": "manual_coarse_not_ground_truth",
+  "instance_index_png": "instance-ids.png",
+  "background_value": 0,
+  "index_semantics": "8-bit grayscale integer ID; 0=unannotated; labels map to the same case/room/instance IDs",
+  "occlusion_note": "多个粗多边形重叠时，后标注实例覆盖前实例；二值蒙版由最终索引图生成。",
+  "instances": [
+    {
+      "instance_id": "REF-L02-R01-rug",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "奶白长绒外观地毯",
+      "category": "rug",
+      "appearance": {
+        "display_color": "#d9cebb",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 1,
+      "color": "#b0a17a",
+      "file": "masks/rug.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            92,
+            464
+          ],
+          [
+            507,
+            455
+          ],
+          [
+            526,
+            784
+          ],
+          [
+            73,
+            791
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 0,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 119169,
+      "bbox_xywh_px": [
+        79,
+        455,
+        445,
+        304
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-bed",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "弧形软包双人床",
+      "category": "bed",
+      "appearance": {
+        "display_color": "#ece2ce",
+        "materials_appearance": [
+          "奶白软包外观",
+          "米白床品",
+          "豆沙粉织物"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 2,
+      "color": "#7e9d72",
+      "file": "masks/bed.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            239,
+            66
+          ],
+          [
+            578,
+            62
+          ],
+          [
+            597,
+            113
+          ],
+          [
+            590,
+            385
+          ],
+          [
+            541,
+            437
+          ],
+          [
+            243,
+            428
+          ],
+          [
+            238,
+            345
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 1,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 122106,
+      "bbox_xywh_px": [
+        239,
+        62,
+        358,
+        375
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-divider",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "半高储物隔断柜",
+      "category": "cabinet",
+      "appearance": {
+        "display_color": "#dfd2bb",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "床尾位于图面左侧，隔断并非床的下部长边。"
+      },
+      "label_value": 3,
+      "color": "#a37957",
+      "file": "masks/divider.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            165,
+            121
+          ],
+          [
+            239,
+            123
+          ],
+          [
+            240,
+            445
+          ],
+          [
+            181,
+            438
+          ],
+          [
+            164,
+            382
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 2,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 18885,
+      "bbox_xywh_px": [
+        164,
+        121,
+        76,
+        324
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-wardrobe",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "右墙奶白柜体",
+      "category": "wardrobe",
+      "appearance": {
+        "display_color": "#e6dcc5",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 4,
+      "color": "#728fac",
+      "file": "masks/wardrobe.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            538,
+            316
+          ],
+          [
+            635,
+            298
+          ],
+          [
+            650,
+            813
+          ],
+          [
+            558,
+            905
+          ],
+          [
+            536,
+            798
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 3,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 56083,
+      "bbox_xywh_px": [
+        536,
+        298,
+        114,
+        606
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-desk",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "临窗长书桌",
+      "category": "desk",
+      "appearance": {
+        "display_color": "#e4d6b9",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 5,
+      "color": "#b6a570",
+      "file": "masks/desk.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            46,
+            761
+          ],
+          [
+            560,
+            754
+          ],
+          [
+            567,
+            838
+          ],
+          [
+            38,
+            864
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 4,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 41725,
+      "bbox_xywh_px": [
+        38,
+        754,
+        529,
+        104
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-chair",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "编织背靠座椅",
+      "category": "chair",
+      "appearance": {
+        "display_color": "#a78b55",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 6,
+      "color": "#9d7f98",
+      "file": "masks/chair.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            303,
+            712
+          ],
+          [
+            374,
+            709
+          ],
+          [
+            399,
+            749
+          ],
+          [
+            391,
+            781
+          ],
+          [
+            305,
+            782
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 5,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 6153,
+      "bbox_xywh_px": [
+        303,
+        709,
+        96,
+        73
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-curtain",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "双层窗帘系统",
+      "category": "curtain",
+      "appearance": {
+        "display_color": "#c4c6be",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 7,
+      "color": "#67988e",
+      "file": "masks/curtain.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            34,
+            858
+          ],
+          [
+            554,
+            847
+          ],
+          [
+            563,
+            962
+          ],
+          [
+            39,
+            958
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 6,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 56118,
+      "bbox_xywh_px": [
+        34,
+        847,
+        529,
+        115
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-wall-art",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "小幅装饰画",
+      "category": "wall_art",
+      "appearance": {
+        "display_color": "#b09c6f",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 8,
+      "color": "#af875d",
+      "file": "masks/wall-art.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            397,
+            29
+          ],
+          [
+            440,
+            33
+          ],
+          [
+            433,
+            68
+          ],
+          [
+            394,
+            63
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 7,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 1434,
+      "bbox_xywh_px": [
+        394,
+        29,
+        46,
+        39
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-wall-lamp",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "床侧壁灯",
+      "category": "wall_lamp",
+      "appearance": {
+        "display_color": "#bd9c5c",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 9,
+      "color": "#7c829e",
+      "file": "masks/wall-lamp.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            469,
+            48
+          ],
+          [
+            497,
+            50
+          ],
+          [
+            502,
+            103
+          ],
+          [
+            474,
+            107
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 8,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 1578,
+      "bbox_xywh_px": [
+        469,
+        48,
+        33,
+        59
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-desk-lamp",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "黄铜色台灯",
+      "category": "table_lamp",
+      "appearance": {
+        "display_color": "#b69a56",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 10,
+      "color": "#a28e69",
+      "file": "masks/desk-lamp.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            467,
+            729
+          ],
+          [
+            508,
+            735
+          ],
+          [
+            516,
+            791
+          ],
+          [
+            476,
+            803
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 9,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 2656,
+      "bbox_xywh_px": [
+        467,
+        729,
+        49,
+        74
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-flowers-divider",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "隔断柜花艺",
+      "category": "vase",
+      "appearance": {
+        "display_color": "#cfb6a4",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 11,
+      "color": "#7f9e9c",
+      "file": "masks/flowers-divider.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            164,
+            100
+          ],
+          [
+            226,
+            95
+          ],
+          [
+            248,
+            167
+          ],
+          [
+            222,
+            201
+          ],
+          [
+            175,
+            180
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 10,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 6349,
+      "bbox_xywh_px": [
+        164,
+        95,
+        84,
+        106
+      ]
+    },
+    {
+      "instance_id": "REF-L02-R01-flowers-desk",
+      "case_id": "REF-L02",
+      "room_id": "REF-L02-R01",
+      "label": "书桌花艺",
+      "category": "vase",
+      "appearance": {
+        "display_color": "#cfb6a4",
+        "materials_appearance": [
+          "依可见外观记录，具体材料未鉴定"
+        ],
+        "material_identity_verified": false
+      },
+      "evidence": {
+        "source": "actual_core_crop",
+        "classification": "agent_visual_observation",
+        "confidence": "medium",
+        "visibility": "visible",
+        "notes": "类别及外观为目视判读；遮挡面未知。"
+      },
+      "label_value": 12,
+      "color": "#a97b83",
+      "file": "masks/flowers-desk.png",
+      "attributes_file": "masks-attributes.json",
+      "polygon_source": "manual_coarse_outline",
+      "polygons_px": [
+        [
+          [
+            60,
+            690
+          ],
+          [
+            154,
+            707
+          ],
+          [
+            162,
+            784
+          ],
+          [
+            76,
+            792
+          ]
+        ]
+      ],
+      "precision": "coarse_not_pixel_accurate",
+      "occlusion_order": 11,
+      "unknown_hidden_surface": true,
+      "visible_area_px": 8009,
+      "bbox_xywh_px": [
+        60,
+        690,
+        102,
+        102
+      ]
+    }
+  ]
+}

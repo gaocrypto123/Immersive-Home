@@ -1,0 +1,397 @@
+{
+  "schema": "jyxj.reference-parallel-demo.v1",
+  "id": "L02",
+  "style": "奶油法式",
+  "source": {
+    "url": "/assets/reference-sources/L02.png",
+    "sha256": "82f009f3c0906f1ad7e32b8fa9aa96f8ac438aee747cf7dbf8c9717cad994d7e",
+    "width": 1672,
+    "height": 941
+  },
+  "mode": "saved-results",
+  "plan": {
+    "image": "/assets/reference-pipeline/v1/L02/plan.png",
+    "revision": "5",
+    "note": "已有 imagegen 平面示意，使用统一估算房间底图适配；家具尺寸及遮挡部分为推定。"
+  },
+  "layout": {
+    "width": 1198,
+    "height": 1313,
+    "nodes": [
+      {
+        "id": "F01",
+        "name": "上部小柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 407,
+          "y": 215,
+          "width": 115,
+          "height": 130
+        },
+        "x": 464.5,
+        "y": 280
+      },
+      {
+        "id": "F02",
+        "name": "床尾矮柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 371,
+          "y": 345,
+          "width": 151,
+          "height": 295
+        },
+        "x": 446.5,
+        "y": 492.5
+      },
+      {
+        "id": "F03",
+        "name": "床",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 522,
+          "y": 215,
+          "width": 478,
+          "height": 428
+        },
+        "x": 761,
+        "y": 429
+      },
+      {
+        "id": "F04",
+        "name": "衣柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 885,
+          "y": 623,
+          "width": 115,
+          "height": 258
+        },
+        "x": 942.5,
+        "y": 752
+      },
+      {
+        "id": "F05",
+        "name": "开放格柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 909,
+          "y": 879,
+          "width": 91,
+          "height": 173
+        },
+        "x": 954.5,
+        "y": 965.5
+      },
+      {
+        "id": "F06",
+        "name": "书桌",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 349,
+          "y": 887,
+          "width": 560,
+          "height": 165
+        },
+        "x": 629,
+        "y": 969.5
+      },
+      {
+        "id": "F07",
+        "name": "下部小柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 199,
+          "y": 887,
+          "width": 150,
+          "height": 165
+        },
+        "x": 274,
+        "y": 969.5
+      },
+      {
+        "id": "F08",
+        "name": "椅子",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 495,
+          "y": 791,
+          "width": 182,
+          "height": 99
+        },
+        "x": 586,
+        "y": 840.5
+      },
+      {
+        "id": "D01",
+        "name": "门",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 211,
+          "y": 338,
+          "width": 154,
+          "height": 12
+        },
+        "x": 288,
+        "y": 344
+      },
+      {
+        "id": "W01",
+        "name": "窗",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 342,
+          "y": 1052,
+          "width": 449,
+          "height": 46
+        },
+        "x": 566.5,
+        "y": 1075
+      }
+    ],
+    "edges": [],
+    "method": "最终 Graph SVG 中的人工矩形框标注",
+    "unit": "px"
+  },
+  "segmentation": {
+    "image": "/assets/reference-pipeline/v1/L02/segmentation.jpg",
+    "totalObjects": 58,
+    "note": "家具 mask 逐步显现；标号沿用已有主体标注，与家具列表一致。"
+  },
+  "furniture": [
+    {
+      "id": "L02-bed-001",
+      "label": "床（含床品）",
+      "category": "bed",
+      "bbox": [
+        586,
+        328,
+        1034,
+        628
+      ],
+      "score": 0.8515625,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L02/masks/L02-bed-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L02/cutouts/L02-bed-001.png",
+      "product": "/assets/reference-pipeline/v1/L02/products/L02-bed-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 1
+    },
+    {
+      "id": "L02-wardrobe-001",
+      "label": "衣柜",
+      "category": "wardrobe",
+      "bbox": [
+        1035,
+        0,
+        1397,
+        850
+      ],
+      "score": 0.85546875,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L02/masks/L02-wardrobe-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L02/cutouts/L02-wardrobe-001.png",
+      "product": "/assets/reference-pipeline/v1/L02/products/L02-wardrobe-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 2
+    },
+    {
+      "id": "L02-desk-001",
+      "label": "书桌",
+      "category": "desk",
+      "bbox": [
+        82,
+        851,
+        1647,
+        941
+      ],
+      "score": 0.609375,
+      "qualityFlags": [
+        "仅前景可见桌面，画外桌腿未知"
+      ],
+      "mask": "/assets/reference-pipeline/v1/L02/masks/L02-desk-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L02/cutouts/L02-desk-001.png",
+      "product": "/assets/reference-pipeline/v1/L02/products/L02-desk-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 3
+    },
+    {
+      "id": "L02-chair-001",
+      "label": "椅子",
+      "category": "chair",
+      "bbox": [
+        482,
+        680,
+        958,
+        873
+      ],
+      "score": 0.96875,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L02/masks/L02-chair-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L02/cutouts/L02-chair-001.png",
+      "product": "/assets/reference-pipeline/v1/L02/products/L02-chair-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 4
+    },
+    {
+      "id": "L02-divider-refined-002",
+      "label": "半高隔断储物柜",
+      "category": "divider-refined",
+      "bbox": [
+        445,
+        413,
+        589,
+        647
+      ],
+      "score": 0.96484375,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L02/masks/L02-divider-refined-002.png",
+      "cutout": "/assets/reference-pipeline/v1/L02/cutouts/L02-divider-refined-002.png",
+      "product": "/assets/reference-pipeline/v1/L02/products/L02-divider-refined-002.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 45
+    },
+    {
+      "id": "L02-shelf-refined-001",
+      "label": "右侧开放书架整体",
+      "category": "shelf-refined",
+      "bbox": [
+        1389,
+        0,
+        1672,
+        941
+      ],
+      "score": 0.98046875,
+      "qualityFlags": [
+        "开放层板与柜体归为同一家具整体"
+      ],
+      "mask": "/assets/reference-pipeline/v1/L02/masks/L02-shelf-refined-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L02/cutouts/L02-shelf-refined-001.png",
+      "product": "/assets/reference-pipeline/v1/L02/products/L02-shelf-refined-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 46
+    }
+  ],
+  "modelService": "not-connected",
+  "graphArtifact": {
+    "image": "/assets/reference-pipeline/v1/L02/graph.svg",
+    "sourceFile": "2-奶油法式-Graph标注-v5.svg",
+    "sha256": "b9ccef727c349ee508121c2cf21b80fe8deb778efad427d0e01dd1f0fa87f3fb",
+    "viewBox": "140 170 920 950",
+    "nodes": [
+      {
+        "id": "A01",
+        "label": "A01 可通行空地"
+      },
+      {
+        "id": "F01",
+        "label": "F01 上部小柜"
+      },
+      {
+        "id": "F02",
+        "label": "F02 床尾矮柜"
+      },
+      {
+        "id": "F03",
+        "label": "F03 床"
+      },
+      {
+        "id": "F04",
+        "label": "F04 衣柜"
+      },
+      {
+        "id": "F05",
+        "label": "F05 开放格柜"
+      },
+      {
+        "id": "F06",
+        "label": "F06 书桌"
+      },
+      {
+        "id": "F07",
+        "label": "F07 下部小柜"
+      },
+      {
+        "id": "F08",
+        "label": "F08 椅子"
+      },
+      {
+        "id": "D01",
+        "label": "D01 门"
+      },
+      {
+        "id": "W01",
+        "label": "W01 窗"
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "A01",
+        "target": "F01"
+      },
+      {
+        "id": "E02",
+        "source": "A01",
+        "target": "F02"
+      },
+      {
+        "id": "E03",
+        "source": "A01",
+        "target": "F03"
+      },
+      {
+        "id": "E04",
+        "source": "A01",
+        "target": "F04"
+      },
+      {
+        "id": "E05",
+        "source": "A01",
+        "target": "F05"
+      },
+      {
+        "id": "E06",
+        "source": "A01",
+        "target": "F06"
+      },
+      {
+        "id": "E07",
+        "source": "A01",
+        "target": "F07"
+      },
+      {
+        "id": "E08",
+        "source": "A01",
+        "target": "F08"
+      },
+      {
+        "id": "E09",
+        "source": "A01",
+        "target": "D01"
+      },
+      {
+        "id": "E10",
+        "source": "A01",
+        "target": "W01"
+      }
+    ],
+    "note": "最终人工 Graph 标注；细直线表示空间关系，不代表行走路线。"
+  }
+}

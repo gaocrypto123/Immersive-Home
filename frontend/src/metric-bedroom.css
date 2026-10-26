@@ -1,0 +1,325 @@
+.metric-bedroom-page .metric-case-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 16px;
+  color: #687f56;
+  font-size: 11px;
+}
+.metric-bedroom-page .metric-case-actions > a,
+.metric-bedroom-page .metric-case-actions > div,
+.metric-bedroom-page .metric-case-actions button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.metric-bedroom-page .metric-case-actions > div {
+  gap: 18px;
+}
+.metric-bedroom-page .metric-case-actions button {
+  padding: 7px 0;
+  font-size: 11px;
+  color: #688052;
+}
+.metric-bedroom-page .metric-workbench {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 270px;
+  gap: 22px;
+  align-items: start;
+}
+.metric-bedroom-page .metric-viewport-panel {
+  overflow: hidden;
+  background: #fffef8;
+  border: 1px solid #dce4d4;
+  border-radius: 10px;
+}
+.metric-bedroom-page .metric-toolbar {
+  padding: 13px 17px;
+  border-bottom: 1px solid #e4eadb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.metric-bedroom-page .metric-view-tabs {
+  display: flex;
+  background: #edf2e5;
+  padding: 3px;
+  border-radius: 6px;
+  gap: 3px;
+}
+.metric-bedroom-page .metric-view-tabs > button {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 4px;
+  color: #8b9e77;
+  font-size: 11px;
+}
+.metric-bedroom-page .metric-view-tabs > button[aria-pressed="true"] {
+  background: #fffef8;
+  color: #436641;
+  box-shadow: 0 1px 5px #34532012;
+}
+.metric-bedroom-page .metric-toolbar > span {
+  font-size: 10px;
+  color: #8a9d75;
+  white-space: nowrap;
+}
+.metric-bedroom-page .metric-viewport {
+  height: 540px;
+  position: relative;
+}
+.metric-bedroom-page .metric-plan {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  user-select: none;
+}
+.metric-bedroom-page .metric-plan-item {
+  cursor: grab;
+}
+.metric-bedroom-page .metric-plan-item:active {
+  cursor: grabbing;
+}
+.metric-bedroom-page .metric-three,
+.metric-bedroom-page .metric-three-mount {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.metric-bedroom-page .metric-three canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.metric-bedroom-page .metric-three-error {
+  position: absolute;
+  inset: 25px;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 1.9;
+  color: #997b51;
+  background: #fbf5e8;
+}
+.metric-bedroom-page .metric-view-options {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 13px 17px;
+  border-top: 1px solid #e4eadb;
+  color: #7b9464;
+  font-size: 10px;
+  min-height: 46px;
+}
+.metric-bedroom-page .metric-view-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.metric-bedroom-page .metric-view-options input {
+  accent-color: #608451;
+}
+.metric-bedroom-page .metric-view-options > span {
+  margin-left: auto;
+  color: #98a687;
+  font-size: 9px;
+}
+.metric-bedroom-page .metric-view-options > button {
+  color: #7e9665;
+  font-size: 10px;
+  padding: 3px 6px;
+}
+.metric-bedroom-page .metric-view-options > button[aria-pressed="true"] {
+  background: #e6efda;
+  border-radius: 3px;
+}
+.metric-bedroom-page .metric-properties {
+  padding: 23px 20px;
+  background: #fffef8;
+  border: 1px solid #dce4d4;
+  border-radius: 10px;
+}
+.metric-bedroom-page .metric-properties h2 {
+  font-size: 14px;
+  font-weight: 550;
+  color: #5e7b4c;
+  margin: 0 0 15px;
+}
+.metric-bedroom-page .metric-dimensions {
+  margin: 0 0 24px;
+  padding: 0 0 18px;
+  border-bottom: 1px solid #e8eedd;
+}
+.metric-bedroom-page .metric-dimensions > div {
+  margin: 0 0 12px;
+}
+.metric-bedroom-page .metric-dimensions dt {
+  font-size: 10px;
+  color: #9eae8c;
+}
+.metric-bedroom-page .metric-dimensions dd {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #6f895b;
+  font-variant-numeric: tabular-nums;
+}
+.metric-bedroom-page .metric-furniture-list {
+  display: grid;
+  gap: 5px;
+}
+.metric-bedroom-page .metric-furniture-list > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  border: 1px solid transparent;
+  padding: 9px 7px;
+  border-radius: 4px;
+  text-align: left;
+  color: #789663;
+  font-size: 11px;
+}
+.metric-bedroom-page .metric-furniture-list > button > small {
+  font-size: 9px;
+  color: #9eae8b;
+}
+.metric-bedroom-page .metric-furniture-list > button[aria-pressed="true"] {
+  background: #edf3e5;
+  border-color: #d2e0c3;
+}
+.metric-bedroom-page .metric-selection {
+  margin-top: 19px;
+  padding-top: 17px;
+  border-top: 1px solid #e4ebd9;
+}
+.metric-bedroom-page .metric-selection h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #7a9663;
+  margin: 0 0 12px;
+}
+.metric-bedroom-page .metric-selection > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.metric-bedroom-page .metric-selection label {
+  font-size: 10px;
+  color: #95a97f;
+}
+.metric-bedroom-page .metric-selection label > span {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  border: 1px solid #dce6d1;
+  border-radius: 4px;
+  padding: 5px 6px;
+  margin-top: 6px;
+}
+.metric-bedroom-page .metric-selection input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: #6f8d59;
+  font-size: 11px;
+}
+.metric-bedroom-page .metric-selection > button {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #7b9a64;
+  font-size: 10px;
+}
+.metric-bedroom-page .metric-selection > button > small {
+  margin-left: auto;
+  color: #9eb58a;
+}
+.metric-bedroom-page .metric-selection-hint {
+  margin-top: 16px;
+  color: #a1b28e;
+  font-size: 10px;
+  line-height: 1.9;
+}
+.metric-bedroom-page .metric-collision-note {
+  background: #faf2df;
+  border: 1px solid #eddfbc;
+  color: #ad9362;
+  border-radius: 6px;
+  padding: 13px 16px;
+  margin-top: 18px;
+  font-size: 11px;
+  line-height: 1.9;
+}
+@media (max-width: 850px) {
+  .metric-bedroom-page .metric-workbench {
+    grid-template-columns: minmax(0, 1fr) 235px;
+    gap: 15px;
+  }
+  .metric-bedroom-page .metric-properties {
+    padding: 19px 15px;
+  }
+  .metric-bedroom-page .metric-toolbar {
+    flex-wrap: wrap;
+  }
+  .metric-bedroom-page .metric-viewport {
+    height: 480px;
+  }
+}
+@media (max-width: 600px) {
+  .metric-bedroom-page .metric-workbench {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .metric-bedroom-page .metric-case-actions {
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+  .metric-bedroom-page .metric-case-actions > div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .metric-bedroom-page .metric-viewport {
+    height: 420px;
+  }
+  .metric-bedroom-page .metric-toolbar {
+    padding: 10px 12px;
+    gap: 9px;
+  }
+  .metric-bedroom-page .metric-toolbar > span {
+    font-size: 9px;
+  }
+  .metric-bedroom-page .metric-view-tabs > button {
+    font-size: 10px;
+    padding: 8px 10px;
+  }
+  .metric-bedroom-page .metric-view-options {
+    padding: 12px;
+    gap: 10px;
+  }
+  .metric-bedroom-page .metric-view-options > span {
+    width: 100%;
+    margin-left: 0;
+    line-height: 1.8;
+  }
+  .metric-bedroom-page .metric-properties {
+    padding: 22px;
+  }
+  .metric-bedroom-page .metric-dimensions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 18px;
+  }
+  .metric-bedroom-page .metric-dimensions > div {
+    margin: 0;
+  }
+}

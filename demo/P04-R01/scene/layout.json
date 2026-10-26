@@ -1,0 +1,400 @@
+{
+  "objects": [
+    {
+      "id": "cabinet_1",
+      "asset": "cabinet",
+      "center_xy_m": [
+        1.1,
+        2.13
+      ],
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 0,
+      "purchase_group": "R01-G04",
+      "front_axis_after_import": "negative_Y_before_yaw",
+      "functional_group": "living"
+    },
+    {
+      "id": "cabinet_2",
+      "asset": "cabinet",
+      "center_xy_m": [
+        1.46,
+        2.13
+      ],
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 0,
+      "purchase_group": "R01-G04",
+      "front_axis_after_import": "negative_Y_before_yaw",
+      "functional_group": "living"
+    },
+    {
+      "id": "cabinet_3",
+      "asset": "cabinet",
+      "center_xy_m": [
+        1.82,
+        2.13
+      ],
+      "size_m": [
+        0.35,
+        0.35,
+        0.8
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 0,
+      "purchase_group": "R01-G04",
+      "front_axis_after_import": "negative_Y_before_yaw",
+      "functional_group": "living"
+    },
+    {
+      "id": "wallcube_1",
+      "asset": "wallcube",
+      "center_xy_m": [
+        0.92,
+        2.06
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 1.65,
+      "purchase_group": "R01-G05",
+      "front_axis_after_import": "negative_Y_before_yaw",
+      "functional_group": "living"
+    },
+    {
+      "id": "wallcube_2",
+      "asset": "wallcube",
+      "center_xy_m": [
+        1.28,
+        2.06
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 1.65,
+      "purchase_group": "R01-G05",
+      "front_axis_after_import": "negative_Y_before_yaw",
+      "functional_group": "living"
+    },
+    {
+      "id": "wallcube_3",
+      "asset": "wallcube",
+      "center_xy_m": [
+        1.6400000000000001,
+        2.06
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 1.65,
+      "purchase_group": "R01-G05",
+      "front_axis_after_import": "negative_Y_before_yaw",
+      "functional_group": "living"
+    },
+    {
+      "id": "wallcube_4",
+      "asset": "wallcube",
+      "center_xy_m": [
+        2.0,
+        2.06
+      ],
+      "size_m": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 1.65,
+      "purchase_group": "R01-G05",
+      "front_axis_after_import": "negative_Y_before_yaw",
+      "functional_group": "living"
+    },
+    {
+      "id": "sofa",
+      "asset": "sofa",
+      "center_xy_m": [
+        0.5,
+        3.3
+      ],
+      "size_m": [
+        1.58,
+        0.75,
+        0.74
+      ],
+      "yaw_degrees": 90,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "table_walnut",
+      "asset": "table_walnut",
+      "center_xy_m": [
+        1.5,
+        3.5
+      ],
+      "size_m": [
+        0.55,
+        0.55,
+        0.45
+      ],
+      "yaw_degrees": 0,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "table_gray",
+      "asset": "table_gray",
+      "center_xy_m": [
+        1.65,
+        2.98
+      ],
+      "size_m": [
+        0.7,
+        0.4,
+        0.38
+      ],
+      "yaw_degrees": 0,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "chair",
+      "asset": "chair",
+      "center_xy_m": [
+        2.3,
+        3.65
+      ],
+      "size_m": [
+        0.59,
+        0.57,
+        0.74
+      ],
+      "yaw_degrees": -75,
+      "bottom_z_m": 0,
+      "functional_group": "living",
+      "purchase_group": "R01",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_table",
+      "asset": "dining_table",
+      "center_xy_m": [
+        4.1,
+        2.55
+      ],
+      "size_m": [
+        1.1,
+        0.67,
+        0.75
+      ],
+      "yaw_degrees": 0,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_1",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        3.8249999999999997,
+        1.9099999999999997
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_2",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        4.375,
+        1.9099999999999997
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 180,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_3",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        3.8249999999999997,
+        3.19
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 0,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    },
+    {
+      "id": "dining_chair_4",
+      "asset": "dining_chair",
+      "center_xy_m": [
+        4.375,
+        3.19
+      ],
+      "size_m": [
+        0.39,
+        0.47,
+        0.77
+      ],
+      "yaw_degrees": 0,
+      "bottom_z_m": 0,
+      "functional_group": "dining",
+      "purchase_group": "DINING",
+      "front_axis_after_import": "negative_Y_before_yaw"
+    }
+  ],
+  "routes_m": {
+    "bedroom_A": [
+      [
+        3.2,
+        0.5
+      ],
+      [
+        3.05,
+        0.5
+      ],
+      [
+        3.05,
+        4.45
+      ],
+      [
+        4.6,
+        4.45
+      ],
+      [
+        4.6,
+        4.5
+      ]
+    ],
+    "bedroom_B": [
+      [
+        3.2,
+        0.5
+      ],
+      [
+        3.05,
+        0.5
+      ],
+      [
+        3.05,
+        4.45
+      ],
+      [
+        5.85,
+        4.45
+      ],
+      [
+        5.85,
+        4.5
+      ]
+    ],
+    "bathroom": [
+      [
+        3.2,
+        0.5
+      ],
+      [
+        3.05,
+        0.5
+      ],
+      [
+        3.05,
+        4.45
+      ],
+      [
+        6,
+        4.45
+      ],
+      [
+        6,
+        4.1
+      ]
+    ],
+    "balcony": [
+      [
+        3.2,
+        0.5
+      ],
+      [
+        3.05,
+        0.5
+      ],
+      [
+        3.05,
+        4.45
+      ],
+      [
+        1.4,
+        4.45
+      ],
+      [
+        1.4,
+        4.5
+      ]
+    ],
+    "kitchen": [
+      [
+        3.2,
+        0.5
+      ],
+      [
+        3.05,
+        0.5
+      ],
+      [
+        3.05,
+        1.35
+      ],
+      [
+        2.95,
+        1.35
+      ]
+    ]
+  }
+}

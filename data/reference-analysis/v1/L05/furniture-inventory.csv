@@ -1,0 +1,9 @@
+﻿instance_id,case_id,room_id,label,category,quantity,measured_width_m,measured_depth_m,measured_height_m,model_file,mask_file
+"REF-L05-R01-rug","REF-L05","REF-L05-R01","自然色编织外观地毯","rug","1","","","","models/rug.glb","masks/rug.png"
+"REF-L05-R01-wardrobe","REF-L05","REF-L05-R01","转角衣帽柜及床后台面","wardrobe","1","","","","models/wardrobe.glb","masks/wardrobe.png"
+"REF-L05-R01-bed","REF-L05","REF-L05-R01","浅木色低矮双人床","bed","1","","","","models/bed.glb","masks/bed.png"
+"REF-L05-R01-desk","REF-L05","REF-L05-R01","窗边木书桌","desk","1","","","","models/desk.glb","masks/desk.png"
+"REF-L05-R01-chair","REF-L05","REF-L05-R01","编织坐面木椅","chair","1","","","","models/chair.glb","masks/chair.png"
+"REF-L05-R01-curtain","REF-L05","REF-L05-R01","自然色窗帘或卷帘","curtain","1","","","","models/curtain.glb","masks/curtain.png"
+"REF-L05-R01-vase","REF-L05","REF-L05-R01","粗陶外观花瓶与干枝","vase","1","","","","models/vase.glb","masks/vase.png"
+"REF-L05-R01-plant","REF-L05","REF-L05-R01","床尾绿植（局部）","plant","1","","","","models/plant.glb","masks/plant.png"

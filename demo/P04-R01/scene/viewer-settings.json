@@ -1,0 +1,72 @@
+{
+  "cutaway_walls": [
+    "W08",
+    "W11",
+    "W07",
+    "W05",
+    "W12",
+    "W06"
+  ],
+  "views": {
+    "whole": {
+      "position": [
+        12,
+        11,
+        -13
+      ],
+      "target": [
+        3.8,
+        0.5,
+        -3.9
+      ],
+      "fov": 42,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "walls": false,
+      "roof": false
+    },
+    "living": {
+      "position": [
+        4.8,
+        2.45,
+        -3.95
+      ],
+      "target": [
+        2.25,
+        0.65,
+        -2.7
+      ],
+      "fov": 65,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "walls": true,
+      "roof": false
+    },
+    "top": {
+      "position": [
+        4.2,
+        16,
+        -4.4
+      ],
+      "target": [
+        4.2,
+        0,
+        -4.4
+      ],
+      "fov": 43,
+      "up": [
+        0,
+        0,
+        -1
+      ],
+      "walls": false,
+      "roof": false
+    }
+  }
+}

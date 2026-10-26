@@ -1,0 +1,692 @@
+{
+  "schema": "jyxj.reference-parallel-demo.v1",
+  "id": "L01",
+  "style": "原木清新",
+  "source": {
+    "url": "/assets/reference-sources/L01.png",
+    "sha256": "e70c4aa82cd176490a4ecc71ec6176156e75a5a48741fc55eecd8083f21dc046",
+    "width": 1672,
+    "height": 941
+  },
+  "mode": "saved-results",
+  "plan": {
+    "image": "/assets/reference-pipeline/v1/L01/plan.png",
+    "revision": "1",
+    "note": "已有 imagegen 平面示意，使用统一估算房间底图适配；家具尺寸及遮挡部分为推定。"
+  },
+  "layout": {
+    "width": 1197,
+    "height": 1315,
+    "nodes": [
+      {
+        "id": "F01",
+        "name": "衣柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 413,
+          "y": 230,
+          "width": 570,
+          "height": 127
+        },
+        "x": 698,
+        "y": 293.5
+      },
+      {
+        "id": "F02",
+        "name": "床",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 477,
+          "y": 515,
+          "width": 506,
+          "height": 453
+        },
+        "x": 730,
+        "y": 741.5
+      },
+      {
+        "id": "F03",
+        "name": "床尾凳",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 395,
+          "y": 587,
+          "width": 94,
+          "height": 310
+        },
+        "x": 442,
+        "y": 742
+      },
+      {
+        "id": "F04",
+        "name": "上床头柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 867,
+          "y": 412,
+          "width": 102,
+          "height": 121
+        },
+        "x": 918,
+        "y": 472.5
+      },
+      {
+        "id": "F05",
+        "name": "下床头柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 867,
+          "y": 939,
+          "width": 102,
+          "height": 95
+        },
+        "x": 918,
+        "y": 986.5
+      },
+      {
+        "id": "P01",
+        "name": "落地绿植",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 205,
+          "y": 908,
+          "width": 126,
+          "height": 143
+        },
+        "x": 268,
+        "y": 979.5
+      },
+      {
+        "id": "D01",
+        "name": "门",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 213,
+          "y": 343,
+          "width": 159,
+          "height": 12
+        },
+        "x": 292.5,
+        "y": 349
+      },
+      {
+        "id": "W01",
+        "name": "窗",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 344,
+          "y": 1051,
+          "width": 450,
+          "height": 43
+        },
+        "x": 569,
+        "y": 1072.5
+      }
+    ],
+    "edges": [],
+    "method": "最终 Graph SVG 中的人工矩形框标注",
+    "unit": "px"
+  },
+  "segmentation": {
+    "image": "/assets/reference-pipeline/v1/L01/segmentation.jpg",
+    "totalObjects": 24,
+    "note": "家具 mask 逐步显现；标号沿用已有主体标注，与家具列表一致。"
+  },
+  "furniture": [
+    {
+      "id": "L01-bed-001",
+      "label": "床（含床品）",
+      "category": "bed",
+      "bbox": [
+        508,
+        331,
+        1601,
+        941
+      ],
+      "score": 0.921875,
+      "qualityFlags": [
+        "床尾与枕头边缘仍有细碎漏分"
+      ],
+      "mask": "/assets/reference-pipeline/v1/L01/masks/L01-bed-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L01/cutouts/L01-bed-001.png",
+      "product": "/assets/reference-pipeline/v1/L01/products/L01-bed-001.png",
+      "productInference": true,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-bed-001.glb",
+      "primaryNumber": 1
+    },
+    {
+      "id": "L01-wardrobe-001",
+      "label": "衣柜",
+      "category": "wardrobe",
+      "bbox": [
+        330,
+        15,
+        1033,
+        587
+      ],
+      "score": 0.921875,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L01/masks/L01-wardrobe-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L01/cutouts/L01-wardrobe-001.png",
+      "product": "/assets/reference-pipeline/v1/L01/products/L01-wardrobe-001.png",
+      "productInference": true,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-wardrobe-001.glb",
+      "primaryNumber": 2
+    },
+    {
+      "id": "L01-nightstand-001",
+      "label": "前侧双抽床头柜",
+      "category": "nightstand",
+      "bbox": [
+        1480,
+        559,
+        1672,
+        853
+      ],
+      "score": 0.97265625,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L01/masks/L01-nightstand-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L01/cutouts/L01-nightstand-001.png",
+      "product": "/assets/reference-pipeline/v1/L01/products/L01-nightstand-001.png",
+      "productInference": true,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-nightstand-001.glb",
+      "primaryNumber": 3
+    },
+    {
+      "id": "L01-nightstand-002",
+      "label": "后侧床头柜（仅台面可见）",
+      "category": "nightstand",
+      "bbox": [
+        900,
+        438,
+        1033,
+        464
+      ],
+      "score": 0.91015625,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L01/masks/L01-nightstand-002.png",
+      "cutout": "/assets/reference-pipeline/v1/L01/cutouts/L01-nightstand-002.png",
+      "product": "/assets/reference-pipeline/v1/L01/products/L01-nightstand-002.png",
+      "productInference": true,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-nightstand-002.glb",
+      "primaryNumber": 4
+    },
+    {
+      "id": "L01-bench-refined-001",
+      "label": "床尾编织长凳",
+      "category": "bench-refined",
+      "bbox": [
+        379,
+        536,
+        644,
+        938
+      ],
+      "score": 0.9765625,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L01/masks/L01-bench-refined-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L01/cutouts/L01-bench-refined-001.png",
+      "product": "/assets/reference-pipeline/v1/L01/products/L01-bench-refined-001.png",
+      "productInference": true,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-bench-refined-001.glb",
+      "primaryNumber": 16
+    }
+  ],
+  "modelService": "saved-models",
+  "graphArtifact": {
+    "image": "/assets/reference-pipeline/v1/L01/graph.svg",
+    "sourceFile": "1-原木清新-Graph标注.svg",
+    "sha256": "151b01891d256b36610efef6f757169ad9226ed304ebb11229a5063ef71f00a0",
+    "viewBox": "150 180 890 940",
+    "nodes": [
+      {
+        "id": "A01",
+        "label": "A01 可通行空地"
+      },
+      {
+        "id": "F01",
+        "label": "F01 衣柜"
+      },
+      {
+        "id": "F02",
+        "label": "F02 床"
+      },
+      {
+        "id": "F03",
+        "label": "F03 床尾凳"
+      },
+      {
+        "id": "F04",
+        "label": "F04 上床头柜"
+      },
+      {
+        "id": "F05",
+        "label": "F05 下床头柜"
+      },
+      {
+        "id": "P01",
+        "label": "P01 落地绿植"
+      },
+      {
+        "id": "D01",
+        "label": "D01 门"
+      },
+      {
+        "id": "W01",
+        "label": "W01 窗"
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "A01",
+        "target": "F01"
+      },
+      {
+        "id": "E02",
+        "source": "A01",
+        "target": "F02"
+      },
+      {
+        "id": "E03",
+        "source": "A01",
+        "target": "F03"
+      },
+      {
+        "id": "E04",
+        "source": "A01",
+        "target": "F04"
+      },
+      {
+        "id": "E05",
+        "source": "A01",
+        "target": "F05"
+      },
+      {
+        "id": "E06",
+        "source": "A01",
+        "target": "P01"
+      },
+      {
+        "id": "E07",
+        "source": "A01",
+        "target": "D01"
+      },
+      {
+        "id": "E08",
+        "source": "A01",
+        "target": "W01"
+      }
+    ],
+    "note": "最终人工 Graph 标注；细直线表示空间关系，不代表行走路线。"
+  },
+  "modelCatalog": [
+    {
+      "id": "L01-bed-001",
+      "label": "床（含床品）",
+      "numberLabel": "主01",
+      "group": "furniture",
+      "isPart": false,
+      "isFurniture": true,
+      "sourceOrder": 0,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-bed-001.glb",
+      "bytes": 4781192,
+      "sha256": "eb18be0834f956652c68424b8e4a57fc5cbbb34151bb5290f0ad9f5552609865",
+      "meshCount": 1,
+      "vertexCount": 30604,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-wardrobe-001",
+      "label": "衣柜",
+      "numberLabel": "主02",
+      "group": "furniture",
+      "isPart": false,
+      "isFurniture": true,
+      "sourceOrder": 1,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-wardrobe-001.glb",
+      "bytes": 3913876,
+      "sha256": "214780c33e7c16a3be969a2daa7ba66411a9cea310129c0f40b458a69621f660",
+      "meshCount": 1,
+      "vertexCount": 35533,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-nightstand-001",
+      "label": "前侧双抽床头柜",
+      "numberLabel": "主03",
+      "group": "furniture",
+      "isPart": false,
+      "isFurniture": true,
+      "sourceOrder": 2,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-nightstand-001.glb",
+      "bytes": 5235384,
+      "sha256": "f519b3868bf84cb39f6ba7ed4812a357ffb08b4ce1f3ea368160b6c7361cb046",
+      "meshCount": 1,
+      "vertexCount": 39734,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-nightstand-002",
+      "label": "后侧床头柜（仅台面可见）",
+      "numberLabel": "主04",
+      "group": "furniture",
+      "isPart": false,
+      "isFurniture": true,
+      "sourceOrder": 3,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-nightstand-002.glb",
+      "bytes": 4997292,
+      "sha256": "96696dac34cdbc98566be1e541376de22fd5cdd13818f7e5e7b418769cd27a29",
+      "meshCount": 1,
+      "vertexCount": 42933,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-bench-refined-001",
+      "label": "床尾编织长凳",
+      "numberLabel": "主16",
+      "group": "furniture",
+      "isPart": false,
+      "isFurniture": true,
+      "sourceOrder": 22,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-bench-refined-001.glb",
+      "bytes": 7054464,
+      "sha256": "d8ca8359891cadaea31ccaa9669a50dd346f2e42f4873840af051a13ab109a1d",
+      "meshCount": 1,
+      "vertexCount": 43739,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-rug-001",
+      "label": "地毯",
+      "numberLabel": "主05",
+      "group": "soft_furnishing",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 4,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-rug-001.glb",
+      "bytes": 5218616,
+      "sha256": "a6464eb36ebe6c81f6a0c0f4d1a01e80a85f6d3327f5b12dca8bc3c76f5658b3",
+      "meshCount": 1,
+      "vertexCount": 29770,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-lamp-001",
+      "label": "台灯",
+      "numberLabel": "主06",
+      "group": "lighting",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 5,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-lamp-001.glb",
+      "bytes": 6074092,
+      "sha256": "acc4574eea26f74c5ab3e4a92187815ae76b752f0b6ba5b8a9a7c6287b8fe1b9",
+      "meshCount": 1,
+      "vertexCount": 34096,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-lamp-002",
+      "label": "台灯",
+      "numberLabel": "主07",
+      "group": "lighting",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 6,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-lamp-002.glb",
+      "bytes": 5743012,
+      "sha256": "7b44f7de5e27c50d7479366fc34c96fd1682d6d7adceaad2b4bb468981d0a984",
+      "meshCount": 1,
+      "vertexCount": 34153,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-plant-001",
+      "label": "绿植（含盆器）",
+      "numberLabel": "主08",
+      "group": "decor",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 7,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-plant-001.glb",
+      "bytes": 9643392,
+      "sha256": "c8c4f1dec15e89292041270d4f2e47bf4feb060dc50a530e898afe8d0880e6c4",
+      "meshCount": 1,
+      "vertexCount": 50151,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-plant-002",
+      "label": "绿植（含盆器）",
+      "numberLabel": "主09",
+      "group": "decor",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 8,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-plant-002.glb",
+      "bytes": 9603572,
+      "sha256": "87afbeece7afccfc622d357d28380308619a860352a8ffef1660a976e9b15e3d",
+      "meshCount": 1,
+      "vertexCount": 47810,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-picture-001",
+      "label": "装饰画（含画框）",
+      "numberLabel": "主10",
+      "group": "decor",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 9,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-picture-001.glb",
+      "bytes": 3980000,
+      "sha256": "62e64371e029a0269b9ce9a477b9331780d79da3a2f3cbb10b4b69ddafa19989",
+      "meshCount": 1,
+      "vertexCount": 25881,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-book-001",
+      "label": "书本／书叠（可见部分）",
+      "numberLabel": "主11",
+      "group": "decor",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 10,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-book-001.glb",
+      "bytes": 4558984,
+      "sha256": "e7e0277fa2309a6b2edd3b801c1d5d151dad09c6ec0e036737a96393cb762110",
+      "meshCount": 1,
+      "vertexCount": 27308,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-book-002",
+      "label": "书本／书叠（可见部分）",
+      "numberLabel": "主12",
+      "group": "decor",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 11,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-book-002.glb",
+      "bytes": 4214752,
+      "sha256": "937c2eef69953ae22a669860b65073f5fb892bcdade4a6cd5082336855fc26b5",
+      "meshCount": 1,
+      "vertexCount": 30311,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-book-003",
+      "label": "书本／书叠（可见部分）",
+      "numberLabel": "主13",
+      "group": "decor",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 12,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-book-003.glb",
+      "bytes": 5805600,
+      "sha256": "f9a031c6612d17babb4be4ff2ff79bc53040b600b13399321f787817dea6567c",
+      "meshCount": 1,
+      "vertexCount": 36609,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-pillow-001",
+      "label": "枕头或抱枕",
+      "numberLabel": "部01",
+      "group": "bedding_part",
+      "isPart": true,
+      "isFurniture": false,
+      "sourceOrder": 13,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-pillow-001.glb",
+      "bytes": 4509728,
+      "sha256": "924cebb8f74e829bbd3d252c6cc58c77a1e2163485e147a8923271d74f20cf1f",
+      "meshCount": 1,
+      "vertexCount": 51409,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-pillow-002",
+      "label": "枕头或抱枕",
+      "numberLabel": "部02",
+      "group": "bedding_part",
+      "isPart": true,
+      "isFurniture": false,
+      "sourceOrder": 14,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-pillow-002.glb",
+      "bytes": 4858104,
+      "sha256": "c2436fb955849e4e5cb956f369b5eca5802181be96462edf520c84750bf8f9db",
+      "meshCount": 1,
+      "vertexCount": 39811,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-pillow-003",
+      "label": "枕头或抱枕",
+      "numberLabel": "部03",
+      "group": "bedding_part",
+      "isPart": true,
+      "isFurniture": false,
+      "sourceOrder": 15,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-pillow-003.glb",
+      "bytes": 5093112,
+      "sha256": "e6e5bbf656a0f058e7c7ebd16ac162817ee2d52917766b7e0cdb61e2f9c05d66",
+      "meshCount": 1,
+      "vertexCount": 81697,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-pillow-004",
+      "label": "枕头或抱枕",
+      "numberLabel": "部04",
+      "group": "bedding_part",
+      "isPart": true,
+      "isFurniture": false,
+      "sourceOrder": 16,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-pillow-004.glb",
+      "bytes": 4613596,
+      "sha256": "652030de3bc82ce8d83185e8c122225a8f4738ca37be10d5728fa9cb60dfae75",
+      "meshCount": 1,
+      "vertexCount": 57018,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-pillow-005",
+      "label": "枕头或抱枕",
+      "numberLabel": "部05",
+      "group": "bedding_part",
+      "isPart": true,
+      "isFurniture": false,
+      "sourceOrder": 17,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-pillow-005.glb",
+      "bytes": 4967768,
+      "sha256": "31602b49679f6bf731836be9dd6eaba918fe09f2aba9e29113184b2fc83c3761",
+      "meshCount": 1,
+      "vertexCount": 46236,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-blanket-001",
+      "label": "长凳上的绿色盖毯",
+      "numberLabel": "部06",
+      "group": "bedding_part",
+      "isPart": true,
+      "isFurniture": false,
+      "sourceOrder": 18,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-blanket-001.glb",
+      "bytes": 6927924,
+      "sha256": "057c8c82a1cf731deb5f790f53ce8ee4495e0869122218842c590973cda7d5dd",
+      "meshCount": 1,
+      "vertexCount": 44756,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-blanket-002",
+      "label": "床上绿色盖毯",
+      "numberLabel": "部07",
+      "group": "bedding_part",
+      "isPart": true,
+      "isFurniture": false,
+      "sourceOrder": 19,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-blanket-002.glb",
+      "bytes": 4595696,
+      "sha256": "78d17b38a15d5255074b9227c3604785d808687bfc66a7a7ce3c14ccac0d1cd7",
+      "meshCount": 1,
+      "vertexCount": 30650,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-ceiling-001",
+      "label": "顶面筒灯",
+      "numberLabel": "主14",
+      "group": "lighting",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 20,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-ceiling-001.glb",
+      "bytes": 6618412,
+      "sha256": "81e57525780753d13742f166ae326ca90246356cadfe6bab53d8fd0a16101475",
+      "meshCount": 1,
+      "vertexCount": 63482,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-ceiling-002",
+      "label": "顶面筒灯",
+      "numberLabel": "主15",
+      "group": "lighting",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 21,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-ceiling-002.glb",
+      "bytes": 6464000,
+      "sha256": "ae1d2e28d6ba583bedec5ea0204d08f991f52345c99d3b9566507d8c38665be9",
+      "meshCount": 1,
+      "vertexCount": 49516,
+      "embeddedImages": 2
+    },
+    {
+      "id": "L01-bowl-refined-001",
+      "label": "床头陶碗",
+      "numberLabel": "主17",
+      "group": "decor",
+      "isPart": false,
+      "isFurniture": false,
+      "sourceOrder": 23,
+      "model": "/assets/reference-pipeline/v1/L01/models/L01-bowl-refined-001.glb",
+      "bytes": 4515292,
+      "sha256": "ad53b064659e0058ec31349fd2fdfef9bfc1154fae7bfd6d76d5f2a11a47631f",
+      "meshCount": 1,
+      "vertexCount": 28223,
+      "embeddedImages": 2
+    }
+  ]
+}

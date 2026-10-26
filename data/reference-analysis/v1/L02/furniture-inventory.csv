@@ -1,0 +1,13 @@
+﻿instance_id,case_id,room_id,label,category,quantity,measured_width_m,measured_depth_m,measured_height_m,model_file,mask_file
+"REF-L02-R01-rug","REF-L02","REF-L02-R01","奶白长绒外观地毯","rug","1","","","","models/rug.glb","masks/rug.png"
+"REF-L02-R01-bed","REF-L02","REF-L02-R01","弧形软包双人床","bed","1","","","","models/bed.glb","masks/bed.png"
+"REF-L02-R01-divider","REF-L02","REF-L02-R01","半高储物隔断柜","cabinet","1","","","","models/divider.glb","masks/divider.png"
+"REF-L02-R01-wardrobe","REF-L02","REF-L02-R01","右墙奶白柜体","wardrobe","1","","","","models/wardrobe.glb","masks/wardrobe.png"
+"REF-L02-R01-desk","REF-L02","REF-L02-R01","临窗长书桌","desk","1","","","","models/desk.glb","masks/desk.png"
+"REF-L02-R01-chair","REF-L02","REF-L02-R01","编织背靠座椅","chair","1","","","","models/chair.glb","masks/chair.png"
+"REF-L02-R01-curtain","REF-L02","REF-L02-R01","双层窗帘系统","curtain","1","","","","models/curtain.glb","masks/curtain.png"
+"REF-L02-R01-wall-art","REF-L02","REF-L02-R01","小幅装饰画","wall_art","1","","","","models/wall-art.glb","masks/wall-art.png"
+"REF-L02-R01-wall-lamp","REF-L02","REF-L02-R01","床侧壁灯","wall_lamp","1","","","","models/wall-lamp.glb","masks/wall-lamp.png"
+"REF-L02-R01-desk-lamp","REF-L02","REF-L02-R01","黄铜色台灯","table_lamp","1","","","","models/desk-lamp.glb","masks/desk-lamp.png"
+"REF-L02-R01-flowers-divider","REF-L02","REF-L02-R01","隔断柜花艺","vase","1","","","","models/flowers-divider.glb","masks/flowers-divider.png"
+"REF-L02-R01-flowers-desk","REF-L02","REF-L02-R01","书桌花艺","vase","1","","","","models/flowers-desk.glb","masks/flowers-desk.png"

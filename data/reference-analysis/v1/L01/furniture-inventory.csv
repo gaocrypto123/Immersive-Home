@@ -1,0 +1,12 @@
+﻿instance_id,case_id,room_id,label,category,quantity,measured_width_m,measured_depth_m,measured_height_m,model_file,mask_file
+"REF-L01-R01-rug","REF-L01","REF-L01-R01","浅米色织物地毯","rug","1","","","","models/rug.glb","masks/rug.png"
+"REF-L01-R01-wall-cabinet","REF-L01","REF-L01-R01","上部木饰面壁柜","wall_cabinet","1","","","","models/wall-cabinet.glb","masks/wall-cabinet.png"
+"REF-L01-R01-bed","REF-L01","REF-L01-R01","双人床与床品","bed","1","","","","models/bed.glb","masks/bed.png"
+"REF-L01-R01-nightstand-back","REF-L01","REF-L01-R01","后侧床头柜","nightstand","1","","","","models/nightstand-back.glb","masks/nightstand-back.png"
+"REF-L01-R01-nightstand-front","REF-L01","REF-L01-R01","前侧床头柜","nightstand","1","","","","models/nightstand-front.glb","masks/nightstand-front.png"
+"REF-L01-R01-bench","REF-L01","REF-L01-R01","编织面床尾长凳","bench","1","","","","models/bench.glb","masks/bench.png"
+"REF-L01-R01-wall-art","REF-L01","REF-L01-R01","植物主题装饰画","wall_art","1","","","","models/wall-art.glb","masks/wall-art.png"
+"REF-L01-R01-lamp-back","REF-L01","REF-L01-R01","后侧台灯","table_lamp","1","","","","models/lamp-back.glb","masks/lamp-back.png"
+"REF-L01-R01-lamp-front","REF-L01","REF-L01-R01","前侧台灯","table_lamp","1","","","","models/lamp-front.glb","masks/lamp-front.png"
+"REF-L01-R01-plant-table","REF-L01","REF-L01-R01","床头小型绿植","plant","1","","","","models/plant-table.glb","masks/plant-table.png"
+"REF-L01-R01-plant-front","REF-L01","REF-L01-R01","前景绿植（局部）","plant","1","","","","models/plant-front.glb","masks/plant-front.png"

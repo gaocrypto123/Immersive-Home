@@ -1,0 +1,109 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L06",
+  "room_id": "REF-L06-R01",
+  "title": "转角办公",
+  "source": {
+    "reference_id": "L06",
+    "file": "/assets/inspiration/L06.png",
+    "sha256": "56AE473D3A51D28B5B758F268B1F0E542B7F1CDAE2FCBEAA57F6FCF4EEEBE2CD",
+    "width_px": 663,
+    "height_px": 1060,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      258,
+      0,
+      663,
+      1060
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床在右下纵放，床头朝画面上方；不是横床。",
+    "上墙与右上侧有L型书桌，左墙为长排柜体。",
+    "转角边柜、绿色灯罩台灯及右侧桌面唱片机均可见。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 6,
+  "name": "房间属性",
+  "room_use": {
+    "value": "bedroom",
+    "evidence": "inferred_from_visible_bed",
+    "confidence": "high"
+  },
+  "room_count_visible": 1,
+  "dimensions_m": {
+    "width": null,
+    "depth": null,
+    "height": null
+  },
+  "area_m2": null,
+  "metric_status": "unknown_without_calibration",
+  "proxy_envelope_uv": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "proxy_envelope_status": "rectangular_working_hypothesis_entry_recess_unresolved",
+  "openings": [
+    {
+      "id": "REF-L06-R01-door-01",
+      "kind": "door",
+      "wall": "left",
+      "range_uv": [
+        0.04,
+        0.23
+      ],
+      "evidence": "visible",
+      "dimensions_m": null
+    },
+    {
+      "id": "REF-L06-R01-window-01",
+      "kind": "window",
+      "wall": "front",
+      "range_uv": [
+        0.05,
+        0.94
+      ],
+      "evidence": "visible",
+      "dimensions_m": null
+    }
+  ],
+  "unobserved_openings": [],
+  "ceiling_visible": false,
+  "unknowns": [
+    "实际长宽高与面积",
+    "真实指南针方向",
+    "柜内结构和被遮挡表面",
+    "材料品种、品牌与型号"
+  ],
+  "proxy_scale": {
+    "units": "normalized_room_width",
+    "extent": [
+      1,
+      0.7,
+      1
+    ],
+    "physical_scale_known": false
+  },
+  "dimensions_note": "不复用旧L02估算房间的3600×3800mm，避免将另一个来源的假设误作本图量测。"
+}

@@ -1,0 +1,103 @@
+.reference-parallel { min-width: 0; margin-top: 16px; }
+.reference-parallel-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #74856b; font-size: 10px; }
+.reference-parallel-bar button { display: inline-flex; align-items: center; gap: 5px; border: 0; background: transparent; color: #527149; padding: 5px 0; cursor: pointer; font: inherit; }
+.reference-parallel-summary { margin: 3px 0 16px; font-size: 10px; color: #86907d; }
+.reference-parallel-columns { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; align-items: start; }
+.reference-track { min-width: 0; }
+.reference-track-heading { display: flex; align-items: center; gap: 9px; padding: 0 0 14px; color: #48694d; }
+.reference-track-heading h3 { margin: 0; color: #2e4738; font-size: 15px; font-weight: 500; }
+.reference-track-heading p { margin: 2px 0 0; font-size: 10px; color: #87927f; }
+.reference-track-heading > span { margin-left: auto; font-size: 10px; white-space: nowrap; }
+.reference-track-step { padding: 12px; border: 1px solid #e0e5d8; background: #fffef9; border-radius: 9px; min-width: 0; min-height: 400px; animation: reference-stage-enter .35s ease both; }
+.reference-track-step > header { display: flex; gap: 7px; align-items: center; margin-bottom: 12px; }
+.reference-track-number { display: grid; place-items: center; width: 23px; height: 23px; border-radius: 50%; background: #edf1e5; color: #668259; font-size: 10px; flex-shrink: 0; }
+.reference-track-step h4 { font-size: 12px; font-weight: 500; margin: 0; line-height: 1.5; }
+.reference-track-status { margin-left: auto; font-size: 9px; color: #89947e; white-space: nowrap; }
+.reference-track-step.is-loading { border-color: #a6ba99; }
+.reference-track-step.is-ready .reference-track-status { color: #4e7650; }
+.reference-track-step.is-error .reference-track-status { color: #a06149; }
+.reference-track-body { min-width: 0; }
+.reference-track-placeholder { display: flex; align-items: center; gap: 9px; min-height: 65px; margin: 0; color: #8b9581; font-size: 11px; }
+.reference-track-placeholder svg { flex-shrink: 0; }
+.reference-track-preview { display: block; position: relative; width: 100%; padding: 0; border: 0; border-radius: 5px; background: #f3f3ea; overflow: hidden; cursor: zoom-in; }
+.reference-track-preview img { display: block; width: 100%; height: 180px; object-fit: contain; clip-path: inset(0 calc((1 - var(--stage-progress,1)) * 100%) 0 0); }
+.reference-track-preview.is-fade img { clip-path: none; opacity: var(--stage-progress,1); }
+.reference-track-preview .reference-graph-art { display: block; width: 100%; height: 235px; opacity: min(1,calc(var(--stage-progress,1) * 5.333334)); }
+.reference-image-modal .reference-graph-art { display: block; width: min(90vw,calc(82vh * var(--graph-aspect))); max-height: 82vh; }
+.reference-segmentation-preview .reference-mask-source { opacity: 1; clip-path: none; }
+.reference-track-preview > span { position: absolute; display: inline-flex; align-items: center; gap: 4px; right: 6px; bottom: 6px; padding: 3px 5px; border-radius: 3px; background: #fffef9ed; color: #667b5b; font-size: 9px; }
+.reference-track:first-child .reference-track-preview img { height: 235px; }
+.reference-track-note { margin: 9px 0 0; font-size: 10px; color: #849078; line-height: 1.65; }
+.reference-track-drawing { display: block; width: 100%; height: 235px; background: #f4f4eb; border-radius: 5px; }
+.reference-track-count { margin: 0 0 10px; font-size: 12px; color: #526e49; }
+.reference-mask-switch { display: flex; gap: 6px; margin-bottom: 8px; }
+.reference-mask-switch button { border: 1px solid #dbe3d2; background: transparent; border-radius: 4px; padding: 4px 8px; color: #778c69; font: inherit; font-size: 10px; cursor: pointer; }
+.reference-mask-switch button[aria-pressed=true] { background: #eaf0e2; color: #486c45; }
+.reference-instance-scene { position: relative; width: 100%; aspect-ratio: var(--mask-aspect); overflow: hidden; border-radius: 5px; background: #f3f3ea; }
+.reference-instance-mask { display: block; width: 100%; height: 100%; }
+.reference-mask-labels { position: absolute; inset: 0; pointer-events: none; }
+.reference-mask-labels > span { position: absolute; transform: translate(-50%,-50%); padding: 2px 5px; border: 1px solid #3e6149; border-radius: 4px; color: #294c36; background: #fffef9; box-shadow: 0 1px 4px #1e38282b; font-size: 10px; font-weight: 650; line-height: 1.3; white-space: nowrap; }
+.reference-furniture-number { display: inline-block; font-size: 9px; font-weight: 600; color: #3e6149; margin-right: 5px; }
+.reference-track-count span { display: block; font-size: 9px; color: #8b9580; }
+.reference-furniture-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; max-height: 245px; overflow: auto; }
+.reference-furniture-list button { display: flex; align-items: center; gap: 7px; width: 100%; padding: 5px; border: 1px solid transparent; border-radius: 5px; background: #f6f6ef; color: #4c6245; font: inherit; font-size: 10px; text-align: left; cursor: pointer; }
+.reference-furniture-list button[aria-pressed=true] { background: #eaf0e2; border-color: #becdb3; }
+.reference-furniture-list img { width: 42px; height: 30px; object-fit: contain; }
+.reference-furniture-list button > span:last-child { margin-left: auto; font-size: 9px; white-space: nowrap; color: #839476; }
+.reference-product-select { display: block; margin-bottom: 10px; font-size: 10px; color: #7a896e; }
+.reference-product-select select { display: block; width: 100%; margin-top: 5px; padding: 6px; border: 1px solid #d7dfcd; border-radius: 4px; color: #415c3d; background: #fffef9; font: inherit; }
+.reference-model-preview { position: relative; }
+.reference-model-canvas { width: 100%; height: 235px; overflow: hidden; border-radius: 5px; background: #f0f1e8; }
+.reference-model-canvas canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+.reference-model-message { position: absolute; top: 100px; left: 0; width: 100%; text-align: center; color: #7f8d72; font-size: 10px; pointer-events: none; }
+.reference-model-error { color: #a26e51; font-size: 10px; line-height: 1.6; }
+.reference-model-actions { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+.reference-model-actions button,.reference-model-actions a { display: inline-flex; align-items: center; gap: 4px; border: 0; padding: 3px 0; background: transparent; color: #55734b; font-size: 10px; text-decoration: none; cursor: pointer; }
+.reference-model-actions button:disabled { opacity: .5; cursor: default; }
+.reference-image-modal { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; padding: 38px; background: #203329dd; }
+.reference-image-modal > button { position: absolute; right: 18px; top: 14px; color: white; background: transparent; border: 0; padding: 8px; cursor: pointer; }
+.reference-image-modal figure { margin: 0; max-width: 100%; }
+.reference-image-modal img { display: block; max-width: 90vw; max-height: 82vh; object-fit: contain; }
+.reference-image-modal .reference-instance-scene { width: min(90vw,1200px,calc(82vh * var(--mask-aspect))); }
+.reference-image-modal .reference-mask-labels > span { font-size: 12px; padding: 3px 7px; }
+.reference-image-modal figcaption { text-align: center; color: #f5f6ec; font-size: 12px; padding: 10px; }
+.reference-track-spinner { animation: reference-track-spin 1s linear infinite; }
+@keyframes reference-track-spin { to {transform: rotate(360deg);} }
+.reference-playback-controls { display: flex; align-items: center; gap: 14px; }
+.reference-playback-controls button:disabled { opacity: .5; cursor: wait; }
+.reference-playback-timeline { display: flex; align-items: center; gap: 9px; color: #839078; font-size: 9px; margin: 8px 0 20px; }
+.reference-playback-timeline > span { white-space: nowrap; }
+.reference-playback-timeline input { min-width: 0; flex: 1; accent-color: #64845b; height: 12px; }
+.reference-track-nav { list-style: none; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 5px; align-content: start; min-height: 65px; margin: 0 0 10px; padding: 0; }
+.reference-track-nav li { min-width: 0; }
+.reference-track-nav button { display: flex; align-items: center; gap: 4px; width: 100%; min-height: 27px; border: 0; border-radius: 4px; text-align: left; padding: 3px; font-size: 9px; line-height: 1.45; background: transparent; color: #849079; cursor: pointer; }
+.reference-track-nav button > span { display: grid; place-items: center; flex: 0 0 17px; font-size: 9px; }
+.reference-track-nav button[aria-current=step] { color: #365a3d; background: #edf2e6; }
+.reference-track-nav button:disabled { opacity: .55; cursor: default; }
+.reference-track-progress { height: 2px; background: #e9eddf; margin: 0 0 12px; overflow: hidden; }
+.reference-track-progress > span { display: block; height: 100%; width: 100%; background: #8ca879; transform-origin: left; }
+.reference-track-completion { font-size: 9px; color: #8c977f; margin: 7px 0 0; }
+.reference-track-placeholder { min-height: 270px; justify-content: center; flex-direction: column; text-align: center; line-height: 1.8; }
+.reference-palette-strip { display: flex; height: 64px; overflow: hidden; border-radius: 5px; margin-bottom: 14px; }
+.reference-palette-strip span { transform-origin: bottom; }
+.reference-palette ul { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); list-style: none; padding: 0; margin: 0; gap: 12px 6px; }
+.reference-palette li { display: flex; align-items: center; gap: 6px; min-width: 0; font-size: 9px; }
+.reference-palette li > i { width: 27px; height: 35px; border: 1px solid #00000008; border-radius: 3px; flex-shrink: 0; }
+.reference-palette li small { display: block; margin-top: 2px; color: #8a9480; font-size: 8px; }
+.reference-material-list { display: grid; gap: 13px; list-style: none; margin: 0; padding: 0; }
+.reference-material-list li { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.reference-material-sample { display: block; width: 38px; height: 44px; flex: 0 0 38px; border-radius: 4px; background: #d8c9ae; }
+.reference-material-list strong { display: block; color: #526d48; font-size: 11px; font-weight: 500; }
+.reference-material-list span { display: block; font-size: 9px; color: #819074; }
+.reference-material-list small { display: block; font-size: 9px; line-height: 1.5; color: #8e977f; }
+.reference-material-sample.is-wood { background: repeating-linear-gradient(92deg,#b89265 0 2px,#cbaa7e 2px 5px,#c3a074 5px 9px); }
+.reference-material-sample.is-woven { background: repeating-linear-gradient(0deg,#d0b88d99 0 2px,transparent 2px 5px),repeating-linear-gradient(90deg,#b29a74 0 2px,#e1cfab 2px 5px); }
+.reference-material-sample.is-fabric { background: repeating-linear-gradient(0deg,#c5c1aa55 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,#cbc8b655 0 1px,#e6e0cb 1px 3px); }
+.reference-material-sample.is-matte { background: #e8e0cf; }
+.reference-material-sample.is-metal { background: linear-gradient(110deg,#ad9061,#e4d2aa 40%,#b69c74 80%); }
+.reference-material-sample.is-leather { background: radial-gradient(ellipse at 40% 30%,#af906f,#866443); }
+@keyframes reference-stage-enter { from {opacity: 0; transform: translateY(6px);} to {opacity: 1; transform: translateY(0);} }
+@media(max-width: 1100px) and (min-width: 701px) { .reference-parallel-columns { grid-template-columns: minmax(0,1fr); gap: 24px; } .reference-track-step {min-height: 360px;} .reference-track-nav {min-height: 0;grid-template-columns: repeat(4,minmax(0,1fr));} }
+@media(max-width: 700px) { .reference-parallel-columns {grid-template-columns: minmax(0,1fr);gap: 24px;} .reference-parallel-bar {align-items: flex-start;gap: 8px;} .reference-playback-controls {gap: 9px;flex-shrink: 0;} .reference-track-nav {min-height: 0;} .reference-track-step {min-height: 360px;} }
+@media(max-width: 700px) { .reference-track-heading h3 {font-size: 15px;} .reference-track-step {padding: 12px;} .reference-image-modal {padding: 18px;} }
+@media(prefers-reduced-motion: reduce) { .reference-track-spinner,.reference-track-step {animation: none;} }

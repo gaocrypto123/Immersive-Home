@@ -1,0 +1,211 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L05",
+  "room_id": "REF-L05-R01",
+  "title": "收纳有序",
+  "source": {
+    "reference_id": "L05",
+    "file": "/assets/inspiration/L05.png",
+    "sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+    "width_px": 680,
+    "height_px": 948,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      296,
+      24,
+      680,
+      948
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床在右下方纵放，床头后留有走道与转角储物柜。",
+    "左下临窗位置是木桌和编织坐面椅。",
+    "右上柜体及床后台面为连续组合，暂按一个储物实例登记，不把柜门数当作柜子数。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 1,
+  "name": "四级空间图",
+  "hierarchy_definition": [
+    "case",
+    "room",
+    "functional_zone",
+    "instance"
+  ],
+  "definition_note": "本项目为本次解析采用的四级定义，非对截图未说明标准的推定。",
+  "nodes": [
+    {
+      "id": "REF-L05",
+      "level": 0,
+      "type": "case",
+      "label": "L05"
+    },
+    {
+      "id": "REF-L05-R01",
+      "level": 1,
+      "type": "room",
+      "label": "卧室"
+    },
+    {
+      "id": "REF-L05-R01-zone-sleep",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "睡眠区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L05-R01-zone-storage",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "收纳区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L05-R01-zone-work",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "办公区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L05-R01-zone-envelope",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "窗饰区",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L05-R01-zone-decor",
+      "level": 2,
+      "type": "functional_zone",
+      "label": "独立陈设",
+      "evidence": "inferred_function"
+    },
+    {
+      "id": "REF-L05-R01-rug",
+      "level": 3,
+      "type": "instance",
+      "label": "自然色编织外观地毯"
+    },
+    {
+      "id": "REF-L05-R01-wardrobe",
+      "level": 3,
+      "type": "instance",
+      "label": "转角衣帽柜及床后台面"
+    },
+    {
+      "id": "REF-L05-R01-bed",
+      "level": 3,
+      "type": "instance",
+      "label": "浅木色低矮双人床"
+    },
+    {
+      "id": "REF-L05-R01-desk",
+      "level": 3,
+      "type": "instance",
+      "label": "窗边木书桌"
+    },
+    {
+      "id": "REF-L05-R01-chair",
+      "level": 3,
+      "type": "instance",
+      "label": "编织坐面木椅"
+    },
+    {
+      "id": "REF-L05-R01-curtain",
+      "level": 3,
+      "type": "instance",
+      "label": "自然色窗帘或卷帘"
+    },
+    {
+      "id": "REF-L05-R01-vase",
+      "level": 3,
+      "type": "instance",
+      "label": "粗陶外观花瓶与干枝"
+    },
+    {
+      "id": "REF-L05-R01-plant",
+      "level": 3,
+      "type": "instance",
+      "label": "床尾绿植（局部）"
+    }
+  ],
+  "edges": [
+    {
+      "from": "REF-L05",
+      "to": "REF-L05-R01",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-zone-sleep",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-zone-storage",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-zone-work",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-zone-envelope",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01",
+      "to": "REF-L05-R01-zone-decor",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-sleep",
+      "to": "REF-L05-R01-rug",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-storage",
+      "to": "REF-L05-R01-wardrobe",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-sleep",
+      "to": "REF-L05-R01-bed",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-work",
+      "to": "REF-L05-R01-desk",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-work",
+      "to": "REF-L05-R01-chair",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-envelope",
+      "to": "REF-L05-R01-curtain",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-work",
+      "to": "REF-L05-R01-vase",
+      "relation": "contains"
+    },
+    {
+      "from": "REF-L05-R01-zone-decor",
+      "to": "REF-L05-R01-plant",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+.parsing-workbench {
+  overflow-x: clip;
+}
+.parsing-workbench .parsing-spring-deck {
+  position: relative;
+  display: block;
+  max-width: none;
+  height: 370px;
+  margin: 22px 0 0;
+  isolation: isolate;
+  z-index: 5;
+  overflow: visible;
+}
+.parsing-workbench .parsing-spring-deck .parsing-source-card {
+  position: absolute;
+  inset: auto;
+  left: 0;
+  top: 0;
+  display: block;
+  min-height: 0;
+  padding: 0;
+  visibility: hidden;
+  transform-origin: 50% 65%;
+  transition:
+    border-color 0.18s,
+    background-color 0.18s;
+  will-change: transform, opacity;
+  touch-action: none;
+  cursor: grab;
+  overflow: hidden;
+  --card-open: 0;
+  --card-copy-opacity: 0;
+  --card-lift: 0;
+  background: #fffef8;
+  box-shadow: 0 calc(4px + 14px * var(--card-lift))
+    calc(16px + 22px * var(--card-lift)) #34472e1a;
+  border-radius: 10px;
+  border-color: #d9dfd1;
+}
+.parsing-spring-deck .parsing-source-card[data-motion-phase="held"] {
+  cursor: grabbing;
+  border-color: #859b74;
+  box-shadow: 0 18px 35px #34472e28;
+}
+.parsing-workbench .parsing-spring-deck .parsing-source-card.is-selected {
+  border-color: #829a73;
+  background: #f6f8ef;
+}
+.parsing-workbench .parsing-sheet-picture {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  width: calc((100% - 24px) * (1 - var(--card-open)) + 88px * var(--card-open));
+  height: calc(196px - 84px * var(--card-open));
+  background: #f3f2e9;
+  border-radius: 5px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.parsing-sheet-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  padding: 6px;
+  pointer-events: none;
+}
+.parsing-workbench .parsing-sheet-grip {
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  color: #91a080;
+  opacity: calc(0.35 + 0.45 * var(--card-open));
+  pointer-events: none;
+}
+.parsing-workbench .parsing-sheet-copy {
+  position: absolute;
+  left: calc(14px + 100px * var(--card-open));
+  top: calc(221px - 200px * var(--card-open));
+  right: 12px;
+  opacity: var(--card-copy-opacity);
+  pointer-events: none;
+}
+.parsing-workbench .parsing-sheet-title {
+  display: block;
+  font-size: calc(14px - 2px * var(--card-open));
+  font-weight: 500;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+.parsing-workbench .parsing-sheet-caption {
+  display: block;
+  margin-top: calc(10px - 5px * var(--card-open));
+  color: #87947b;
+  font-size: 10px;
+  line-height: 1.6;
+}
+.parsing-workbench .parsing-sheet-send {
+  position: absolute;
+  left: 114px;
+  bottom: 13px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 28px;
+  padding: 3px 0 !important;
+  font-size: 10px !important;
+  color: #5f7e4e !important;
+  background: transparent;
+  opacity: var(--card-open);
+  transform: translateY(calc(8px * (1 - var(--card-open))));
+  transition: color 0.18s;
+}
+.parsing-workbench .parsing-sheet-area {
+  display: block;
+  margin-top: 4px;
+  color: #687e5b;
+}
+.parsing-workbench .parsing-sheet-send:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.parsing-workbench .parsing-deck-toggle svg {
+  transition: transform 0.28s cubic-bezier(0.22, 0.8, 0.3, 1);
+}
+.parsing-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (pointer: coarse) {
+  .parsing-workbench .parsing-sheet-send {
+    min-height: 44px;
+    bottom: 5px;
+  }
+  .parsing-workbench .parsing-deck-toggle {
+    min-height: 44px;
+    margin-bottom: 8px;
+    padding-bottom: 4px !important;
+  }
+}
+@media (max-width: 700px) {
+  .parsing-workbench .parsing-spring-deck {
+    max-width: 350px;
+    height: 370px;
+    margin: 22px auto 0;
+  }
+  .parsing-workbench .parsing-sheet-caption {
+    font-size: 10px;
+  }
+  .parsing-workbench .parsing-sheet-title {
+    font-size: calc(14px - 1px * var(--card-open));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .parsing-workbench .parsing-spring-deck .parsing-source-card,
+  .parsing-workbench .parsing-deck-toggle svg {
+    transition: none !important;
+  }
+}

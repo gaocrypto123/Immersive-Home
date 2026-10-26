@@ -1,0 +1,120 @@
+{
+  "purpose": "Reference-image analysis starting points",
+  "source_type": "image_gen main-board room crops",
+  "references": [
+    {
+      "id": "L01",
+      "title": "舒展横床",
+      "style": "原木清新",
+      "source": "../六风格四联套图-imagegen-20261024/L01-01-整体风格主图.png",
+      "source_sha256": "F7FDBEFC9DFA7AE723FEA3D19A9B9B8029F094A2C375D404EB4D44FC57FC4F46",
+      "source_unchanged": true,
+      "crop_rectangle_xywh": [
+        188,
+        349,
+        759,
+        785
+      ],
+      "file": "L01-舒展横床-核心.png",
+      "width": 759,
+      "height": 785,
+      "output_sha256": "88F61C116869909FA80FE5F20D1F561B7F33F5A3B8F999385A36953D8E6D45E1",
+      "pixel_operation": "Bitmap.Clone rectangle only; no resize, recolor or regeneration"
+    },
+    {
+      "id": "L02",
+      "title": "动静分区",
+      "style": "奶油法式",
+      "source": "../六风格四联套图-imagegen-20261024/L02-01-整体风格主图.png",
+      "source_sha256": "9D5EE2FC8978B4FFA6D9271E821952217233B772F8F99FFCD8A35CF74CCFD7A4",
+      "source_unchanged": true,
+      "crop_rectangle_xywh": [
+        340,
+        55,
+        652,
+        998
+      ],
+      "file": "L02-动静分区-核心.png",
+      "width": 652,
+      "height": 998,
+      "output_sha256": "1A14A9EA190495ACE051AE756FD2E3D9C2C3321F0831EEA0B7563EBC8B13B7D8",
+      "pixel_operation": "Bitmap.Clone rectangle only; no resize, recolor or regeneration"
+    },
+    {
+      "id": "L03",
+      "title": "临窗安眠",
+      "style": "现代极简",
+      "source": "../六风格四联套图-imagegen-20261024/L03-01-整体风格主图.png",
+      "source_sha256": "F6CC060ADE00CEF6915B25381F9A33FA797C6ADBECD66311376AFD40CFE84E16",
+      "source_unchanged": true,
+      "crop_rectangle_xywh": [
+        260,
+        142,
+        652,
+        917
+      ],
+      "file": "L03-临窗安眠-核心.png",
+      "width": 652,
+      "height": 917,
+      "output_sha256": "F8593B03504234FD788BE26CB9005601C58F19C1BE0CA1A0F088CFEA8C5CF024",
+      "pixel_operation": "Bitmap.Clone rectangle only; no resize, recolor or regeneration"
+    },
+    {
+      "id": "L04",
+      "title": "转角独处",
+      "style": "意式轻奢",
+      "source": "../六风格四联套图-imagegen-20261024/L04-01-整体风格主图.png",
+      "source_sha256": "91ECAEA9AE7B7313A1393F7DC3B748A1D0FF8E4262F04A25E64AB0B1736C9CE4",
+      "source_unchanged": true,
+      "crop_rectangle_xywh": [
+        250,
+        280,
+        647,
+        768
+      ],
+      "file": "L04-转角独处-核心.png",
+      "width": 647,
+      "height": 768,
+      "output_sha256": "5F50D72407254018FB4F0046C639F8106C8C1CECE9F2FE60F026F501CFCC2D53",
+      "pixel_operation": "Bitmap.Clone rectangle only; no resize, recolor or regeneration"
+    },
+    {
+      "id": "L05",
+      "title": "收纳有序",
+      "style": "日式侘寂",
+      "source": "../六风格四联套图-imagegen-20261024/L05-01-整体风格主图.png",
+      "source_sha256": "08E69DA50E2449AA0545F61EB31A446E29D4AD64025D35EEC6E6455A9865D0ED",
+      "source_unchanged": true,
+      "crop_rectangle_xywh": [
+        296,
+        24,
+        680,
+        948
+      ],
+      "file": "L05-收纳有序-核心.png",
+      "width": 680,
+      "height": 948,
+      "output_sha256": "7EBBA1C3C13766F0012F3FCEA93BA05F714EE4DE71CE6B831E80DBD905C33363",
+      "pixel_operation": "Bitmap.Clone rectangle only; no resize, recolor or regeneration"
+    },
+    {
+      "id": "L06",
+      "title": "转角办公",
+      "style": "北欧复古",
+      "source": "../六风格四联套图-imagegen-20261024/L06-01-整体风格主图.png",
+      "source_sha256": "8A3F29FFE47118FE6AEC370BA59629138925FEB89CC5F6019DDD3AA319EDCD99",
+      "source_unchanged": true,
+      "crop_rectangle_xywh": [
+        258,
+        0,
+        663,
+        1060
+      ],
+      "file": "L06-转角办公-核心.png",
+      "width": 663,
+      "height": 1060,
+      "output_sha256": "56AE473D3A51D28B5B758F268B1F0E542B7F1CDAE2FCBEAA57F6FCF4EEEBE2CD",
+      "pixel_operation": "Bitmap.Clone rectangle only; no resize, recolor or regeneration"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "schema": "jyxj.reference-seven-types.v1",
+  "case_id": "REF-L04",
+  "room_id": "REF-L04-R01",
+  "title": "转角独处",
+  "source": {
+    "reference_id": "L04",
+    "file": "/assets/inspiration/L04.png",
+    "sha256": "5F50D72407254018FB4F0046C639F8106C8C1CECE9F2FE60F026F501CFCC2D53",
+    "width_px": 647,
+    "height_px": 768,
+    "image_kind": "image_gen_concept_image",
+    "crop_rectangle_in_main_board_xywh": [
+      250,
+      280,
+      647,
+      768
+    ]
+  },
+  "method": "agent_visual_annotation_with_programmatic_structuring",
+  "review_status": "draft_for_human_review",
+  "observations": [
+    "床在右上角纵放，床头朝画面上方。",
+    "入口左下侧可见双门柜，右下为书桌与皮革外观座椅。",
+    "深木色、棕色软包、金属色灯具可见；木种和皮革真伪不能确认。"
+  ],
+  "boundaries": [
+    "标注来自当前裁剪图；生成提示词不作为已观察事实。",
+    "蒙版为人工粗轮廓，经遮挡顺序近似组合，不是自动精细分割。",
+    "3D模型是归一化代理几何，未进行纹理或隐藏面重建。",
+    "没有实测比例尺；房间与家具的米制尺寸、面积未知。"
+  ],
+  "type": 5,
+  "name": "3D代理模型",
+  "combined_scene_file": "room-proxy.glb",
+  "representation": "procedural_proxy_not_reconstruction",
+  "scale_note": "归一化房间宽度为1。GLB用于拓扑/组团示意；数值不得解释为实测米制尺寸。",
+  "scene_stats": {
+    "mesh_count": 53,
+    "node_count": 53,
+    "byte_length": 136384
+  },
+  "instances": [
+    {
+      "instance_id": "REF-L04-R01-rug",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "暖灰长绒地毯",
+      "file": "models/rug.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.14,
+          0.22,
+          0.93,
+          0.92
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.004,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2136
+    },
+    {
+      "instance_id": "REF-L04-R01-bed",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "深木色框架双人床",
+      "file": "models/bed.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.48,
+          0.06,
+          0.97,
+          0.64
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.23,
+        "base_y_units": 0,
+        "head_direction": "north",
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 6,
+      "node_count": 6,
+      "byte_length": 10864
+    },
+    {
+      "instance_id": "REF-L04-R01-nightstand",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "深木色床头柜",
+      "file": "models/nightstand.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.31,
+          0.07,
+          0.47,
+          0.24
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.2,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2184
+    },
+    {
+      "instance_id": "REF-L04-R01-wardrobe",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "左侧双门衣柜",
+      "file": "models/wardrobe.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.02,
+          0.3,
+          0.19,
+          0.9
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.66,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 1,
+      "node_count": 1,
+      "byte_length": 2176
+    },
+    {
+      "instance_id": "REF-L04-R01-desk",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "右侧床尾书桌",
+      "file": "models/desk.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.79,
+          0.64,
+          0.98,
+          0.91
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.25,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 5,
+      "node_count": 5,
+      "byte_length": 9224
+    },
+    {
+      "instance_id": "REF-L04-R01-chair",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "棕色皮革外观座椅",
+      "file": "models/chair.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.6,
+          0.69,
+          0.78,
+          0.85
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.29,
+        "base_y_units": 0,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 6,
+      "node_count": 6,
+      "byte_length": 10988
+    },
+    {
+      "instance_id": "REF-L04-R01-curtain",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "棕灰双层窗帘",
+      "file": "models/curtain.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.09,
+          0.96,
+          0.93,
+          0.99
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.64,
+        "base_y_units": 0.05,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 10,
+      "node_count": 10,
+      "byte_length": 17916
+    },
+    {
+      "instance_id": "REF-L04-R01-lamp",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "金属色床头台灯",
+      "file": "models/lamp.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.34,
+          0.09,
+          0.44,
+          0.18
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.15,
+        "base_y_units": 0.2,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 3,
+      "node_count": 3,
+      "byte_length": 12092
+    },
+    {
+      "instance_id": "REF-L04-R01-plant-nightstand",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "床头绿植",
+      "file": "models/plant-nightstand.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.41,
+          0.15,
+          0.46,
+          0.21
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.18,
+        "base_y_units": 0.2,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 8,
+      "node_count": 8,
+      "byte_length": 32892
+    },
+    {
+      "instance_id": "REF-L04-R01-plant-desk",
+      "case_id": "REF-L04",
+      "room_id": "REF-L04-R01",
+      "label": "书桌绿植",
+      "file": "models/plant-desk.glb",
+      "representation": "procedural_proxy_not_reconstruction",
+      "physical_scale_known": false,
+      "proxy": {
+        "status": "uncalibrated_geometry_hypothesis",
+        "units": "normalized_room_width",
+        "footprint_uv": [
+          0.86,
+          0.66,
+          0.94,
+          0.74
+        ],
+        "parts_uv": null,
+        "part_heights_units": null,
+        "height_units": 0.18,
+        "base_y_units": 0.25,
+        "head_direction": null,
+        "physical_scale_known": false,
+        "confidence": "low"
+      },
+      "mesh_count": 8,
+      "node_count": 8,
+      "byte_length": 32708
+    }
+  ]
+}

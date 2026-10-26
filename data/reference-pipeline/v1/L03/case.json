@@ -1,0 +1,305 @@
+{
+  "schema": "jyxj.reference-parallel-demo.v1",
+  "id": "L03",
+  "style": "现代极简",
+  "source": {
+    "url": "/assets/reference-sources/L03.png",
+    "sha256": "58342f0168dcf9afba467a2ad1039523b325e887bbb44043cb4ecff09ecc9cfc",
+    "width": 1672,
+    "height": 941
+  },
+  "mode": "saved-results",
+  "plan": {
+    "image": "/assets/reference-pipeline/v1/L03/plan.png",
+    "revision": "4",
+    "note": "已有 imagegen 平面示意，使用统一估算房间底图适配；家具尺寸及遮挡部分为推定。"
+  },
+  "layout": {
+    "width": 1198,
+    "height": 1313,
+    "nodes": [
+      {
+        "id": "F01",
+        "name": "衣柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 415,
+          "y": 255,
+          "width": 491,
+          "height": 107
+        },
+        "x": 660.5,
+        "y": 308.5
+      },
+      {
+        "id": "F02",
+        "name": "开放格柜",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 906,
+          "y": 255,
+          "width": 83,
+          "height": 100
+        },
+        "x": 947.5,
+        "y": 305
+      },
+      {
+        "id": "F03",
+        "name": "书桌",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 903,
+          "y": 347,
+          "width": 86,
+          "height": 301
+        },
+        "x": 946,
+        "y": 497.5
+      },
+      {
+        "id": "F04",
+        "name": "椅子",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 814,
+          "y": 394,
+          "width": 90,
+          "height": 130
+        },
+        "x": 859,
+        "y": 459
+      },
+      {
+        "id": "F05",
+        "name": "床",
+        "category": "furniture",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 488,
+          "y": 646,
+          "width": 501,
+          "height": 426
+        },
+        "x": 738.5,
+        "y": 859
+      },
+      {
+        "id": "D01",
+        "name": "门",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 209,
+          "y": 370,
+          "width": 162,
+          "height": 13
+        },
+        "x": 290,
+        "y": 376.5
+      },
+      {
+        "id": "W01",
+        "name": "窗",
+        "category": "opening",
+        "color": "#426f5e",
+        "bbox": {
+          "x": 340,
+          "y": 1072,
+          "width": 460,
+          "height": 41
+        },
+        "x": 570,
+        "y": 1092.5
+      }
+    ],
+    "edges": [],
+    "method": "最终 Graph SVG 中的人工矩形框标注",
+    "unit": "px"
+  },
+  "segmentation": {
+    "image": "/assets/reference-pipeline/v1/L03/segmentation.jpg",
+    "totalObjects": 23,
+    "note": "家具 mask 逐步显现；标号沿用已有主体标注，与家具列表一致。"
+  },
+  "furniture": [
+    {
+      "id": "L03-bed-001",
+      "label": "床（含床品）",
+      "category": "bed",
+      "bbox": [
+        448,
+        308,
+        1544,
+        941
+      ],
+      "score": 0.9375,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L03/masks/L03-bed-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L03/cutouts/L03-bed-001.png",
+      "product": "/assets/reference-pipeline/v1/L03/products/L03-bed-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 1
+    },
+    {
+      "id": "L03-wardrobe-001",
+      "label": "衣柜",
+      "category": "wardrobe",
+      "bbox": [
+        316,
+        16,
+        829,
+        473
+      ],
+      "score": 0.84375,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L03/masks/L03-wardrobe-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L03/cutouts/L03-wardrobe-001.png",
+      "product": "/assets/reference-pipeline/v1/L03/products/L03-wardrobe-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 2
+    },
+    {
+      "id": "L03-desk-001",
+      "label": "书桌",
+      "category": "desk",
+      "bbox": [
+        755,
+        310,
+        1080,
+        379
+      ],
+      "score": 0.87890625,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L03/masks/L03-desk-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L03/cutouts/L03-desk-001.png",
+      "product": "/assets/reference-pipeline/v1/L03/products/L03-desk-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 3
+    },
+    {
+      "id": "L03-chair-001",
+      "label": "椅子",
+      "category": "chair",
+      "bbox": [
+        737,
+        324,
+        900,
+        474
+      ],
+      "score": 0.96875,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L03/masks/L03-chair-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L03/cutouts/L03-chair-001.png",
+      "product": "/assets/reference-pipeline/v1/L03/products/L03-chair-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 4
+    },
+    {
+      "id": "L03-nightstand-001",
+      "label": "床头柜",
+      "category": "nightstand",
+      "bbox": [
+        952,
+        408,
+        1062,
+        441
+      ],
+      "score": 0.90625,
+      "qualityFlags": [],
+      "mask": "/assets/reference-pipeline/v1/L03/masks/L03-nightstand-001.png",
+      "cutout": "/assets/reference-pipeline/v1/L03/cutouts/L03-nightstand-001.png",
+      "product": "/assets/reference-pipeline/v1/L03/products/L03-nightstand-001.png",
+      "productInference": true,
+      "model": null,
+      "primaryNumber": 5
+    }
+  ],
+  "modelService": "not-connected",
+  "graphArtifact": {
+    "image": "/assets/reference-pipeline/v1/L03/graph.svg",
+    "sourceFile": "3-现代极简-Graph标注-v4.svg",
+    "sha256": "82dea95d45267ebde2653072ead52a450df16d8b251b8f6d2bc4f1f5075fa5e7",
+    "viewBox": "140 205 920 930",
+    "nodes": [
+      {
+        "id": "A01",
+        "label": "A01 可通行空地"
+      },
+      {
+        "id": "F01",
+        "label": "F01 衣柜"
+      },
+      {
+        "id": "F02",
+        "label": "F02 开放格柜"
+      },
+      {
+        "id": "F03",
+        "label": "F03 书桌"
+      },
+      {
+        "id": "F04",
+        "label": "F04 椅子"
+      },
+      {
+        "id": "F05",
+        "label": "F05 床"
+      },
+      {
+        "id": "D01",
+        "label": "D01 门"
+      },
+      {
+        "id": "W01",
+        "label": "W01 窗"
+      }
+    ],
+    "edges": [
+      {
+        "id": "E01",
+        "source": "A01",
+        "target": "F01"
+      },
+      {
+        "id": "E02",
+        "source": "A01",
+        "target": "F02"
+      },
+      {
+        "id": "E03",
+        "source": "A01",
+        "target": "F03"
+      },
+      {
+        "id": "E04",
+        "source": "A01",
+        "target": "F04"
+      },
+      {
+        "id": "E05",
+        "source": "A01",
+        "target": "F05"
+      },
+      {
+        "id": "E06",
+        "source": "A01",
+        "target": "D01"
+      },
+      {
+        "id": "E07",
+        "source": "A01",
+        "target": "W01"
+      }
+    ],
+    "note": "最终人工 Graph 标注；细直线表示空间关系，不代表行走路线。"
+  }
+}
